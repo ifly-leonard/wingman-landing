@@ -76,6 +76,7 @@ export default function WingmanAppSectionHomePage() {
                       </div>
                     </motion.div>
 
+                    
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                         World's #1 pilot logbook app
                     </h1>

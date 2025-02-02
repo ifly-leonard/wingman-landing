@@ -5,9 +5,14 @@ import { Button } from "@/components/ui/button";
 import Iphone15Pro from "@/components/ui/iphone-15-pro";
 import Link from "next/link";
 
+import { HyperText } from "@/components/ui/hyper-text";
+
+
+
 export default function AirRosterHomePage() {
     return (
         <section className="text-gray-600 body-font mt-12">
+            
             <motion.div         
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1, transition: { delay: 0.5, duration: 2.0 } }}                          

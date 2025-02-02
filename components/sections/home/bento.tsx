@@ -1,12 +1,12 @@
 "use client" 
 
-// import {
-//     BellIcon,
-//     CalendarIcon,
-//     FileTextIcon,
-//     GlobeIcon,
-//     InputIcon,
-//   } from "@radix-ui/react-icons";
+import {
+    BellIcon,
+    CalendarIcon,
+    FileTextIcon,
+    GlobeIcon,
+    InputIcon,
+  } from "@radix-ui/react-icons";
   
   import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
   
