@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion"
 
 const mockupImages = [
     "/images/app-mockups/airroster/1.png",
@@ -45,6 +46,7 @@ export default function AirrosterProductExplainerScrollSync() {
                 Math.floor(scrollPosition / sectionHeight),
                 mockupImages.length - 1
             );
+            console.log(`Image ${index + 1} is being displayed`);
             setActiveIndex(index);
         };
 
@@ -67,27 +69,27 @@ export default function AirrosterProductExplainerScrollSync() {
             <div className="py-12 sm:py-20 max-w-screen-lg mx-auto px-6">
                 <div className="grid grid-cols-3 gap-4">
                     <div className="sticky top-0 col-span-1 h-screen flex items-center justify-center">
-                        <Image
-                            src={mockupImages[activeIndex]}
-                            alt={`Mockup ${activeIndex + 1}`}
-                            width={428}
-                            height={926}
-                            className="rounded-lg"
-                        />
+                            <Image
+                                src={mockupImages[activeIndex]}
+                                alt={`Mockup ${activeIndex + 1}`}
+                                width={428}
+                                height={926}
+                                className="rounded-lg"
+                            />
                     </div>
                     <div className="col-span-2">
                         {contentData.map((content, index) => (
                             <div
                                 key={index}
-                                className="h-screen d-flex items-center justify-center px-8 py-48"
+                                className="h-screen d-flex items-center justify-center px-8 py-48 text-left"
                             >
                                 <div>
                                     <h3 className="text-4xl font-bold">
-                                        {content.header}x   
+                                        {content.header}
                                     </h3>
                                 </div>
-                                <div>
-                                    <div dangerouslySetInnerHTML={{ __html: content.content }}></div>
+                                <div className="mt-4">
+                                    <div className="text-left" dangerouslySetInnerHTML={{ __html: content.content }}></div>
                                 </div>                                            
                             </div>
                         ))}

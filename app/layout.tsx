@@ -37,7 +37,7 @@ export default function RootLayout({
             title="Announcement:"
             message="AirRoster v2.0.7 is now live. We now support 80+ airlines around the 🌏"
             buttonText="Learn more"
-            buttonHref="../figma.html"
+            buttonHref="/announcements/airroster-2-0-7-is-live"
             bgColor="bg-blue-600"                    
         />
         {/* END HEADER BANNER */}
