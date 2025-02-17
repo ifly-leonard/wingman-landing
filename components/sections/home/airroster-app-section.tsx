@@ -95,7 +95,7 @@ export default function AirRosterHomePage() {
                         <img
                             className="object-cover object-center rounded w-96"
                             alt="hero"
-                            src="images/app-mockups/airroster/Airroster mockup.png"
+                            src="images/app-mockups/airroster/1.png"
                             data-aos="zoom-out-up"
                             data-aos-delay="300"
                             data-aos-duration="800"

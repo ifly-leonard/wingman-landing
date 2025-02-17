@@ -2,23 +2,19 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
-import Image from "next/image"
 import AirrosterProductGallery from "@/components/sections/products/airroster/product-gallery"
 import AirrosterProductStats from "@/components/sections/products/airroster/product-stats"
 import { useEffect, useRef } from "react";
 import AirrosterProductFeatures from "@/components/sections/products/airroster/product-features"
 import AirrosterProductExplainerScrollSync from "@/components/sections/products/airroster/product-explainer-scrollsync"
-import { RainbowButton } from "@/components/ui/rainbow-button"
-import { cn } from "@/lib/utils";
 import AirrosterProductTestimonials from "@/components/sections/products/airroster/product-testimonials"
-import { MarqueeDemo } from "@/components/sections/home/testimonials"
 import { AirrosterProductRosterIntegrations } from "@/components/sections/products/airroster/product-roster-integrations"
 import AnimatedAccordionPage from "@/components/sections/products/airroster/product-faq"
 import AirrosterProductCTA from "@/components/sections/products/airroster/product-cta"
 import AirrosterProductAirlines from "@/components/sections/products/airroster/product-airlines"
 import { AirrosterProductOneliner } from "@/components/sections/products/airroster/product-oneliner"
 import AirrosterProductPricingTable from "@/components/sections/products/airroster/product-pricing"
+import AirrosterProductHero from "@/components/sections/products/airroster/product-hero"
 
 const pageName = "AirRoster App";
 
@@ -39,60 +35,9 @@ export default function AirRosterApp() {
 
 
     return (
-        <div className="flex flex-col items-center">
-            <div className="text-center mt-2">
-                <motion.div
-                    initial={{ scale: 5, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    whileHover={{ scale: 1 }}
-                    transition={{
-                        type: 'tween',
-                        velocity: 9.2,
-                        stiffness: 400,
-                        damping: 10,
-                        mass: 1,
-                        bounce: 10,
-                        restSpeed: 0.001,
-                        restDelta: 0.001
-                    }}
-                >
-                    <div className="p-3 rounded-3xl mb-2 shadow-lg">
-                        <img src="../../../images/app-logos/airroster-logo-svg.svg" alt="" className="w-24" />
-                    </div>                    
-                </motion.div>                                                     
-            </div>
-
-            <div>
-                <motion.div
-                    initial={{ scale: 2, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    whileHover={{ scale: 1 }}
-                    transition={{
-                        type: 'tween',
-                        velocity: 9.2,
-                        stiffness: 400,
-                        damping: 10,
-                        mass: 1,
-                        bounce: 10,
-                        restSpeed: 0.001,
-                        restDelta: 0.001,
-                        delay: 0.2
-                    }}
-                >
-                    <div className="flex flex-col items-center justify-center">                        
-
-                        <div>
-                            <h3 className="text-blue-500 text-3xl mt-5">
-                                AirRoster
-                            </h3> 
-                        </div>
-
-                        <div>
-                            <Image src="/images/award.png" width={200} height={200} alt="Award"></Image>
-                        </div>
-                    </div>
-                </motion.div>   
-            </div>
+        <div>
+            
+            <AirrosterProductHero />
                         
             <AirrosterProductStats />            
 
@@ -119,7 +64,7 @@ export default function AirRosterApp() {
                 
 
 
-                     {/* 
+            {/* 
                 <div className="relative w-80 mb-16">              
                     <motion.div
                         initial={{ scale: 0 }}
