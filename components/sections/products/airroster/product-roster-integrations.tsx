@@ -41,7 +41,7 @@ export function AirrosterProductRosterIntegrations() {
 
         <section id="product-roster-integrations" className="mt-20 mb-20 w-full max-w-4xl mx-auto">
 
-            <SectionHeader header="system integrations" subheader="Does it work with your airline?" />
+            <SectionHeader header="system support" subheader="Does it work with your airline?" />
 
             <div className="flex gap-40 ">
             <div className="text-left mt-20">
@@ -131,18 +131,7 @@ export function AirrosterProductRosterIntegrations() {
                     reverse
                 />
             </div>
-            </div>
-
-
-            <div>
-                <p className="mt-20 text-2xl">
-                    AirRoster works with <span className="p-1 bg-blue-500 text-white rounded-md">20+ roster providers</span> covering <span className="p-1 bg-blue-500 text-white rounded-md">100+ airlines</span> in the 🌏                        
-                    <br />
-                    <span className="text-lg text-gray-700">
-                    Can't find your roster integration? <span className="text-blue-500 underline underline-offset-2 decoration-2">Write to us</span>, and we'll integrate it for you. 
-                    </span>
-                </p>
-            </div>
+            </div>           
         </section>
     );
 }

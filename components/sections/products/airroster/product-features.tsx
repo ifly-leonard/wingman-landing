@@ -45,7 +45,7 @@ const AirrosterProductFeatures: FC = () => {
                     Features
                 </h2>
                 <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold lowercase tracking-tighter leading-tight text-gray-900">
-                    What users really love
+                    What our users <span className="text-blue-500 underline">like</span>
                 </h3>
             </div>
 
@@ -56,9 +56,10 @@ const AirrosterProductFeatures: FC = () => {
                         className="rounded-lg overflow-hidden bg-white shadow p-6 flex flex-col items-center text-center"
                     >
                         <div className="flex flex-col items-center gap-y-4 mb-4">
-                            <div className="bg-gradient-to-b from-blue-500 to-blue-600/80 p-3 rounded-lg text-white">
-                                <Icon className="w-6 h-6" />
-                            </div>
+                            {/* <div className="bg-gradient-to-b from-blue-500 to-blue-600/80 p-3 rounded-lg text-white">
+                                
+                            </div> */}
+                                <Icon className="w-1/2 h-[30px] text-blue-500" />
                             <h2 className="text-xl font-semibold text-gray-800">{title}</h2>
                         </div>
                         <p className="text-sm text-gray-600 mb-4">{description}</p>                        

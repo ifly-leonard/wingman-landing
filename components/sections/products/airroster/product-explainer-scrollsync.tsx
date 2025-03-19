@@ -55,19 +55,9 @@ export default function AirrosterProductExplainerScrollSync() {
     }, []);
 
     return (
-        <section id="airroster-product-explainer-scrollsync" className="min-h-screen">            
-
-            <div className="text-center space-y-4 pb-10">
-                <h2 className="text-sm text-blue-500 font-mono font-semibold tracking-wider uppercase">
-                    Features
-                </h2>
-                <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold lowercase tracking-tighter leading-tight text-gray-900">
-                    What users really love
-                </h3>
-            </div>
-
-            <div className="py-12 sm:py-20 max-w-screen-lg mx-auto px-6">
-                <div className="grid grid-cols-3 gap-4">
+        <section id="airroster-product-explainer-scrollsync" className="min-h-screen">                    
+            <div className="py-12 sm:py-20 max-w-screen-lg mx-auto px-6">            
+                <div className="grid grid-cols-3 gap-4">                
                     <div className="sticky top-0 col-span-1 h-screen flex items-center justify-center">
                             <Image
                                 src={mockupImages[activeIndex]}

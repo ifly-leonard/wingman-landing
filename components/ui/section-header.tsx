@@ -5,7 +5,7 @@ export default function SectionHeader({ header = 'Default Header', subheader = '
                 {header}
             </h2>
             <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold lowercase tracking-tighter leading-tight text-gray-900">
-                {subheader}
+                <div dangerouslySetInnerHTML={{ __html: subheader }}></div>
             </h3>
         </div>
     )

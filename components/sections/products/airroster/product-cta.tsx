@@ -8,7 +8,7 @@ export default function AirrosterProductCTA() {
         <section id="cta" className="p-5 bg-gradient-to-r from-blue-500 to-blue-600 flex justify-between items-center rounded-2xl md:p-10 w-full max-w-screen-xl">
             <div className="text-white text-left">
                 <h2 className="text-2xl font-bold">Convinced already?</h2>
-                <p>Find out why 50,000+ users love AirRoster</p>
+                <p>Find out why 50,000+ users around the world love AirRoster</p>
             </div>
             
             {/* <Button href="#" className="bg-white text-blue-500 py-2 px-4 rounded-lg hover:bg-white hover:scale-100 transition duration-300">
@@ -19,7 +19,7 @@ export default function AirrosterProductCTA() {
             Try AirRoster now for FREE
             </RainbowButton> */}
 
-            <Link href="https://app.airroster.com" target="_blank">
+            <Link href="https://app.airroster.com?ref=landing_airroster_midpage_cta" target="_blank">
                 <Button className={cn(
                     "group relative inline-flex h-11 animate-rainbow cursor-pointer items-center justify-center border-0 bg-white px-8 py-2 font-medium text-primary-foreground transition-colors [background-clip:padding-box,border-box,border-box] [background-origin:border-box] [border:calc(0.08*1rem)_solid_transparent] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
 
