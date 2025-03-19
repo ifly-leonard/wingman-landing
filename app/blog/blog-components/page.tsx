@@ -1,4 +1,4 @@
-import DisqusComments from "@/components/sections/blog/disqus";
+// import DisqusComments from "@/components/sections/blog/disqus";
 import BlogImage from "@/components/sections/blog/image-with-modal";
 import SectionHeader from "@/components/ui/section-header";
 import Link from "next/link";

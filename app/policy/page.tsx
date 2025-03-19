@@ -1,4 +1,5 @@
-import SectionHeader from "@/components/ui/section-header";
+// import { Button } from "@/components/ui/button"; // Commented out as it's currently unused
+// import SectionHeader from "@/components/ui/section-header"; // Commented out as it's currently unused (see commented SectionHeader component below)
 import Link from "next/link";
 export default function PolicyPage() {
     return (
@@ -30,10 +31,36 @@ export default function PolicyPage() {
                 </li>
             </ol>
 
+            <div className="container px-12 py-2 text-left max-w-4xl">
+                At Wingman, we carefully audit our policies to stay in touch with the regulatory requirements of the countires in which we operate. Please find below the relevant policies. If there are questions, 
+                please direct them to <Link href="mailto:leonard@wingmanlog.com?subject=Regarding policies" className="underline underline-offset-2">leonard(at)wingmanlog.com</Link>
+            </div>
 
-            <Link href="policy/privacy">Privacy</Link>
-            <Link href="policy/cookie">Cookies</Link>
-            <Link href="policy/terms-and-conditions">Terms & Conditions</Link>
+            <div className="flex gap-12 mt-12">
+                <div>
+                        <Link                 
+                            className="p-6 bg-blue-500 text-white rounded-xl"
+                            href="policy/privacy">
+                            Privacy
+                        </Link>
+                </div>
+                <div>
+                    <Link 
+                    className="p-6 bg-blue-500 text-white rounded-xl"
+                    href="policy/cookie">Cookies</Link>
+                </div>
+                <div>
+                    <Link 
+                    className="p-6 bg-blue-500 text-white rounded-xl"
+                    href="policy/terms-and-conditions">Terms & Conditions</Link>
+                </div>
+
+                <div>
+                <Link 
+                    className="p-6 bg-blue-500 text-white rounded-xl"
+                    href="policy">Refund (WIP)</Link>
+                </div>
+            </div>
 
            
 

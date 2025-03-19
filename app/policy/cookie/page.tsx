@@ -1,4 +1,4 @@
-import SectionHeader from "@/components/ui/section-header";
+// import SectionHeader from "@/components/ui/section-header";
 import Link from "next/link"
 export default function CookiePolicyPage() {
     return (
@@ -58,7 +58,7 @@ export default function CookiePolicyPage() {
 
             <section className="mx-auto w-full max-w-screen-xl p-6 text-gray-800 space-y-8">
                 <h2 className="text-2xl font-bold">Important Information and Who We Are</h2>
-                <p>WINGMAN AVTECH PRIVATE LIMITED ("Wingman", "we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, transfer, and store your data when you access any of our products, services, or applications. Currently, these include:</p>
+                <p>WINGMAN AVTECH PRIVATE LIMITED (&quot;Wingman&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, transfer, and store your data when you access any of our products, services, or applications. Currently, these include:</p>
                 <ul className="list-disc ml-6 space-y-1">
                     <li>Wingman Pilot Logbook</li>
                     <li>AirRoster</li>

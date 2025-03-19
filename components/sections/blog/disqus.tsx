@@ -3,9 +3,14 @@
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 
-const DiscussionEmbed = dynamic(() => import("disqus-react").then((mod) => mod.DiscussionEmbed), { ssr: false });
+// Define a proper interface for the post object
+interface DisqusPost {
+  id?: string | number;
+  title?: string;
+}
 
-const DisqusComments = ({ post }: { post?: any }) => {
+const DiscussionEmbed = dynamic(() => import("disqus-react").then((mod) => mod.DiscussionEmbed), { ssr: false });
+const DisqusComments = ({ post }: { post?: DisqusPost }) => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
