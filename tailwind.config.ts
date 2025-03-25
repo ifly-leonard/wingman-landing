@@ -99,7 +99,11 @@ const config: Config = {
   					transform: 'translateY(calc(-100% - var(--gap)))'
   				}
   			}
-  		}
+  		},
+  		fontFamily: {
+  			caveat: ['"Caveat Brush"', 'cursive'],
+  			homemade: ['"Homemade Apple"', 'cursive'],
+  		},
   	}
   },
   plugins: [

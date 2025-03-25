@@ -1,46 +1,76 @@
 // app/products/wingman-logbook-app/page.tsx
 "use client"
 
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
+import WingmanProductHero from "@/components/sections/products/wingman/wm-product-hero"
+import WingmanProductStats from "@/components/sections/products/wingman/wm-product-stats"
+import WingmanProductPainpointReveal from "@/components/sections/products/wingman/wm-product-pain-points"
+import WingmanProductSolutionReveal from "@/components/sections/products/wingman/wm-product-solution-point"
 
+import { AirrosterProductRosterIntegrations } from "@/components/sections/products/airroster/product-roster-integrations"
+import AirrosterProductAirlines from "@/components/sections/products/airroster/product-airlines"
+
+import { TextReveal } from "@/components/ui/text-reveal"
 const pageName = "Wingman Logbook App";
+
+
 
 export default function WingmanLogbookApp() {
     return (
         <div>
-            <div className="flex flex-col items-center justify-center">
-                <motion.div
-                    whileHover={{ scale: 1.1 }}
-                    transition={{
-                        type: 'spring',
-                        velocity: 1.2,
-                        stiffness: 400,
-                        damping: 10,
-                        mass: 1,
-                        bounce: 10,
-                        restSpeed: 0.001,
-                        restDelta: 0.001
-                    }}
-                >
-                    <div className="p-3 rounded-3xl mb-2 shadow-lg">
-                        <img src="../../../images/app-logos/wingman-logo-svg.svg" alt="" className="w-24" />
-                    </div>
-                </motion.div>
+            <WingmanProductHero />
+            <WingmanProductStats />
+                {/*
+                    - Should explain the product 
+                    - Overall years to date (from inception) stats.
+                    - Should target the pain points. Should be scrollable. Excel, Manual, Whitener
+                    - Task & Time saver calculator 
+                    - Value for money: Cost comparison calculator (compare with other products)
+                    - CTA #1
+                    - Testimonials 
+                    - Plug for binder?
+                    - System Integrations
+                    - Airline Logo carousels 
+                    - FAQs
+                    - CTA #2
+                */}
 
-                <div className="text-6xl font-bold text-gray-300 mb-4">Coming Soon</div>
-                <p>
-                    This page inherits the layout of in the /products directory. This page is currently under development
-                </p>
-                <div className="mt-4">
-                    <Link href="/">
-                        <Button>
-                            Back to Home
-                        </Button>
-                    </Link>
+            
+            <section>
+                <div className="flex flex-col items-center">
+                    <div className="text-center mt-2">
+                        Wingman is an end-to-end digital pilot logbook for pilots who value time. 
+                    </div>
                 </div>
-            </div>
+            </section>
+
+            <section id="product-oneliner" className="z-10 flex max-w-6xl min-h-64 items-center justify-center">
+                <div className="flex">        
+                    <TextReveal text="Humans took to the skies in the early 1900s 🫡. By the late 1920s, pilots began logging their flights one-by-one, by hand 🤔. A century later, while aircraft have evolved into cutting-edge machines, logbooks remain stuccccck in the passsssttttt. 😭" />
+                </div>
+            </section>
+
+            <section id="pain-point-reveal" className="flex max-w-6xl items-center justify-center">                
+                <WingmanProductPainpointReveal />
+            </section>
+
+            
+            <section id="solution-reveal" className="flex max-w-6xl items-center justify-center">               
+                <WingmanProductSolutionReveal />
+            </section>   
+
+            <section id="product-explanation" className="flex max-w-6xl items-center justify-center">
+                -- Explain how the product works
+            </section>                     
+
+            <section id="task-and-time-saver" className="flex max-w-6xl items-center justify-center">
+                -- Task & Time Saver
+            </section>    
+            
+            <AirrosterProductRosterIntegrations />
+
+            <AirrosterProductAirlines />          
+
+
         </div>
     );
 }
