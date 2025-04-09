@@ -1,0 +1,1 @@
+This is primary for SEO redirect purposes. - Leonard
