@@ -5,9 +5,12 @@ import WingmanProductHero from "@/components/sections/products/wingman/wm-produc
 import WingmanProductStats from "@/components/sections/products/wingman/wm-product-stats"
 import WingmanProductPainpointReveal from "@/components/sections/products/wingman/wm-product-pain-points"
 import WingmanProductSolutionReveal from "@/components/sections/products/wingman/wm-product-solution-point"
+import { AnimatedBeamMultipleOutputDemo } from "@/components/sections/products/wingman/wm-product-explainer"
 
-import { AirrosterProductRosterIntegrations } from "@/components/sections/products/airroster/product-roster-integrations"
-import AirrosterProductAirlines from "@/components/sections/products/airroster/product-airlines"
+import { WingmanProductRosterIntegrations } from "@/components/sections/products/wingman/wm-product-roster-integrations"
+import WingmanProductAirlines from "@/components/sections/products/wingman/wm-product-airlines"
+import WingmanFrustrationSlider from "@/components/sections/products/wingman/wm-frustration-slider"
+import WingmanEffortCalculator from "@/components/sections/products/wingman/wm-effort-calculator"
 
 import { TextReveal } from "@/components/ui/text-reveal"
 const pageName = "Wingman Logbook App";
@@ -53,22 +56,23 @@ export default function WingmanLogbookApp() {
                 <WingmanProductPainpointReveal />
             </section>
 
+            <section id="product-explanation" className="flex max-w-6xl items-center justify-center">
+                <WingmanEffortCalculator />           
+            </section>                     
+
             
             <section id="solution-reveal" className="flex max-w-6xl items-center justify-center">               
                 <WingmanProductSolutionReveal />
             </section>   
-
-            <section id="product-explanation" className="flex max-w-6xl items-center justify-center">
-                -- Explain how the product works
-            </section>                     
+            
 
             <section id="task-and-time-saver" className="flex max-w-6xl items-center justify-center">
-                -- Task & Time Saver
-            </section>    
+                {/* <WingmanFrustrationSlider /> */}
+            </section>      
             
-            <AirrosterProductRosterIntegrations />
+            <WingmanProductRosterIntegrations />
 
-            <AirrosterProductAirlines />          
+            <WingmanProductAirlines />          
 
 
         </div>

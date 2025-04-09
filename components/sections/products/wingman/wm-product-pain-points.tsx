@@ -5,16 +5,16 @@ const painPoints = [
     painPointHeader: 'Gallery = MCDU dumpyard',
     painPointText: 'A gallery full of MCDU pictures 🙄, left to make sense using the date, time and roster ',
     // imagePath: '/images/wm-mcdu-gallery.jpg',
-    imagePath: '/images/wm-physical-lb-w-mistakes.png',
+    imagePath: '/images/wm-gallery-mcdu-3d.png',
     width: 'auto',
-    height: '10',
-    rotateAngle: 'rotate-[25deg]',
+    height: '250px',
+    rotateAngle: 'rotate-[15deg]',
     emoji: 'wm_emoji_face_with_rolling_eyes.png', 
   },
   {
     painPointHeader: 'Unclean Data, Messy Logbook ',
     painPointText: '1 Mistake is all it takes, to make your logbook look like a 3rd graders drawing book 😠',
-    imagePath: '/images/wm-physical-lb-w-mistakes.png',
+    imagePath: '/images/wm-physical-lb-w-mistakes-3d.png',
     width: 'auto',
     height: 'auto',
     rotateAngle: 'rotate-[25deg]',
@@ -23,7 +23,7 @@ const painPoints = [
   {
     painPointHeader: 'Whitener explosion',
     painPointText: 'Who had the whitner party on your logbook? 😡 You-know-who does not like this ',
-    imagePath: '/images/wm-whitener.png',
+    imagePath: '/images/wm-whitener-3d.png',
     width: 'auto',
     height: 'auto',
     rotateAngle: 'rotate-[35deg]',
@@ -33,7 +33,7 @@ const painPoints = [
     painPointHeader: 'A frustrated pilot',
     painPointText: 'A pilot, who flies multi-million dollar equipment, still wasting time 😔',
     // imagePath: '/images/wm-frustrated-pilot-stroke.png',
-    imagePath: '/images/wm-frustrated-pilot.png',
+    imagePath: '/images/wm-frustrated-pilot-3d.png',
     width: '250px',
     height: 'auto',
     rotateAngle: 'rotate-[10deg]',
@@ -88,7 +88,7 @@ export default function WingmanProductPainpointReveal() {
                                     <img 
                                         src={`/images/emojis/${painPoint.emoji}`} 
                                         alt="emoji"                                        
-                                        className="absolute object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-[250px] w-[60px] h-auto" 
+                                        className="absolute object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-[370px] w-[60px] h-auto" 
                                     />
 
                                     <motion.div
@@ -100,8 +100,7 @@ export default function WingmanProductPainpointReveal() {
                                             className={`group-hover:scale-110 transition durtion-300 ${painPoint.rotateAngle} group-hover:rotate-[0deg]`}
                                             src={painPoint.imagePath} 
                                             alt={painPoint.painPointHeader}
-                                            height={painPoint.height}
-                                            width={painPoint.width}                                            
+                                            style={{ height: painPoint.height, width: painPoint.width }}
                                         />                                        
                                     </motion.div>
                                     <motion.p
