@@ -1,5 +1,8 @@
 // app/products/layout.tsx
 "use client"
+import { ShareSocial } from 'react-share-social' 
+import { ProgressBar } from "@nadfri/react-scroll-progress-bar";
+import DisqusComments from '@/components/sections/blog/disqus';
 
 export default function BlogLayout({
   children,
@@ -7,9 +10,24 @@ export default function BlogLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">    
+    <div className="min-h-screen">    
       <main>
-        {children}
+        
+        <ProgressBar 
+          color1   = "gray" 
+          color2   = "#3C82F6" 
+          height   = "4px"
+          position = "fixed"  
+        />      
+
+        { children }
+
+
+        <div className="flex justify-center">            
+            <div>
+              <DisqusComments />
+            </div>            
+        </div>
       </main>          
     </div>
   );

@@ -5,10 +5,19 @@ import { useState, useMemo } from 'react';
 import SectionHeader from "@/components/ui/section-header";
 import { BlogPost } from './types';
 
+/**
+ * The props for the BlogList component.
+ * The initialPosts prop is an array of BlogPost objects.
+ */
 interface BlogListProps {
   initialPosts: BlogPost[];
 }
 
+/**
+ * The BlogList component.
+ * The BlogList component is a React functional component that takes the BlogListProps as its props.
+ * It displays a list of blog posts with a search functionality.
+ */
 export default function BlogList({ initialPosts }: BlogListProps) {
   const [searchQuery, setSearchQuery] = useState('');
   

@@ -5,7 +5,6 @@ import matter from 'gray-matter';
 import { notFound } from 'next/navigation';
 import BlogImage from "@/components/sections/blog/image-with-modal";
 import { Metadata } from 'next';
-import { ShareSocial } from 'react-share-social' 
 
 // Define the props for the page component
 interface BlogPostPageProps {
@@ -118,7 +117,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8">      
       <div className="max-w-3xl mx-auto">
         {/* Blog post header */}
         <header className="mb-8">
@@ -152,7 +151,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         
         {/* Blog post content */}
         <div className="prose dark:prose-invert max-w-none">
-          <ReactMarkdown components={components}>{blogPostContent}</ReactMarkdown>
+          <ReactMarkdown components={components}>{blogPostContent}</ReactMarkdown>         
         </div>
       </div>
     </div>
