@@ -26,7 +26,7 @@ const components: { title: string; href: string; description: string }[] = [
     
     {
         title: "Blog",
-        href: "/blog",
+        href: "/post",
         description: "The most authentic information resource for Pilots and Aviation Professionals",
     },
 

@@ -21,13 +21,7 @@ export default function BlogLayout({
         />      
 
         { children }
-
-
-        <div className="flex justify-center">            
-            <div>
-              <DisqusComments />
-            </div>            
-        </div>
+        
       </main>          
     </div>
   );

@@ -14,7 +14,7 @@ export interface BlogPostMetadata {
  * Get all blog post metadata from markdown files
  */
 export function getAllBlogPosts(): BlogPostMetadata[] {
-  const markdownDir = path.join(process.cwd(), 'app/blog/markdown');
+  const markdownDir = path.join(process.cwd(), 'app/post/markdown');
   const files = fs.readdirSync(markdownDir);
   
   return files
@@ -33,7 +33,7 @@ export function getAllBlogPosts(): BlogPostMetadata[] {
  */
 export function getBlogPostBySlug(slug: string): BlogPostMetadata | null {
   try {
-    const markdownPath = path.join(process.cwd(), 'app/blog/markdown', `${slug}.md`);
+    const markdownPath = path.join(process.cwd(), 'app/post/markdown', `${slug}.md`);
     const content = fs.readFileSync(markdownPath, 'utf8');
     
     return extractMetadataFromMarkdown(content, slug);

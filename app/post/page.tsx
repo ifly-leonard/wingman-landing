@@ -11,7 +11,7 @@ import { BlogPost } from './types'; // Import the BlogPost interface for type ch
  */
 export default function BlogIndex() {
   // Define the directory path for markdown files
-  const markdownDir = path.join(process.cwd(), 'app/blog/markdown');
+  const markdownDir = path.join(process.cwd(), 'app/post/markdown');
   // Read all files in the markdown directory
   const files = fs.readdirSync(markdownDir);
   
@@ -44,7 +44,7 @@ export default function BlogIndex() {
         category: data.category,
         cover: data.cover,
         featured: data.featured || false, // Default to false if not specified
-        path: `/blog/${slug}` // Construct the URL path for the blog post
+        path: `/post/${slug}` // Construct the URL path for the blog post
       };
     })
     .sort((a, b) => {
