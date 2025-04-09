@@ -29,7 +29,7 @@
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.473.0",
     "motion": "^11.18.2",
-    "next": "^15.2.0-canary.16",
+    "next": "^15.3.0",
     "react": "^18",
     "react-canvas-confetti": "^2.0.7",
     "react-dom": "^18",
