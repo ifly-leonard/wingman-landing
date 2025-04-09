@@ -61,7 +61,7 @@ function Testimonial({ testimonial, zIndex }) {
   return (
     <div className={`relative inline-flex justify-center w-[52px] h-[52px] align-middle -translate-y-1 z-${zIndex}`}>
       <button
-        className={`h-full w-full focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 rounded-[20px] transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] delay-100 ${open ? 'rotate-0' : 'rotate-[4deg]'}`}
+        className={`h-full w-full focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 rounded-[20px] transition duration-200 ease-in-out delay-100 ${open ? 'rotate-0' : 'rotate-[4deg]'}`}
         aria-labelledby={testimonial.id}
         onMouseEnter={() => setOpen(true)}
         onMouseLeave={() => setOpen(false)}
