@@ -33,13 +33,7 @@ export default function RootLayout({
       >
 
         {/* HEADER BANNER */}
-        <HeaderBanner
-            title="Announcement:"
-            message="AirRoster v2.0.7 is now live. We now support 80+ airlines around the 🌏"
-            buttonText="Learn more"
-            buttonHref="/announcements/airroster-2-0-7-is-live"
-            bgColor="bg-blue-600"                    
-        />
+        <HeaderBanner /> {/* Control it using the data file */}
         {/* END HEADER BANNER */}
 
 
