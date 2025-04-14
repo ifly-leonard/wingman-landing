@@ -157,12 +157,12 @@ export default function Navbar() {
                                 </ul>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <Link href="/support" legacyBehavior passHref>
-                                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                    Support
-                                </NavigationMenuLink>
-                            </Link>
+                        <NavigationMenuItem>                            
+                                <div className={navigationMenuTriggerStyle()}>
+                                    <Link href="/support" passHref>
+                                            Support                                
+                                    </Link>
+                                </div>
                         </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
