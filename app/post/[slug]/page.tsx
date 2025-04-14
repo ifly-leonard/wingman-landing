@@ -7,6 +7,7 @@ import BlogImage from "@/components/sections/blog/image-with-modal";
 import { Metadata } from 'next';
 import DisqusComments from "@/components/sections/blog/disqus";
 import Link from "next/link";
+import FallbackImage from "@/components/ui/fallback-image";
 
 // Define the props for the page component
 interface BlogPostPageProps {
@@ -182,7 +183,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <header className="mb-8">
           {frontmatter.cover && (
             <div className="mb-6">
-              <img
+              <FallbackImage
                 src={frontmatter.cover}
                 alt={frontmatter.title}
                 className="w-full h-auto object-cover rounded-lg"

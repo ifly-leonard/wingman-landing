@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useState, useMemo } from 'react';
 import SectionHeader from "@/components/ui/section-header";
 import { BlogPost } from './types';
-
+import FallbackImage from "@/components/ui/fallback-image";
 /**
  * The props for the BlogList component.
  * The initialPosts prop is an array of BlogPost objects.
@@ -35,8 +35,11 @@ export default function BlogList({ initialPosts }: BlogListProps) {
   }, [initialPosts, searchQuery]);
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8">      
       <SectionHeader header="Blog Posts" subheader="Read our latest articles" />
+      <p className="text-center text-gray-600 dark:text-gray-400 -mt-5 mb-8">
+        The most authentic information resource for <span className="bg-blue-500 px-2 text-white py-1">pilots</span> and <span className="bg-blue-500 px-2 text-white py-1">aviation professionals</span>
+      </p>
       
       {/* Search Bar */}
       <div className="max-w-3xl mx-auto mb-8">
@@ -75,7 +78,7 @@ export default function BlogList({ initialPosts }: BlogListProps) {
               >
                 {post.cover && (
                   <div className="aspect-video relative">
-                    <img 
+                    <FallbackImage 
                       src={post.cover} 
                       alt={post.title}
                       className="w-full h-full object-cover"
