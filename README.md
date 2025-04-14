@@ -2,6 +2,7 @@ TODO:
 
 - Popup modal to collect newsletter e-mail
 - Redirect page for UTM links
+- "Header" https://wingmanspace.slack.com/archives/C01TV2G99QA/p1744269960775599?thread_ts=1744226918.343299&cid=C01TV2G99QA
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
