@@ -5,7 +5,7 @@ date: '2024-11-30'
 tags:
   - top 3 logbook mistakes nsop pilot makes and how to avoid them
 category: guide
-cover: media/cover-pictures/65ee62-f5ce727fe27543e5ba13cb70b166de7a-mv2-d942cdc5.png
+cover: /images/media/cover-pictures/65ee62-f5ce727fe27543e5ba13cb70b166de7a-mv2-d942cdc5.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/top-3-logbook-mistakes-nsop-pilot-makes-and-how-to-avoid-them
@@ -15,7 +15,7 @@ source: >-
 
 *Writer: Wingman Log | November 30, 2024 | 5 min read*
 
-![img](media/blog-media/65ee62-f5ce727fe27543e5ba13cb70b166de7a-mv2-a1145e14.png)
+![img](/images/media/blog-media/65ee62-f5ce727fe27543e5ba13cb70b166de7a-mv2-a1145e14.png)
 
 ## **The Curious Case of Captain Bravo's Logbook Blunders**
 
@@ -43,9 +43,9 @@ Are still jotting flight details in a small notepad and then entering it on eGCA
 
 💡 Here's a **Step-by-step guide on** [How to Add Flights Manually in Wingman](https://support.wingmanlog.in/portal/en/kb/articles/how-to-add-flights-manually-in-wingman), and these images below can help you visualize better about the process:
 
-![img](media/blog-media/65ee62-d12f530a3a484d619a2ad8f0a11cdab3-mv2-2299d046.png)
+![img](/images/media/blog-media/65ee62-d12f530a3a484d619a2ad8f0a11cdab3-mv2-2299d046.png)
 
-![img](media/blog-media/65ee62-40b983d33d9b46ec98fa9a0886b2d4d0-mv2-c688420b.png)
+![img](/images/media/blog-media/65ee62-40b983d33d9b46ec98fa9a0886b2d4d0-mv2-c688420b.png)
 
 ## 2\. The "Math is Optional" Chaos
 
@@ -57,7 +57,7 @@ Bravo’s logbook became the aviation equivalent of a bad playlist: inconsistent
 
 **Pro Tip 2**: **Get** [**Wingman Pilot Logbook**](https://onelink.to/wingman)**, and have all your flying hours neatly categorized and auto-calculated without any errors. Here's an example-**
 
-![img](media/blog-media/65ee62-aa1eb36585a14e90a2d96135c8098dbe-mv2-6bab043a.png)
+![img](/images/media/blog-media/65ee62-aa1eb36585a14e90a2d96135c8098dbe-mv2-6bab043a.png)
 
 ## 3\. The Great "Copy-Paste Saga"
 
@@ -69,7 +69,7 @@ This was the equivalent of calling every passenger on your plane “Mr. Smith.�
 
 **Pro Tip 1**: Forget manual calculations! [**Generate ready-to-use PDF reports**](https://support.wingmanlog.in/portal/en/kb/articles/how-to-generate-reports-summary) with Wingman to copy directly into your logbook. Totals are auto-calculated, eliminating errors and saving you time. Let me show you what these reports look like—
 
-![img](media/blog-media/65ee62-60bad4d6140441289af3be7e5972bca5-mv2-992390eb.png)
+![img](/images/media/blog-media/65ee62-60bad4d6140441289af3be7e5972bca5-mv2-992390eb.png)
 
 **Pro Tip 2:** Why stop at PDFs? Take it to the next level by [**ordering a fully printed logbook binder from Wingman**](https://www.wingmanlog.in/wingman-logbook-binder). It’s sleek, accurate, and ready to use! Get your flights, summaries, and totals perfectly printed and bound, ready for any audit or record-keeping needs.
 

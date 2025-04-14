@@ -5,7 +5,7 @@ date: '2023-07-26'
 tags:
   - the life of an indian pilot myths vs reality
 category: career
-cover: media/cover-pictures/c3d501-dc31d5ceafd64274a1537db43ed62112-mv2-addfa0db.jpg
+cover: /images/media/cover-pictures/c3d501-dc31d5ceafd64274a1537db43ed62112-mv2-addfa0db.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/the-life-of-an-indian-pilot-myths-vs-reality'
 ---
@@ -18,7 +18,7 @@ Being an Indian pilot is a dream many aspiring individuals hold, driven by a fas
 
 **Myth 1: Flying is glamorous all the time**
 
-![img](media/blog-media/c3d501-28d7b494c64047f1a3c35f614de364b8-mv2-102d982f.jpg)
+![img](/images/media/blog-media/c3d501-28d7b494c64047f1a3c35f614de364b8-mv2-102d982f.jpg)
 
 Reality:
 
@@ -26,7 +26,7 @@ While the idea of soaring above the clouds might seem glamorous, the life of an 
 
 **Myth 2: Pilots have plenty of free time and holidays**
 
-![img](media/blog-media/c3d501-4c4586b625ad486182f4fb03611bb092-mv2-34062bd8.jpg)
+![img](/images/media/blog-media/c3d501-4c4586b625ad486182f4fb03611bb092-mv2-34062bd8.jpg)
 
 Reality:
 
@@ -34,7 +34,7 @@ Pilots don't enjoy abundant free time and holidays contrary to popular belief. T
 
 **Myth 3: Becoming a pilot is prohibitively expensive**
 
-![img](media/blog-media/c3d501-e462114d8c054613b9751d06ec9c1f3c-mv2-6d8f9cb6.jpg)
+![img](/images/media/blog-media/c3d501-e462114d8c054613b9751d06ec9c1f3c-mv2-6d8f9cb6.jpg)
 
 Reality:
 
@@ -42,7 +42,7 @@ Historically, becoming a pilot used to be an expensive endeavor, deterring many 
 
 **Myth 4: The job market for pilots is saturated**
 
-![img](media/blog-media/c3d501-a6eab385cf844d51900b24baba55c640-mv2-13bf8b35.jpg)
+![img](/images/media/blog-media/c3d501-a6eab385cf844d51900b24baba55c640-mv2-13bf8b35.jpg)
 
 Reality:
 
@@ -56,7 +56,7 @@ While senior pilots with established careers may earn attractive salaries, the l
 
 **Myth 6: Automation will replace pilots soon**
 
-![img](media/blog-media/c3d501-de26bbaf42ed4e84bde3016bbb7953ee-mv2-c8b91e58.jpg)
+![img](/images/media/blog-media/c3d501-de26bbaf42ed4e84bde3016bbb7953ee-mv2-c8b91e58.jpg)
 
 Reality:
 

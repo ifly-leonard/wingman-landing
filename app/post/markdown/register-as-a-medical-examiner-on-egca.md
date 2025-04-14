@@ -5,7 +5,7 @@ date: '2023-08-12'
 tags:
   - register as a medical examiner on egca
 category: guide
-cover: media/cover-pictures/c3d501-c4a56cc4099a4d20a48837af69fa0c6d-mv2-10978fd7.png
+cover: /images/media/cover-pictures/c3d501-c4a56cc4099a4d20a48837af69fa0c6d-mv2-10978fd7.png
 featured: false
 source: 'https://www.wingmanlog.in/post/register-as-a-medical-examiner-on-egca'
 ---
@@ -46,21 +46,21 @@ Navigating the aspirant medical examiner registration process on the eGCA portal
 
 *   Visit the eGCA portal and initiate the registration process as a medical examiner aspirant.
 
-![img](media/blog-media/c3d501-cb662db1e5c0422c88c89f78060c4834-mv2-c487cd3d.png)
+![img](/images/media/blog-media/c3d501-cb662db1e5c0422c88c89f78060c4834-mv2-c487cd3d.png)
 
 **Step 2: Personal Details**
 
 *   Fill in your accurate personal details including your name, address, date of birth, MCI Registration Number, and State Medical Council Registration Number.
 
-![img](media/blog-media/c3d501-497a10b9d4c14405a03e73d14a759fff-mv2-89a37273.png)
+![img](/images/media/blog-media/c3d501-497a10b9d4c14405a03e73d14a759fff-mv2-89a37273.png)
 
-![img](media/blog-media/c3d501-1a10e16fc98e444c9807e8aa21e1211c-mv2-bd148494.png)
+![img](/images/media/blog-media/c3d501-1a10e16fc98e444c9807e8aa21e1211c-mv2-bd148494.png)
 
 **Step 3: Email and Mobile Validation**
 
 *   Validate your provided email address and mobile number. Simultaneously, create your login credentials for future access.
 
-![img](media/blog-media/c3d501-abe2c30be0344f26aca16a4159cb10ec-mv2-b38183f0.png)
+![img](/images/media/blog-media/c3d501-abe2c30be0344f26aca16a4159cb10ec-mv2-b38183f0.png)
 
 **Step 4: One-Time Password (OTP) Verification**
 
@@ -68,7 +68,7 @@ Navigating the aspirant medical examiner registration process on the eGCA portal
     
 *   Accept the declaration confirming the authenticity of the information provided.
 
-![img](media/blog-media/c3d501-7fb8a346f4df4bd8b9326fd5a0db6523-mv2-7428f402.png)
+![img](/images/media/blog-media/c3d501-7fb8a346f4df4bd8b9326fd5a0db6523-mv2-7428f402.png)
 
 **Step 5: Application Submission**
 

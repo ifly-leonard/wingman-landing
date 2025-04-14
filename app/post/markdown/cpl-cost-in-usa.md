@@ -5,7 +5,7 @@ date: '2023-09-04'
 tags:
   - cpl cost in usa
 category: guide
-cover: media/cover-pictures/c3d501-17be4a3a0e984c0ba1383142d4184d78-mv2-0e651318.png
+cover: /images/media/cover-pictures/c3d501-17be4a3a0e984c0ba1383142d4184d78-mv2-0e651318.png
 featured: false
 source: 'https://www.wingmanlog.in/post/cpl-cost-in-usa'
 ---

@@ -5,7 +5,7 @@ date: '2023-08-16'
 tags:
   - instructions for medical services in egca
 category: guide
-cover: media/cover-pictures/c3d501-67857adfcb0f4911bab287f4729ca0ff-mv2-f4bdc5ca.png
+cover: /images/media/cover-pictures/c3d501-67857adfcb0f4911bab287f4729ca0ff-mv2-f4bdc5ca.png
 featured: false
 source: 'https://www.wingmanlog.in/post/instructions-for-medical-services-in-egca'
 ---

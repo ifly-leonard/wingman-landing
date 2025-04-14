@@ -5,7 +5,7 @@ date: '2023-09-19'
 tags:
   - atpl hours requirement as per dgca
 category: guide
-cover: media/cover-pictures/c3d501-28ef4db6ae804f9b8b1e820db32df481-mv2-dd3af04e.png
+cover: /images/media/cover-pictures/c3d501-28ef4db6ae804f9b8b1e820db32df481-mv2-dd3af04e.png
 featured: false
 source: 'https://www.wingmanlog.in/post/atpl-hours-requirement-as-per-dgca'
 ---
@@ -20,7 +20,7 @@ Becoming a professional pilot is a dream for many aviation enthusiasts. The jour
 
 To obtain an ATPL in India, you must meet the following minimum hour requirements as per The Aircraft Rules 1937 Schedule II Section M : ***Note : Where an aeroplane is required to be operated with a co-pilot in accordance with the provisions of the Flight Manual of the aeroplane, not more than fifty percent of the co-pilot flight time shall be credited towards the total flight time required for the issue of the licence, but not more than fifty percent of the co-pilot flight time under supervision shall be credited towards pilot-in-command flight experience required for issue of the licence, and full credit for such flight time shall be given towards total flight time required for issue of the licence.***
 
-![img](media/blog-media/c3d501-db542ccfcde4495c8fc411fb2edade5a-mv2-f189d367.png)
+![img](/images/media/blog-media/c3d501-db542ccfcde4495c8fc411fb2edade5a-mv2-f189d367.png)
 
 1.  **Total Flying Experience**: A minimum of 1,500 hours of flying experience is required.
     
@@ -40,9 +40,9 @@ To obtain an ATPL in India, you must meet the following minimum hour requirement
 
 *For a simple and easy calculation, make use of our Wingman app to calculate your total flying against the ATPL requirements set by DGCA. Here, is an attached screenshot of the Wingman ATPL calculation Report.*  
 
-![img](media/blog-media/c3d501-109e81ad71d54b8d84f0ff8fb16af7d6-mv2-bc60a3b1.png)
+![img](/images/media/blog-media/c3d501-109e81ad71d54b8d84f0ff8fb16af7d6-mv2-bc60a3b1.png)
 
-![img](media/blog-media/c3d501-b2daeb6037d1464cbadf70ea413470c1-mv2-5f5627db.jpg)
+![img](/images/media/blog-media/c3d501-b2daeb6037d1464cbadf70ea413470c1-mv2-5f5627db.jpg)
 
 ## The Significance of DGCA ATPL Hour Requirements
 

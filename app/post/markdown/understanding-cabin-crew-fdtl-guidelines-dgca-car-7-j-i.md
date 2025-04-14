@@ -5,7 +5,7 @@ date: '2024-10-23'
 tags:
   - understanding cabin crew fdtl guidelines dgca car 7 j i
 category: guide
-cover: media/cover-pictures/ece1e2-f87e9fc1690f42cb8c3cc5c3dc41ca8e-mv2-c5f60dc4.jpg
+cover: /images/media/cover-pictures/ece1e2-f87e9fc1690f42cb8c3cc5c3dc41ca8e-mv2-c5f60dc4.jpg
 featured: true
 source: >-
   https://www.wingmanlog.in/post/understanding-cabin-crew-fdtl-guidelines-dgca-car-7-j-i
@@ -17,7 +17,7 @@ source: >-
 
 The **Directorate General of Civil Aviation (DGCA)** in India enforces safety regulations across aviation operations. One such important regulation for cabin crew is **DGCA-CAR-7-J-I-FDTL (Cabin Crew) 2018**, which provides guidelines for **Flight and Duty Time Limitations (FDTL)**. Understanding these regulations ensures that cabin crew work within safe limits, protecting both their well-being and passengers' safety.
 
-![img](media/blog-media/ece1e2-f87e9fc1690f42cb8c3cc5c3dc41ca8e-mv2-ad83d0ae.jpg)
+![img](/images/media/blog-media/ece1e2-f87e9fc1690f42cb8c3cc5c3dc41ca8e-mv2-ad83d0ae.jpg)
 
 ## **What is FDTL for Cabin Crew?**
 

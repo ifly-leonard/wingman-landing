@@ -5,7 +5,7 @@ date: '2023-08-04'
 tags:
   - new candidate registration on pariksha dgca
 category: guide
-cover: media/cover-pictures/c3d501-ff869b4d8acf46e6a171683a5970ca51-mv2-8d179e25.png
+cover: /images/media/cover-pictures/c3d501-ff869b4d8acf46e6a171683a5970ca51-mv2-8d179e25.png
 featured: false
 source: 'https://www.wingmanlog.in/post/new-candidate-registration-on-pariksha-dgca'
 ---
@@ -22,7 +22,7 @@ NEW Candidate Registration form is the entry level form for the candidate (Not h
 
 Before delving into the registration process, it's essential to thoroughly read and comprehend the provided instructions. These guidelines act as a roadmap to successfully completing the form. Once you're confident in your understanding, proceed to the next step.  
 
-![img](media/blog-media/c3d501-3e8d404bddbd4f94ad847a4b513c0937-mv2-04d5ed5c.png)
+![img](/images/media/blog-media/c3d501-3e8d404bddbd4f94ad847a4b513c0937-mv2-04d5ed5c.png)
 
 ## Step 2: Entering Personal Details
 
@@ -34,7 +34,7 @@ The core of the registration process revolves around entering accurate personal 
     
 *   Selections from dropdown menus where applicable, such as nationality and type of aircraft.
 
-![img](media/blog-media/c3d501-aa55910fcffc4126a6d4b56143a7712b-mv2-75019da4.png)
+![img](/images/media/blog-media/c3d501-aa55910fcffc4126a6d4b56143a7712b-mv2-75019da4.png)
 
 Ensure that the details you provide match the information on your official documents, especially your class X Pass Certificate/Mark sheet. An OTP (One Time Password) will be sent to your registered mobile number for verification during the initial registration.
 
@@ -64,7 +64,7 @@ Now, it's time to log in using your newly generated credentials and finalize the
     
 *   Education and Subject Details, with document uploads.
 
-![img](media/blog-media/c3d501-3ecdce2f4c8c43c7b57bad8af72f82b4-mv2-aedb0ead.png)
+![img](/images/media/blog-media/c3d501-3ecdce2f4c8c43c7b57bad8af72f82b4-mv2-aedb0ead.png)
 
 *For CPL, ATPL, FDEG, FE and FN category 10+2 Mathematics & Physics pass subjects from a recognized Board / University (recognized by Council of Boards of School Education(COBSE), State Govt. Education Board) or its equivalent examination must be filled. After click on “Save & Next” candidate move to Document Upload Page. Before uploading document candidate must be ensure the size from the Table description mention above in Document Related Table.*
 
@@ -74,15 +74,15 @@ Before hitting the submit button, double-check that all documents, including pas
 
 *You must ensure that the uploaded photograph/signature/ documents are correctly uploaded as per the specific requirements.*
 
-![img](media/blog-media/c3d501-163b218566a744b581eaf2243cd0281a-mv2-8b0415bc.png)
+![img](/images/media/blog-media/c3d501-163b218566a744b581eaf2243cd0281a-mv2-8b0415bc.png)
 
-![img](media/blog-media/c3d501-62645c044e584bb7a6df2403c4f0ed78-mv2-3389cd53.png)
+![img](/images/media/blog-media/c3d501-62645c044e584bb7a6df2403c4f0ed78-mv2-3389cd53.png)
 
 ## Step 7: Final Submission and Printing
 
 Upon clicking the final submit button, you'll receive a PDF containing your filled information for your records. This PDF will also be sent to your registered email ID. Print the application, attach your latest passport size photograph, and cross-attest it. Include all relevant uploaded documents and mail them to the DGCA within the stipulated 10-day period.
 
-![img](media/blog-media/c3d501-60d7905d3ac447ec8c56d45ff3fa34ee-mv2-a027ea8e.png)
+![img](/images/media/blog-media/c3d501-60d7905d3ac447ec8c56d45ff3fa34ee-mv2-a027ea8e.png)
 
 The NEW Candidate Registration form for the FLIGHT CREW license examination serves as your gateway to a fulfilling aviation career. By following this comprehensive guide, you'll ensure a smooth and accurate completion of the registration process. Every step is crucial, and attention to detail is of utmost importance. Your commitment to this process lays a strong foundation for your journey towards becoming a skilled and qualified flight crew member. Take each step with confidence, adhere to the instructions, and set yourself on the path to achieving your aviation dreams.
 

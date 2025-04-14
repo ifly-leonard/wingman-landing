@@ -5,7 +5,7 @@ date: '2023-08-08'
 tags:
   - approval dy cfi on egca
 category: guide
-cover: media/cover-pictures/c3d501-a11d27ddd5594b81b6edef6768fd6832-mv2-1ba9424a.png
+cover: /images/media/cover-pictures/c3d501-a11d27ddd5594b81b6edef6768fd6832-mv2-1ba9424a.png
 featured: false
 source: 'https://www.wingmanlog.in/post/approval-dy-cfi-on-egca'
 ---
@@ -38,7 +38,7 @@ The process of nominating a FIR holder for the position of Dy.CFI on eGCA is des
     
 2.  Enter your eGCA ID, password, and other required credentials to log in.
 
-![img](media/blog-media/c3d501-65b9b6683c9c4004a228a05b27d31922-mv2-728b8579.png)
+![img](/images/media/blog-media/c3d501-65b9b6683c9c4004a228a05b27d31922-mv2-728b8579.png)
 
 ### Step 2: Access the Approval of Dy.CFI Service
 
@@ -46,7 +46,7 @@ The process of nominating a FIR holder for the position of Dy.CFI on eGCA is des
     
 2.  Click on the appropriate link to initiate the nomination process.
 
-![img](media/blog-media/c3d501-85f270f0e8e74b44a37f3b8c0cbb1f14-mv2-b1258e11.png)
+![img](/images/media/blog-media/c3d501-85f270f0e8e74b44a37f3b8c0cbb1f14-mv2-b1258e11.png)
 
 ### Step 3: Complete the Application Form
 
@@ -56,7 +56,7 @@ The process of nominating a FIR holder for the position of Dy.CFI on eGCA is des
     
 3.  Double-check all the information for accuracy before proceeding.
 
-![img](media/blog-media/c3d501-0470f7533551474c89b4fa7f9edd3b1b-mv2-09a78861.png)
+![img](/images/media/blog-media/c3d501-0470f7533551474c89b4fa7f9edd3b1b-mv2-09a78861.png)
 
 ### Step 4: Submit the Nomination
 
@@ -64,7 +64,7 @@ The process of nominating a FIR holder for the position of Dy.CFI on eGCA is des
     
 2.  Make sure to review all the details thoroughly to avoid any errors.
 
-![img](media/blog-media/c3d501-160fd6040c074a70a29fd8db74b19cf7-mv2-09461a9d.png)
+![img](/images/media/blog-media/c3d501-160fd6040c074a70a29fd8db74b19cf7-mv2-09461a9d.png)
 
 ### Step 5: Await Confirmation
 
@@ -72,7 +72,7 @@ The process of nominating a FIR holder for the position of Dy.CFI on eGCA is des
     
 2.  You may receive notifications regarding the progress of your application on your registered email and mobile number.
 
-![img](media/blog-media/c3d501-2f7cf35a145a49b287f74f738fa7e3da-mv2-36cfa868.png)
+![img](/images/media/blog-media/c3d501-2f7cf35a145a49b287f74f738fa7e3da-mv2-36cfa868.png)
 
 The Approval of Dy.CFI on eGCA streamlines the process of nominating FIR holders for this significant role in the aviation industry. By adhering to the pre-requisites and following the step-by-step guide provided in this blog post, FTO applicants and instructors can smoothly navigate through the process and ensure their nomination is duly considered. Embracing eGCA's digital platform facilitates a more efficient and transparent approach to aviation-related services, contributing to the growth and advancement of the industry as a whole. Stay updated, stay compliant, and let eGCA empower your aviation aspirations.
 

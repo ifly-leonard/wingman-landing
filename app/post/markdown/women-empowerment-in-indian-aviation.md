@@ -5,7 +5,7 @@ date: '2023-07-22'
 tags:
   - women empowerment in indian aviation
 category: guide
-cover: media/cover-pictures/c3d501-ef3dafa20d154698bd21132431627a03-mv2-6238a043.jpg
+cover: /images/media/cover-pictures/c3d501-ef3dafa20d154698bd21132431627a03-mv2-6238a043.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/women-empowerment-in-indian-aviation'
 ---
@@ -22,7 +22,7 @@ Traditionally, aviation has been perceived as a male-dominated field, where wome
 
 **The Shift Towards Pilothood**
 
-![img](media/blog-media/c3d501-c7ef5ab15ea44d7d9b37d3f27ca2625f-mv2-42253ade.jpg)
+![img](/images/media/blog-media/c3d501-c7ef5ab15ea44d7d9b37d3f27ca2625f-mv2-42253ade.jpg)
 
 The role of a pilot is often associated with adventure, skill, and responsibility. Today, more Indian women are embracing this role, taking to the skies and commanding commercial aircraft with finesse. It is heartening to witness women breaking the glass ceiling, securing positions as captains and first officers, and inspiring the next generation of aspiring aviators. **India has the largest number of women pilots in the world.**
 
@@ -36,7 +36,7 @@ Beyond the cockpit, women have also been making strides in technical roles, trad
 
 **Air Traffic Control: Guiding Skies**
 
-![img](media/blog-media/c3d501-36c4a805e49e4626ac672ca8cf5801f5-mv2-16a9d943.jpg)
+![img](/images/media/blog-media/c3d501-36c4a805e49e4626ac672ca8cf5801f5-mv2-16a9d943.jpg)
 
 Air traffic control is a crucial aspect of aviation safety and efficiency. Women have demonstrated exceptional proficiency in this domain, ensuring smooth air traffic flow and seamless communication between pilots and control towers. Their attention to detail, calm demeanor, and ability to handle high-pressure situations have earned them respect and recognition in the industry.
 

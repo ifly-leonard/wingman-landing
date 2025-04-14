@@ -5,7 +5,7 @@ date: '2023-07-12'
 tags:
   - elp for indian pilots
 category: career
-cover: media/cover-pictures/c3d501-8f9849378b584534ab676d8eb19f3393-mv2-9ad97d8d.jpg
+cover: /images/media/cover-pictures/c3d501-8f9849378b584534ab676d8eb19f3393-mv2-9ad97d8d.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/elp-for-indian-pilots'
 ---

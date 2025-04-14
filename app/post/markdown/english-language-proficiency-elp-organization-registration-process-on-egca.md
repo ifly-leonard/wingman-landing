@@ -5,7 +5,7 @@ date: '2023-08-11'
 tags:
   - english language proficiency elp organization registration process on egca
 category: guide
-cover: media/cover-pictures/c3d501-52b7a4b0b39542b080610d1f71d76f3d-mv2-4df00ac0.png
+cover: /images/media/cover-pictures/c3d501-52b7a4b0b39542b080610d1f71d76f3d-mv2-4df00ac0.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/english-language-proficiency-elp-organization-registration-process-on-egca
@@ -49,23 +49,23 @@ Let's delve into the step-by-step process of registering your organization for E
 
 *   **Step 1**: Access the eGCA Portal Visit the eGCA Portal and navigate to the login section. If you are new, click on the sign-up option.
 
-![img](media/blog-media/c3d501-4982f0a9d64240f4ad4d2dbf5df68f45-mv2-a5b1967d.jpg)
+![img](/images/media/blog-media/c3d501-4982f0a9d64240f4ad4d2dbf5df68f45-mv2-a5b1967d.jpg)
 
 *   **Step 2**: Provide Organization Details Fill in your organization's name and the authorized person's details who will be responsible for the registration process.
 
-![img](media/blog-media/c3d501-f7902fc86d2545acab9a082cc1950358-mv2-704730a9.jpg)
+![img](/images/media/blog-media/c3d501-f7902fc86d2545acab9a082cc1950358-mv2-704730a9.jpg)
 
 *   **Step 3**: Upload Approval Certificate and Address Upload the approval certificate issued by the ICAO Contracting State's CAA. Additionally, provide your organization's address.
 
-![img](media/blog-media/c3d501-13a3273f1c26412f836c40b44fad7d55-mv2-0adee4b1.jpg)
+![img](/images/media/blog-media/c3d501-13a3273f1c26412f836c40b44fad7d55-mv2-0adee4b1.jpg)
 
 *   **Step 4**: Validate Email and Mobile Number Receive a One-Time Password (OTP) on your registered email and mobile number. Enter the OTP and complete the captcha verification.
 
-![img](media/blog-media/c3d501-aedea2bf2a834356b7ce4e81472c69fd-mv2-fd17812f.jpg)
+![img](/images/media/blog-media/c3d501-aedea2bf2a834356b7ce4e81472c69fd-mv2-fd17812f.jpg)
 
 *   **Step 5**: Accept Declaration and Submit Review the provided information, accept the declaration, and submit your application.
 
-![img](media/blog-media/c3d501-e510d536ddf7413bbe87cfc559a7bf98-mv2-2f258b92.jpg)
+![img](/images/media/blog-media/c3d501-e510d536ddf7413bbe87cfc559a7bf98-mv2-2f258b92.jpg)
 
 The English Language Proficiency (ELP) Organization Registration process on the eGCA Portal is a fundamental step for aviation organizations approved by ICAO Contracting States. This process ensures that aviation professionals maintain a high standard of English language proficiency, contributing to safer skies and efficient communication. By following the outlined steps and meeting the pre-requisites, organizations can seamlessly register and obtain a unique ID, facilitating their access to DGCA services. This streamlined process is a testament to the aviation industry's commitment to excellence and safety through effective communication.
 

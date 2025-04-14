@@ -5,7 +5,7 @@ date: '2023-07-11'
 tags:
   - class 2 medical application
 category: guide
-cover: media/cover-pictures/c3d501-bc912343a0a642d089993e598732a41c-mv2-1a266dec.webp
+cover: /images/media/cover-pictures/c3d501-bc912343a0a642d089993e598732a41c-mv2-1a266dec.webp
 featured: false
 source: 'https://www.wingmanlog.in/post/class-2-medical-application'
 ---

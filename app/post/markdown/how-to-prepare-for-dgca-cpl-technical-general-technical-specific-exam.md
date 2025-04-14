@@ -5,7 +5,7 @@ date: '2023-08-24'
 tags:
   - how to prepare for dgca cpl technical general technical specific exam
 category: guide
-cover: media/cover-pictures/c3d501-cddd74af78dc4ed68e952f9dad53d0d3-mv2-21867bc2.png
+cover: /images/media/cover-pictures/c3d501-cddd74af78dc4ed68e952f9dad53d0d3-mv2-21867bc2.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/how-to-prepare-for-dgca-cpl-technical-general-technical-specific-exam

@@ -5,7 +5,7 @@ date: '2023-09-07'
 tags:
   - madhya pradesh flying club fees fleet operating base and more
 category: guide
-cover: media/cover-pictures/c3d501-6d9928ce57f44b27abfcc29aa72cecca-mv2-d3ca6fec.gif
+cover: /images/media/cover-pictures/c3d501-6d9928ce57f44b27abfcc29aa72cecca-mv2-d3ca6fec.gif
 featured: false
 source: >-
   https://www.wingmanlog.in/post/madhya-pradesh-flying-club-fees-fleet-operating-base-and-more
@@ -19,7 +19,7 @@ The Madhya Pradesh Flying Club (MPFC) is a renowned institution in the field of 
 
 ## History and Overview
 
-![img](media/blog-media/c3d501-6d9928ce57f44b27abfcc29aa72cecca-mv2-d3ca6fec.gif)
+![img](/images/media/blog-media/c3d501-6d9928ce57f44b27abfcc29aa72cecca-mv2-d3ca6fec.gif)
 
 The Madhya Pradesh Flying Club was established in 1951 and has since been a prominent name in the aviation sector. It is located in Bhopal, the capital city of Madhya Pradesh, and has played a pivotal role in training numerous pilots and contributing to the growth of aviation in the region.
 
@@ -49,7 +49,7 @@ Understanding the cost structure is crucial for anyone considering training or u
 
 ## Fleet  
 
-![img](media/blog-media/c3d501-300119af2fdd40b1b856de39015dce0b-mv2-46161075.jpg)
+![img](/images/media/blog-media/c3d501-300119af2fdd40b1b856de39015dce0b-mv2-46161075.jpg)
 
 Cessna 152: A popular choice for basic flight training, the Cessna 152 is a two-seat, single-engine aircraft known for its reliability and ease of handling.
 

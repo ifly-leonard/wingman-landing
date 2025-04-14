@@ -5,7 +5,7 @@ date: '2024-11-29'
 tags:
   - how to fly private but for cheaper
 category: guide
-cover: media/cover-pictures/65ee62-b0b0e5e5a2ba4b4ea5d43989704ea1b8-mv2-d9ddc9a8.jpg
+cover: /images/media/cover-pictures/65ee62-b0b0e5e5a2ba4b4ea5d43989704ea1b8-mv2-d9ddc9a8.jpg
 featured: true
 source: 'https://www.wingmanlog.in/post/how-to-fly-private-but-for-cheaper'
 ---
@@ -14,7 +14,7 @@ source: 'https://www.wingmanlog.in/post/how-to-fly-private-but-for-cheaper'
 
 *Writer: Wingman Log | November 29, 2024 | 8 min read*
 
-![img](media/blog-media/65ee62-b0b0e5e5a2ba4b4ea5d43989704ea1b8-mv2-d9ddc9a8.jpg)
+![img](/images/media/blog-media/65ee62-b0b0e5e5a2ba4b4ea5d43989704ea1b8-mv2-d9ddc9a8.jpg)
 
 ## "How I Almost Flew Private Without Breaking My Fixed Deposit"
 

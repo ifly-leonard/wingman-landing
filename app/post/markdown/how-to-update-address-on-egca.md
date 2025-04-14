@@ -5,7 +5,7 @@ date: '2023-08-07'
 tags:
   - how to update address on egca
 category: guide
-cover: media/cover-pictures/c3d501-ca9d3cd3bc804fd8aedcf886c62b45f0-mv2-ca0f2e4e.png
+cover: /images/media/cover-pictures/c3d501-ca9d3cd3bc804fd8aedcf886c62b45f0-mv2-ca0f2e4e.png
 featured: true
 source: 'https://www.wingmanlog.in/post/how-to-update-address-on-egca'
 ---
@@ -48,7 +48,7 @@ Before you embark on the journey of updating your address on eGCA, make sure you
     
 4.  Once all the details are filled, click 'Submit' to finalize your application.
 
-![img](media/blog-media/c3d501-3062ca8292964ca682ee9b2a595e5ca5-mv2-d5ec9218.png)
+![img](/images/media/blog-media/c3d501-3062ca8292964ca682ee9b2a595e5ca5-mv2-d5ec9218.png)
 
 ## Step 4: Verifying the Updated Address
 
@@ -58,7 +58,7 @@ Before you embark on the journey of updating your address on eGCA, make sure you
     
 3.  Your updated address, along with the supporting proof, should be visible in this section.
 
-![img](media/blog-media/c3d501-899232781e44420985361f79ddd74c20-mv2-18889961.png)
+![img](/images/media/blog-media/c3d501-899232781e44420985361f79ddd74c20-mv2-18889961.png)
 
 ## Steps in the Online Application:
 
@@ -74,7 +74,7 @@ Before you embark on the journey of updating your address on eGCA, make sure you
     
 6.  Submit the application for processing.
 
-![img](media/blog-media/c3d501-65061cb244494189bf945971e986b89d-mv2-341b84b2.png)
+![img](/images/media/blog-media/c3d501-65061cb244494189bf945971e986b89d-mv2-341b84b2.png)
 
 Embracing technological advancements in the aviation industry is crucial to staying current and efficient. The "Update Address" service on eGCA simplifies the process of changing your Correspondence and Permanent Addresses. By following the easy steps outlined in this blog post, you can ensure that your address information is accurate and up to date, allowing you to focus on what matters most – your career as a pilot. Stay connected, stay updated, and enjoy the convenience of eGCA's streamlined services.
 

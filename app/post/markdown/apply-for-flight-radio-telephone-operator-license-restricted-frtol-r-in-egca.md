@@ -5,7 +5,7 @@ date: '2023-08-03'
 tags:
   - apply for flight radio telephone operator license restricted frtol r in egca
 category: guide
-cover: media/cover-pictures/c3d501-0df8e13a827e43e19fdc176f7dcde844-mv2-8d0ee141.png
+cover: /images/media/cover-pictures/c3d501-0df8e13a827e43e19fdc176f7dcde844-mv2-8d0ee141.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/apply-for-flight-radio-telephone-operator-license-restricted-frtol-r-in-egca
@@ -43,7 +43,7 @@ Now that we have a clear understanding of the prerequisites, let's delve into th
 
 *   Navigate to the "Services" section on the left side panel and choose "Issuance/Renewal of FRTOL-R."
 
-![img](media/blog-media/c3d501-220cf8b80d714636885dd2c05c014dcf-mv2-8cc02cc2.png)
+![img](/images/media/blog-media/c3d501-220cf8b80d714636885dd2c05c014dcf-mv2-8cc02cc2.png)
 
 ### Step 3: Read and Understand Instructions
 
@@ -53,13 +53,13 @@ Now that we have a clear understanding of the prerequisites, let's delve into th
 
 *   Verify your basic details, examination details, medical examination details, and license details.
 
-![img](media/blog-media/c3d501-91fc6d2f14ca4dea949421dd54d11fe1-mv2-eee4dcb7.png)
+![img](/images/media/blog-media/c3d501-91fc6d2f14ca4dea949421dd54d11fe1-mv2-eee4dcb7.png)
 
 *   Provide accurate information about your PMR No., Computer No., Personal Details, Contact Details, and Address Details.
     
 *   If required, submit educational verification documents.
 
-![img](media/blog-media/c3d501-63767f0c8e20474b80c5ca4255446de9-mv2-965ed795.png)
+![img](/images/media/blog-media/c3d501-63767f0c8e20474b80c5ca4255446de9-mv2-965ed795.png)
 
 ### Step 5: Address Discrepancies
 
@@ -77,7 +77,7 @@ Now that we have a clear understanding of the prerequisites, let's delve into th
     
 *   After submitting the application, the status will show as "Pending with FTO."
 
-![img](media/blog-media/c3d501-2de56b5e49654cbf95d284e237502094-mv2-3f9f5728.png)
+![img](/images/media/blog-media/c3d501-2de56b5e49654cbf95d284e237502094-mv2-3f9f5728.png)
 
 ### Step 8: Track Application
 

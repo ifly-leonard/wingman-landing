@@ -2,10 +2,9 @@
 title: How Pilots Maintain Accurate Flight Records
 author: Wingman Log
 date: '2025-03-31'
-tags:
-  - how pilots maintain accurate flight records
+tags: ["records", "tools"]
 category: career
-cover: media/cover-pictures/ece1e2-ba732c1746bf4a8f9a2e73bca6cd23aa-mv2-a7ec42f1.webp
+cover: /images/media/cover-pictures/ece1e2-ba732c1746bf4a8f9a2e73bca6cd23aa-mv2-a7ec42f1.webp
 featured: false
 source: 'https://www.wingmanlog.in/post/how-pilots-maintain-accurate-flight-records'
 ---
@@ -13,8 +12,6 @@ source: 'https://www.wingmanlog.in/post/how-pilots-maintain-accurate-flight-reco
 # How Pilots Maintain Accurate Flight Records
 
 *Writer: Wingman Log | March 31, 2025 | 5 min read*
-
-*   Mar 31
 
 Maintaining accurate flight records is crucial for pilots. These records serve as a vital part of a pilot's career and safety. Accurate logging can also enhance their professional reputation and provide both legal protection and career opportunities.
 
@@ -36,7 +33,7 @@ Logs often include information such as:
 
 Accurate records help pilots track their progress and experience, making them more prepared for various flying scenarios.
 
-![Close-up view of a pilot's logbook with detailed entries](media/blog-media/ece1e2-ba732c1746bf4a8f9a2e73bca6cd23aa-mv2-a7ec42f1.webp)
+![Close-up view of a pilot's logbook with detailed entries](/images/media/blog-media/ece1e2-ba732c1746bf4a8f9a2e73bca6cd23aa-mv2-a7ec42f1.webp)
 
 Pilot's logbook with detailed entries showcasing flight record notation.
 
@@ -56,7 +53,7 @@ While ForeFlight cannot fully replace traditional logbooks, as per FAA requireme
 
 However, it remains essential for pilots to validate their entries and ensure they adhere to regulatory requirements. Using an integrated approach can make record-keeping more convenient and efficient.
 
-![High angle view of ForeFlight application displayed on a tablet](media/blog-media/ece1e2-679f1558b0cc4402b4eabfb56ffbc059-mv2-d12d8caa.webp)
+![High angle view of ForeFlight application displayed on a tablet](/images/media/blog-media/ece1e2-679f1558b0cc4402b4eabfb56ffbc059-mv2-d12d8caa.webp)
 
 ForeFlight app displayed on a tablet showcasing its flight logging features.
 
@@ -92,6 +89,6 @@ Maintaining accurate flight records is vital for any pilot. A well-maintained lo
 
 Ultimately, whether utilizing a *traditional method* or a *pilot logbook app*, staying organized and keeping records up-to-date plays a crucial role in every pilot’s journey.
 
-![Eye-level view of a well-organized desk with a pilot logbook and writing materials](media/blog-media/ece1e2-0852227981d747be999be9bbb9338dfe-mv2-1210a590.webp)
+![Eye-level view of a well-organized desk with a pilot logbook and writing materials](/images/media/blog-media/ece1e2-0852227981d747be999be9bbb9338dfe-mv2-1210a590.webp)
 
 Organized desk with a pilot logbook and other writing essentials, showcasing a pilot’s preparation for logging flights.

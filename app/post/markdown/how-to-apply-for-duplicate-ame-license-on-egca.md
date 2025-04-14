@@ -5,7 +5,7 @@ date: '2023-08-20'
 tags:
   - how to apply for duplicate ame license on egca
 category: guide
-cover: media/cover-pictures/c3d501-65ac7e534d43423d93b194f130c3924c-mv2-bf333d27.png
+cover: /images/media/cover-pictures/c3d501-65ac7e534d43423d93b194f130c3924c-mv2-bf333d27.png
 featured: true
 source: 'https://www.wingmanlog.in/post/how-to-apply-for-duplicate-ame-license-on-egca'
 ---
@@ -38,7 +38,7 @@ Now, let's break down the process of applying for a Duplicate AME Licence on the
 
 **Step 1: eGCA Login** Start by visiting the eGCA portal and clicking on the "eGCA Login" option.
 
-![img](media/blog-media/c3d501-a153e08481854a258ef8ed831fddd9fc-mv2-ab4c8fdc.png)
+![img](/images/media/blog-media/c3d501-a153e08481854a258ef8ed831fddd9fc-mv2-ab4c8fdc.png)
 
 **Step 2: Provide Credentials** Enter your eGCA ID, password, and the captcha code to access your account.
 
@@ -46,35 +46,35 @@ Now, let's break down the process of applying for a Duplicate AME Licence on the
 
 **Step 4: Select "Duplicate AME Licence" Service** Under the services menu, choose the "Duplicate AME Licence" service.
 
-![img](media/blog-media/c3d501-3adbf750b0ee425ab51b70ffdb705a8a-mv2-4d6c99bc.png)
+![img](/images/media/blog-media/c3d501-3adbf750b0ee425ab51b70ffdb705a8a-mv2-4d6c99bc.png)
 
 **Step 5: Populate Applicant Details** Relevant details such as your name, CEO Computer No., AME licence number, its expiry date, and your contact information will be automatically populated.
 
-![img](media/blog-media/c3d501-40d543bce87d4886a1cf2b6156a5aab0-mv2-40c8e4eb.png)
+![img](/images/media/blog-media/c3d501-40d543bce87d4886a1cf2b6156a5aab0-mv2-40c8e4eb.png)
 
 **Step 6: Employment Details** Indicate whether you are currently working in the same organization or not. Provide your current employer details if applicable.
 
-![img](media/blog-media/c3d501-a9012d7bec80402f9157eeab7f3f0704-mv2-1c3c86ac.png)
+![img](/images/media/blog-media/c3d501-a9012d7bec80402f9157eeab7f3f0704-mv2-1c3c86ac.png)
 
 **Step 7: Reason for Duplicate and Document Upload** Select the reason for needing a duplicate licence and upload the necessary documents based on your chosen reason.
 
-![img](media/blog-media/c3d501-c2718e65dfb44115b7b9406d6bca8a5d-mv2-b0c89388.png)
+![img](/images/media/blog-media/c3d501-c2718e65dfb44115b7b9406d6bca8a5d-mv2-b0c89388.png)
 
 **Step 8: Declaration and Submission** Read and check the declaration box, then submit the application form.
 
-![img](media/blog-media/c3d501-e54131ea378546b58c01c7ca3e89428f-mv2-3cebb1e2.png)
+![img](/images/media/blog-media/c3d501-e54131ea378546b58c01c7ca3e89428f-mv2-3cebb1e2.png)
 
-![img](media/blog-media/c3d501-a1e1e3470dfe4500a060bd4363198be5-mv2-69512637.png)
+![img](/images/media/blog-media/c3d501-a1e1e3470dfe4500a060bd4363198be5-mv2-69512637.png)
 
 **Step 9: Payment Process** Upon submission, you'll be directed to the Bharatkosh payment gateway to pay the required fees for the application.
 
-![img](media/blog-media/c3d501-23b7c40e6a7e40e4933fbd0e39edcedf-mv2-8bc70d38.png)
+![img](/images/media/blog-media/c3d501-23b7c40e6a7e40e4933fbd0e39edcedf-mv2-8bc70d38.png)
 
 **Step 10: Fee Payment and Submission** In the Applicant worklist, review the fee details, add any necessary remarks, and proceed to pay the fees. After payment, a transaction receipt will be generated.
 
-![img](media/blog-media/c3d501-0a4e995567e4440e99dbac10ebd9886e-mv2-72d62d2a.png)
+![img](/images/media/blog-media/c3d501-0a4e995567e4440e99dbac10ebd9886e-mv2-72d62d2a.png)
 
-![img](media/blog-media/c3d501-6256aa95d2754579ae120ddab4519ca7-mv2-e7e991dd.png)
+![img](/images/media/blog-media/c3d501-6256aa95d2754579ae120ddab4519ca7-mv2-e7e991dd.png)
 
 ## Application Status and Completion
 

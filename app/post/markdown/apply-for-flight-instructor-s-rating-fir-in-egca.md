@@ -5,7 +5,7 @@ date: '2023-08-02'
 tags:
   - apply for flight instructor s rating fir in egca
 category: guide
-cover: media/cover-pictures/c3d501-f731fd74e7434142adf2a136d8ca35c6-mv2-0631e41c.png
+cover: /images/media/cover-pictures/c3d501-f731fd74e7434142adf2a136d8ca35c6-mv2-0631e41c.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/apply-for-flight-instructor-s-rating-fir-in-egca
@@ -53,7 +53,7 @@ Before you proceed further, take a moment to read through the provided instructi
     
 3.  ELP Details: If you possess an ELP (English Language Proficiency) certificate, provide the necessary information.
 
-![img](media/blog-media/c3d501-31a111a9114a4676ad484d149a66f265-mv2-2ff851f5.png)
+![img](/images/media/blog-media/c3d501-31a111a9114a4676ad484d149a66f265-mv2-2ff851f5.png)
 
 ## Step 5: Applying for FIR
 
@@ -65,7 +65,7 @@ Before you proceed further, take a moment to read through the provided instructi
     
 4.  Flying Experience: Fill in details of your flying experience, ensuring all parameters are marked as "Qualified."
 
-![img](media/blog-media/c3d501-adeffc1153664fa6826c53d53da1a44b-mv2-843ab354.png)
+![img](/images/media/blog-media/c3d501-adeffc1153664fa6826c53d53da1a44b-mv2-843ab354.png)
 
 *   Ground Training: Enter your ground training details as requested.
     
@@ -77,7 +77,7 @@ Before you proceed further, take a moment to read through the provided instructi
     
 *   Payment: Proceed to pay the required fees, and upon successful payment, a payment receipt will be generated.
 
-![img](media/blog-media/c3d501-6d5dcaac86ff4942a18a2206cf968ef5-mv2-082f5a86.png)
+![img](/images/media/blog-media/c3d501-6d5dcaac86ff4942a18a2206cf968ef5-mv2-082f5a86.png)
 
 ## Step 6: Post-Application
 
@@ -85,7 +85,7 @@ Before you proceed further, take a moment to read through the provided instructi
     
 2.  Application Status: Keep track of your application's progress through the "License Request Details" option on the portal.
 
-![img](media/blog-media/c3d501-c1e5bfa0e2904702a13b87d2a6bfbe1e-mv2-2f835274.png)
+![img](/images/media/blog-media/c3d501-c1e5bfa0e2904702a13b87d2a6bfbe1e-mv2-2f835274.png)
 
 Achieving a Flight Instructor's Rating (FIR) requires careful navigation through a series of well-defined steps. By following this comprehensive guide, you're setting yourself up for success in your aviation journey. Remember, the date of submission to DGCA marks the completion of the application process, and soon enough, you'll be on your way to inspiring the next generation of pilots. For any further queries, don't hesitate to refer to DGCA's official resources and guidelines.
 

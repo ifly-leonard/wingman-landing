@@ -5,7 +5,7 @@ date: '2023-08-30'
 tags:
   - cfi application approval on egca
 category: guide
-cover: media/cover-pictures/c3d501-de0fd7292bad4352898e219d1759ce5a-mv2-7093b170.png
+cover: /images/media/cover-pictures/c3d501-de0fd7292bad4352898e219d1759ce5a-mv2-7093b170.png
 featured: false
 source: 'https://www.wingmanlog.in/post/cfi-application-approval-on-egca'
 ---
@@ -38,39 +38,39 @@ Begin by visiting the official DGCA website ([www.dgca.gov.in](http://www.dgca.g
 
 Log in using the eGCA ID, password, and captcha associated with the FTO's account.
 
-![img](media/blog-media/c3d501-6696af7b49fa405a99df51a8be8552f7-mv2-2d768d94.png)
+![img](/images/media/blog-media/c3d501-6696af7b49fa405a99df51a8be8552f7-mv2-2d768d94.png)
 
 ### Step 3: Navigate to "Services"
 
 After successful login, select the "Services" tab, followed by "Approval of CFI" service.
 
-![img](media/blog-media/c3d501-e9edad7ab7b54addb90eaa33fde79ad8-mv2-ddb79167.png)
+![img](/images/media/blog-media/c3d501-e9edad7ab7b54addb90eaa33fde79ad8-mv2-ddb79167.png)
 
 ### Step 4: Fill PMR Number or eGCA ID
 
 Provide the PMR Number or eGCA ID to auto-populate the necessary details.
 
-![img](media/blog-media/c3d501-9854595958754ddb9205cdfc924206f2-mv2-0d9574f4.png)
+![img](/images/media/blog-media/c3d501-9854595958754ddb9205cdfc924206f2-mv2-0d9574f4.png)
 
-![img](media/blog-media/c3d501-0055f5deff4b490e928071da2222d653-mv2-646fd0a9.png)
+![img](/images/media/blog-media/c3d501-0055f5deff4b490e928071da2222d653-mv2-646fd0a9.png)
 
 ### Step 5: Complete Application and Document Upload
 
 Fill out the application form with the required information. Upload the necessary documents as specified.
 
-![img](media/blog-media/c3d501-06f7aee225dd4a078bbfab17fbe9071c-mv2-a980238e.png)
+![img](/images/media/blog-media/c3d501-06f7aee225dd4a078bbfab17fbe9071c-mv2-a980238e.png)
 
 ### Step 6: Document Upload
 
 Upload the requisite documents as per the instructions provided.
 
-![img](media/blog-media/c3d501-c08b65ab9164480e9b012bedb86d862c-mv2-390c8a1f.png)
+![img](/images/media/blog-media/c3d501-c08b65ab9164480e9b012bedb86d862c-mv2-390c8a1f.png)
 
 ### Step 7: Complete Application and Send to Dy. CFI
 
 Fill in all the required details, attach necessary documents, and click "Submit." Upon submission, confirm by clicking "Ok" to send the application to the existing Dy. CFI for concurrence.
 
-![img](media/blog-media/c3d501-d0136e1900514fb1bb7e586b2258f6df-mv2-50cce5ff.png)
+![img](/images/media/blog-media/c3d501-d0136e1900514fb1bb7e586b2258f6df-mv2-50cce5ff.png)
 
 ### Step 8: Dy. CFI Review and Approval
 

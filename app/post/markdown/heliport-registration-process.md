@@ -5,7 +5,7 @@ date: '2023-09-01'
 tags:
   - heliport registration process
 category: guide
-cover: media/cover-pictures/c3d501-2f10b1cb01134da995c1882eb8e94e5c-mv2-42f6fcb7.png
+cover: /images/media/cover-pictures/c3d501-2f10b1cb01134da995c1882eb8e94e5c-mv2-42f6fcb7.png
 featured: false
 source: 'https://www.wingmanlog.in/post/heliport-registration-process'
 ---

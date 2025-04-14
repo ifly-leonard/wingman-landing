@@ -5,7 +5,7 @@ date: '2024-11-25'
 tags:
   - how to track atpl requirements with the wingman app
 category: guide
-cover: media/cover-pictures/c3d501-b87cc61e11c24a9589bd0f7e15b8dd39-mv2-de82f5fe.png
+cover: /images/media/cover-pictures/c3d501-b87cc61e11c24a9589bd0f7e15b8dd39-mv2-de82f5fe.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/how-to-track-atpl-requirements-with-the-wingman-app
@@ -35,13 +35,13 @@ If your flight data is uploaded to eGCA, Wingman integrates seamlessly to extrac
 
 2\. On the **homepage**, click on the **eGCA** option.
 
-![img](media/blog-media/c3d501-6a77038c3d744772811d67f6a59a7429-mv2-e1d9c156.jpg)
+![img](/images/media/blog-media/c3d501-6a77038c3d744772811d67f6a59a7429-mv2-e1d9c156.jpg)
 
 3\. Log in using your **eGCA credentials**.  
 
 4\. That’s it! Wingman pulls your flight data directly from eGCA and presents a detailed summary of your ATPL hour requirements.  
 
-![img](media/blog-media/c3d501-fa7977574bb24a75bf35d01f8a53c680-mv2-e87837ef.png)
+![img](/images/media/blog-media/c3d501-fa7977574bb24a75bf35d01f8a53c680-mv2-e87837ef.png)
 
 It’s fast, accurate, and eliminates the need to manually cross-check eGCA records.  
 
@@ -53,21 +53,21 @@ For pilots who log their flight details directly in [Wingman](https://onelink.to
 
 2\. Navigate to the **More** page.  
 
-![img](media/blog-media/c3d501-aca34ce4350b4ef798935df32187304c-mv2-34c875a9.jpg)
+![img](/images/media/blog-media/c3d501-aca34ce4350b4ef798935df32187304c-mv2-34c875a9.jpg)
 
 3\. Tap on **Report/Summary**.
 
-![img](media/blog-media/c3d501-cb020bbc67004e8086b829325305680f-mv2-6ac2e5a1.jpg)
+![img](/images/media/blog-media/c3d501-cb020bbc67004e8086b829325305680f-mv2-6ac2e5a1.jpg)
 
 4\. Select the **Summaries** option and input your flying period by entering the start and end dates.  
 
 5\. From the dropdown menu, choose **ATPL Qualification Report**.  
 
-![img](media/blog-media/c3d501-afb998da8a014e52bdfe05b63584ba87-mv2-549c7527.png)
+![img](/images/media/blog-media/c3d501-afb998da8a014e52bdfe05b63584ba87-mv2-549c7527.png)
 
 6\. Voilà! You’ll have a detailed breakdown of your ATPL hour requirements in seconds.  
 
-![img](media/blog-media/c3d501-559fec0697c449ec8d443a580fd1d148-mv2-cf2fbed2.png)
+![img](/images/media/blog-media/c3d501-559fec0697c449ec8d443a580fd1d148-mv2-cf2fbed2.png)
 
 ## Why Wingman is the Ultimate Tool for Pilots  
 

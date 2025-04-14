@@ -5,7 +5,7 @@ date: '2023-07-23'
 tags:
   - life of a commercial pilot in india
 category: career
-cover: media/cover-pictures/c3d501-3eaa841e5dcc44ecac56251e2c10c695-mv2-81f766c0.jpg
+cover: /images/media/cover-pictures/c3d501-3eaa841e5dcc44ecac56251e2c10c695-mv2-81f766c0.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/life-of-a-commercial-pilot-in-india'
 ---
@@ -24,7 +24,7 @@ The path to becoming a commercial pilot in India is both demanding and rewarding
 
 **Flight Training**
 
-![img](media/blog-media/c3d501-138fbe41ce234cc180c365e1b382c5a0-mv2-3593695a.jpg)
+![img](/images/media/blog-media/c3d501-138fbe41ce234cc180c365e1b382c5a0-mv2-3593695a.jpg)
 
 Flight training is the heart and soul of a pilot's journey. Trainees spend countless hours honing their skills in the cockpit of various aircraft under the watchful eye of experienced flight instructors. They learn how to take off, land, navigate through different weather conditions, and handle emergency situations with utmost precision. The training also emphasizes teamwork, communication, and decision-making abilities, vital traits for a successful pilot.
 

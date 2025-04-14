@@ -5,7 +5,7 @@ date: '2024-11-30'
 tags:
   - how to atpl documentation for nsop pilots a simplified guide
 category: guide
-cover: media/cover-pictures/65ee62-339d269fa43c4b5f858feef3aeeb45cb-mv2-37816511.png
+cover: /images/media/cover-pictures/65ee62-339d269fa43c4b5f858feef3aeeb45cb-mv2-37816511.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/how-to-atpl-documentation-for-nsop-pilots-a-simplified-guide
@@ -41,7 +41,7 @@ With just a few clicks, you can get a detailed breakdown of your [ATPL hour requ
 
 No fuss. No errors.
 
-![img](media/blog-media/65ee62-19349fd0d3f24335aa02b817615a0f10-mv2-da366175.png)
+![img](/images/media/blog-media/65ee62-19349fd0d3f24335aa02b817615a0f10-mv2-da366175.png)
 
 ## Medical Drama
 
@@ -103,9 +103,9 @@ And how do you reach us at Wingman? Write to us at [support@wingman.zohodesk.com
 
 You can also download and sign up with the Wingman App from the links provided above.
 
-![img](media/blog-media/ece1e2-185a391a9da6452a926628e23757206f-mv2-a9d40dfa.jpg)
+![img](/images/media/blog-media/ece1e2-185a391a9da6452a926628e23757206f-mv2-a9d40dfa.jpg)
 
-![img](media/blog-media/ece1e2-7db881de46d548bd868d4c2db738fe02-mv2-919670ba.jpg)
+![img](/images/media/blog-media/ece1e2-7db881de46d548bd868d4c2db738fe02-mv2-919670ba.jpg)
 
 Whether you’re a pilot, passenger, or just someone who dreams of the clouds, there’s something for everyone here at Wingman.
 

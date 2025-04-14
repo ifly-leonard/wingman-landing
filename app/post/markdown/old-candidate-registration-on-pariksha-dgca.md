@@ -5,7 +5,7 @@ date: '2023-08-05'
 tags:
   - old candidate registration on pariksha dgca
 category: guide
-cover: media/cover-pictures/c3d501-39832be24c184755ad8b03a3c6b0891a-mv2-556cccd1.png
+cover: /images/media/cover-pictures/c3d501-39832be24c184755ad8b03a3c6b0891a-mv2-556cccd1.png
 featured: false
 source: 'https://www.wingmanlog.in/post/old-candidate-registration-on-pariksha-dgca'
 ---
@@ -26,7 +26,7 @@ Aviation professionals seeking to excel in their careers often need to undergo e
     
 4.  Complete the captcha verification and press "Submit".
 
-![img](media/blog-media/c3d501-a801a0a18a9b4e178c939cf593666be0-mv2-c9e62664.png)
+![img](/images/media/blog-media/c3d501-a801a0a18a9b4e178c939cf593666be0-mv2-c9e62664.png)
 
 ## Step 2: Interacting with Existing Data
 
@@ -72,7 +72,7 @@ The following fields are mandatory for completion:
     
 *   Captcha
 
-![img](media/blog-media/c3d501-de445030c04e4ad5b3100422aff4e0d4-mv2-7ea5d6bd.png)
+![img](/images/media/blog-media/c3d501-de445030c04e4ad5b3100422aff4e0d4-mv2-7ea5d6bd.png)
 
 ## Step 5: Submission and OTP Verification
 
@@ -90,7 +90,7 @@ The following fields are mandatory for completion:
 
 After successfully generating the password, your entered data will be saved. You will see a screen prompting you to proceed.
 
-![img](media/blog-media/c3d501-0f4e0c7905bb4fc3a4d25909f97fb73d-mv2-6555c5cd.png)
+![img](/images/media/blog-media/c3d501-0f4e0c7905bb4fc3a4d25909f97fb73d-mv2-6555c5cd.png)
 
 ## Step 7: Candidate Login and Profile Update
 

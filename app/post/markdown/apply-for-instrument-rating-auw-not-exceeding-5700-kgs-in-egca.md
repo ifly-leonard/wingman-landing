@@ -5,7 +5,7 @@ date: '2023-08-01'
 tags:
   - apply for instrument rating auw not exceeding 5700 kgs in egca
 category: guide
-cover: media/cover-pictures/c3d501-bb2b93fb0fb742acbe19d674d049a65b-mv2-6725157c.png
+cover: /images/media/cover-pictures/c3d501-bb2b93fb0fb742acbe19d674d049a65b-mv2-6725157c.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/apply-for-instrument-rating-auw-not-exceeding-5700-kgs-in-egca
@@ -27,7 +27,7 @@ Before applying for Instrument Rating, pilots must meet certain pre-requisites t
     
 3.  *Familiarity with Schedule II of Aircraft Rules, 1937*: The applicant must be aware of the applicable sections of Schedule II of Aircraft Rules, 1937, for further information regarding Instrument Rating.
 
-![img](media/blog-media/c3d501-9b413c8c6d3a4b42bc2c099f31cca609-mv2-494e9984.png)
+![img](/images/media/blog-media/c3d501-9b413c8c6d3a4b42bc2c099f31cca609-mv2-494e9984.png)
 
 ## Application Form - Instrument Rating
 
@@ -39,7 +39,7 @@ Before applying for Instrument Rating, pilots must meet certain pre-requisites t
 
 *   From the left-side panel, select the "Instrument Rating" option under the "Services" section.
 
-![img](media/blog-media/c3d501-42b68ed11980417ba7b173441beca439-mv2-4314be4c.png)
+![img](/images/media/blog-media/c3d501-42b68ed11980417ba7b173441beca439-mv2-4314be4c.png)
 
 #### Step 3: Read Instructions and User Manual
 
@@ -55,7 +55,7 @@ Before applying for Instrument Rating, pilots must meet certain pre-requisites t
     
 *   Upload necessary documents, such as RTR Certificate, Medical Certificate, and other required details.
 
-![img](media/blog-media/c3d501-b60153aade3f4808b4b288632341f1e0-mv2-fa5146cf.png)
+![img](/images/media/blog-media/c3d501-b60153aade3f4808b4b288632341f1e0-mv2-fa5146cf.png)
 
 #### Step 5: Correct Discrepancies (If Any)
 
@@ -67,11 +67,11 @@ Before applying for Instrument Rating, pilots must meet certain pre-requisites t
 
 *   Proceed to the payment gateway (Bharatkosh) and make the required fee payment for the Instrument Rating service.
 
-![img](media/blog-media/c3d501-f4ffbd8327304caea5d441421938caa5-mv2-f7ea4daf.png)
+![img](/images/media/blog-media/c3d501-f4ffbd8327304caea5d441421938caa5-mv2-f7ea4daf.png)
 
 *   After successful payment, a payment receipt will be generated.
 
-![img](media/blog-media/c3d501-248769b7a6c24801bf25f9966e0216db-mv2-99c86cbd.png)
+![img](/images/media/blog-media/c3d501-248769b7a6c24801bf25f9966e0216db-mv2-99c86cbd.png)
 
 #### Step 7: Track Application Status
 
@@ -79,7 +79,7 @@ Before applying for Instrument Rating, pilots must meet certain pre-requisites t
     
 *   Track the application status through the "License Request Details" option on the portal.
 
-![img](media/blog-media/c3d501-fa3b2fe9ef974930abf8513ab9526189-mv2-57660672.png)
+![img](/images/media/blog-media/c3d501-fa3b2fe9ef974930abf8513ab9526189-mv2-57660672.png)
 
 Obtaining an Instrument Rating is a significant achievement for pilots, enabling them to fly under challenging weather conditions and improve their career prospects in the aviation industry. The eGCA portal has simplified the process of availing Instrument Rating service for aircraft with AUW not exceeding 5700 kgs, making it easier for pilots to enhance their qualifications.
 

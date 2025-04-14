@@ -5,7 +5,7 @@ date: '2023-12-29'
 tags:
   - how to apply for class 2 medical assessment on egca
 category: guide
-cover: media/cover-pictures/c3d501-c832e4c3ea834974852683f0bdb00d55-mv2-c32a4b15.png
+cover: /images/media/cover-pictures/c3d501-c832e4c3ea834974852683f0bdb00d55-mv2-c32a4b15.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/how-to-apply-for-class-2-medical-assessment-on-egca
@@ -41,41 +41,41 @@ Now, let's explore each step in detail:
 
 *   Once your registration is complete, a unique ID will be generated and sent to you via email or as a text message.  
 
-![img](media/blog-media/c3d501-b17dd1e785fe4e50875d6e40cc46f7d9-mv2-b79e4d54.png)
+![img](/images/media/blog-media/c3d501-b17dd1e785fe4e50875d6e40cc46f7d9-mv2-b79e4d54.png)
 
 ## Step 2: Request a Medical Assessment
 
 *   Return to the eGCA portal and navigate to the section where you can raise a request for a Medical assessment.  
 
-![img](media/blog-media/c3d501-23ad39e39bde4d7ab285f3b63cbe66e8-mv2-8bfa8dfd.png)
+![img](/images/media/blog-media/c3d501-23ad39e39bde4d7ab285f3b63cbe66e8-mv2-8bfa8dfd.png)
 
 ## Step 3: Select an Examiner
 
 *   Here, you must choose a DGCA empaneled Examiner for Medical. These examiners are authorized to conduct your medical assessment.
 
-![img](media/blog-media/c3d501-cd8d399b31794526aa648d34e872a0ce-mv2-ff2ca4a2.png)
+![img](/images/media/blog-media/c3d501-cd8d399b31794526aa648d34e872a0ce-mv2-ff2ca4a2.png)
 
 ## Step 4: Fill the Application Form
 
 *   Completing the e-form accurately is crucial. You must ensure it aligns with the nature of your request. Fill in the Basic Details and Personal Details as very accurately.
 
-![img](media/blog-media/c3d501-0924b0c3089f4228be99b08aa96bdea8-mv2-99ad006f.png)
+![img](/images/media/blog-media/c3d501-0924b0c3089f4228be99b08aa96bdea8-mv2-99ad006f.png)
 
-![img](media/blog-media/c3d501-0a9b8c98c47d4ba2984cf41aaa990680-mv2-f49e8c7a.png)
+![img](/images/media/blog-media/c3d501-0a9b8c98c47d4ba2984cf41aaa990680-mv2-f49e8c7a.png)
 
 *   Submit the application online along with a recent photograph.  
 
-![img](media/blog-media/c3d501-9b58f881f8714bdbb277517195f568c9-mv2-b3303944.png)
+![img](/images/media/blog-media/c3d501-9b58f881f8714bdbb277517195f568c9-mv2-b3303944.png)
 
 *   The e-form should contain comprehensive personal details and a clear medical declaration.  
 
-![img](media/blog-media/c3d501-83f09d009efa4f58bb64078251263b4a-mv2-8f0bd848.png)
+![img](/images/media/blog-media/c3d501-83f09d009efa4f58bb64078251263b4a-mv2-8f0bd848.png)
 
 ## Step 5: Application ID
 
 *   Upon successful submission of the form, an application ID will be automatically generated for you.
 
-![img](media/blog-media/c3d501-e23441ec59e54dc5b8d93e11396d1b7d-mv2-5c0868fb.png)
+![img](/images/media/blog-media/c3d501-e23441ec59e54dc5b8d93e11396d1b7d-mv2-5c0868fb.png)
 
 *   You will receive both an email and an SMS notification. The email will contain a list of blood tests that you need to undergo.
 
@@ -85,7 +85,7 @@ Now, let's explore each step in detail:
     
 *   View application from “Track Status” and Upload Investigation Reports.
 
-![img](media/blog-media/c3d501-3f1281edb2be4f0cb390486c81cc0c58-mv2-03e86078.png)
+![img](/images/media/blog-media/c3d501-3f1281edb2be4f0cb390486c81cc0c58-mv2-03e86078.png)
 
 ## Step 7: Visit the Examiner
 
@@ -93,7 +93,7 @@ Now, let's explore each step in detail:
     
 *   View the application from “Track Status” and Re-validate your application form in the presence of the examiner.
 
-![img](media/blog-media/c3d501-f9390d8718704cc9a341baba80651f54-mv2-942eb554.png)
+![img](/images/media/blog-media/c3d501-f9390d8718704cc9a341baba80651f54-mv2-942eb554.png)
 
 *   Importantly, bring a hard copy of the ID proof you uploaded during your initial registration, as this will be verified.
 
@@ -117,7 +117,7 @@ Now, let's explore each step in detail:
 
 *   If you are deemed fit, the medical assessment will be conveyed to you via the eGCA portal as well as through email.
 
-![img](media/blog-media/c3d501-8889764bf8fa4b7b8f26b53202cf7be6-mv2-668cd676.png)
+![img](/images/media/blog-media/c3d501-8889764bf8fa4b7b8f26b53202cf7be6-mv2-668cd676.png)
 
 *   In the case of being found unfit, an unfitness letter will be communicated in the same manner.
 

@@ -5,7 +5,7 @@ date: '2023-07-22'
 tags:
   - pros cons of flying schools in india and abroad
 category: guide
-cover: media/cover-pictures/c3d501-c2c2bd77ec974136b9e5c5717f47d16f-mv2-14c1149f.jpg
+cover: /images/media/cover-pictures/c3d501-c2c2bd77ec974136b9e5c5717f47d16f-mv2-14c1149f.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/pros-cons-of-flying-schools-in-india-and-abroad'
 ---

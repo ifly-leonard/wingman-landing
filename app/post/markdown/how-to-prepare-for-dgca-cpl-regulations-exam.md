@@ -5,7 +5,7 @@ date: '2023-09-09'
 tags:
   - how to prepare for dgca cpl regulations exam
 category: guide
-cover: media/cover-pictures/c3d501-84edb0ffd3844cfab65904914306edf3-mv2-5ad2617b.png
+cover: /images/media/cover-pictures/c3d501-84edb0ffd3844cfab65904914306edf3-mv2-5ad2617b.png
 featured: true
 source: 'https://www.wingmanlog.in/post/how-to-prepare-for-dgca-cpl-regulations-exam'
 ---

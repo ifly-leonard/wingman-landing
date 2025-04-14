@@ -5,7 +5,7 @@ date: '2024-04-02'
 tags:
   - tips tricks to save cost while doing your flight training
 category: guide
-cover: media/cover-pictures/c3d501-9fe28cd31b744618935a71283eebac3d-mv2-4dbac9ac.png
+cover: /images/media/cover-pictures/c3d501-9fe28cd31b744618935a71283eebac3d-mv2-4dbac9ac.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/tips-tricks-to-save-cost-while-doing-your-flight-training

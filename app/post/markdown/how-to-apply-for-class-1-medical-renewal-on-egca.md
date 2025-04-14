@@ -5,7 +5,7 @@ date: '2023-10-18'
 tags:
   - how to apply for class 1 medical renewal on egca
 category: guide
-cover: media/cover-pictures/c3d501-ed7f9682ac394dc7831318edefc5eef9-mv2-0078a676.png
+cover: /images/media/cover-pictures/c3d501-ed7f9682ac394dc7831318edefc5eef9-mv2-0078a676.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/how-to-apply-for-class-1-medical-renewal-on-egca
@@ -49,7 +49,7 @@ Once you have your eGCA ID, visit the eGCA portal again to raise a request for a
 
 After logging in, go to ***Services -> Medical -> Renewal of Class 1 Medical***
 
-![egca-medical-section](media/blog-media/c3d501-1af19dcb9c7e42f2bd8b49cce1035a37-mv2-672820ba.png)
+![egca-medical-section](/images/media/blog-media/c3d501-1af19dcb9c7e42f2bd8b49cce1035a37-mv2-672820ba.png)
 
 ### Step 3: Choose a Class 1 Examiner
 
@@ -63,15 +63,15 @@ Download PDF • 538KB
 
 Now, you'll need to fill out an e-form with your personal details and medical declaration. Ensure that you provide all the necessary information and submit the application online, including a recent photograph.
 
-![egca-class1-medical-renewal-step1](media/blog-media/c3d501-734c6d9328d342b1abce4c56a4834de3-mv2-84a4994d.png)
+![egca-class1-medical-renewal-step1](/images/media/blog-media/c3d501-734c6d9328d342b1abce4c56a4834de3-mv2-84a4994d.png)
 
-![egca-class1-medical-renewal-step2-add-details](media/blog-media/c3d501-c41dd7b94d7d4fef93b0fcc8d8443b63-mv2-af9837b4.png)
+![egca-class1-medical-renewal-step2-add-details](/images/media/blog-media/c3d501-c41dd7b94d7d4fef93b0fcc8d8443b63-mv2-af9837b4.png)
 
-![egca-class1-medical-renewal-step3](media/blog-media/c3d501-6a1aa3956f044f1cb90cb52390aba750-mv2-e0e14517.png)
+![egca-class1-medical-renewal-step3](/images/media/blog-media/c3d501-6a1aa3956f044f1cb90cb52390aba750-mv2-e0e14517.png)
 
-![egca-class1-medical-renewal-step4](media/blog-media/c3d501-9f05ff86a21a4458b7435fbd23531ef1-mv2-46d6a0ed.png)
+![egca-class1-medical-renewal-step4](/images/media/blog-media/c3d501-9f05ff86a21a4458b7435fbd23531ef1-mv2-46d6a0ed.png)
 
-![egca-class1-medical-renewal-step5](media/blog-media/c3d501-0f01b2567a9b42e8a8fd4761aec2b6e3-mv2-1205d60c.png)
+![egca-class1-medical-renewal-step5](/images/media/blog-media/c3d501-0f01b2567a9b42e8a8fd4761aec2b6e3-mv2-1205d60c.png)
 
 ### Step 5: Application ID and Blood Tests
 
@@ -81,17 +81,17 @@ Upon form submission, an application ID will be generated, and you'll receive an
 
 ***EApplication ID YYYY/eGCA ID/MD/MEA/0000000001***
 
-![egca-class1-medical-renewal-declaration](media/blog-media/c3d501-2aed39cecf2141439194de398d849578-mv2-177a9a29.png)
+![egca-class1-medical-renewal-declaration](/images/media/blog-media/c3d501-2aed39cecf2141439194de398d849578-mv2-177a9a29.png)
 
 ### Step 6: Upload Investigation Reports
 
 Before your actual medical examination, make sure to upload any required investigation reports. This step streamlines the process when you visit the medical examiner.
 
-![egca-class1-medical-renewal-upload-investigation-test-reports](media/blog-media/c3d501-0b12e94388284ea6ba487ef96a85d12e-mv2-be1f15af.png)
+![egca-class1-medical-renewal-upload-investigation-test-reports](/images/media/blog-media/c3d501-0b12e94388284ea6ba487ef96a85d12e-mv2-be1f15af.png)
 
 **Once you upload the reports, make sure you follow the steps to Revalidate the application which sends the application to your medical examiner.**
 
-![egca-class1-medical-renewal-application-submitted](media/blog-media/c3d501-4874860da54045a8afda11623fe87d4a-mv2-0eb534c8.png)
+![egca-class1-medical-renewal-application-submitted](/images/media/blog-media/c3d501-4874860da54045a8afda11623fe87d4a-mv2-0eb534c8.png)
 
 ### Step 7: Visit the Examiner
 

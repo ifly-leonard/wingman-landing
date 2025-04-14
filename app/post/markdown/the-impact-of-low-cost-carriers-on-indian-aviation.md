@@ -5,7 +5,7 @@ date: '2023-07-29'
 tags:
   - the impact of low cost carriers on indian aviation
 category: guide
-cover: media/cover-pictures/c3d501-eaa97e6ad9d346ba9bb073d4a5dbba4e-mv2-230b4869.png
+cover: /images/media/cover-pictures/c3d501-eaa97e6ad9d346ba9bb073d4a5dbba4e-mv2-230b4869.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/the-impact-of-low-cost-carriers-on-indian-aviation
@@ -19,7 +19,7 @@ Over the past two decades, the Indian aviation industry has witnessed a dramatic
 
 ### Accessibility and Affordability
 
-![img](media/blog-media/c3d501-908deb3e92764d30911c69780d95408f-mv2-77273ad9.jpg)
+![img](/images/media/blog-media/c3d501-908deb3e92764d30911c69780d95408f-mv2-77273ad9.jpg)
 
 Low-cost carriers, also known as budget airlines, have redefined air travel in India by focusing on offering competitive ticket prices and cost-cutting measures. The emergence of LCCs has made flying more accessible to millions of people who previously could not afford air travel. By eliminating unnecessary luxuries and adopting a no-frills approach, these airlines have brought down ticket prices significantly, democratizing air travel in India.
 
@@ -33,7 +33,7 @@ The fierce rivalry has also encouraged airlines to expand their route networks, 
 
 ### Job Creation and Economic Growth
 
-![img](media/blog-media/c3d501-9e72e5d918a74a62af9535130fc7c4e9-mv2-c798b5e2.jpg)
+![img](/images/media/blog-media/c3d501-9e72e5d918a74a62af9535130fc7c4e9-mv2-c798b5e2.jpg)
 
 The growth of low-cost carriers has had a profound impact on job creation and economic growth in India. With the expansion of airline operations and an increase in passenger traffic, there has been a surge in demand for skilled professionals in various aviation-related sectors. Pilots, cabin crew, ground staff, engineers, and airport personnel have all witnessed increased employment opportunities.
 
@@ -41,7 +41,7 @@ Moreover, the increased flow of travelers has positively influenced the hospital
 
 ### Innovations and Technological Advancements
 
-![img](media/blog-media/c3d501-5c07b295621a46eeb4979e3a3ddfaae5-mv2-48e80e6e.jpg)
+![img](/images/media/blog-media/c3d501-5c07b295621a46eeb4979e3a3ddfaae5-mv2-48e80e6e.jpg)
 
 To maintain a competitive edge, low-cost carriers have been at the forefront of adopting innovative technologies and operational efficiencies. They have streamlined processes, optimized fuel consumption, and embraced digital solutions for ticketing and customer service.
 

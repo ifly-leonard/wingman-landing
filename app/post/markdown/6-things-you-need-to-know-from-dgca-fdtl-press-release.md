@@ -5,7 +5,7 @@ date: '2024-01-08'
 tags:
   - 6 things you need to know from dgca fdtl press release
 category: guide
-cover: media/cover-pictures/c3d501-e08a87b42e9a45dda9921048797b00bd-mv2-c4e3e760.png
+cover: /images/media/cover-pictures/c3d501-e08a87b42e9a45dda9921048797b00bd-mv2-c4e3e760.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/6-things-you-need-to-know-from-dgca-fdtl-press-release

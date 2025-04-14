@@ -5,7 +5,7 @@ date: '2023-12-18'
 tags:
   - pilot scholarships in india
 category: career
-cover: media/cover-pictures/c3d501-f61de34a3519418da10a708663b0e0d4-mv2-57c683b3.png
+cover: /images/media/cover-pictures/c3d501-f61de34a3519418da10a708663b0e0d4-mv2-57c683b3.png
 featured: false
 source: 'https://www.wingmanlog.in/post/pilot-scholarships-in-india'
 ---

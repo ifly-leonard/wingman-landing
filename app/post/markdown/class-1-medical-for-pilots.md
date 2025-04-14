@@ -5,7 +5,7 @@ date: '2023-07-11'
 tags:
   - class 1 medical for pilots
 category: career
-cover: media/cover-pictures/c3d501-71d44fd0af114a718e51d8c9e04299e2-mv2-9d4ba9ec.png
+cover: /images/media/cover-pictures/c3d501-71d44fd0af114a718e51d8c9e04299e2-mv2-9d4ba9ec.png
 featured: false
 source: 'https://www.wingmanlog.in/post/class-1-medical-for-pilots'
 ---
@@ -62,7 +62,7 @@ Initial medicals are conducted only at the following IAF Boarding Centers and a 
     
 *   Indraprasatha Apollo Hospital,New Delhi Please find the address and contact details of all these hospitals.
     
-    ![img](media/blog-media/c3d501-c9586e103e3748a9882cc541f6246385-mv2-7424d554.png)
+    ![img](/images/media/blog-media/c3d501-c9586e103e3748a9882cc541f6246385-mv2-7424d554.png)
 
 #### **What You’ll Need**
 
@@ -152,7 +152,7 @@ The medical examination includes a comprehensive assessment of:
 
 The tests are as shown in the image for the initial medicals. Additional tests are to be undertaken at certain ages.
 
-![img](media/blog-media/c3d501-9f75ddf7954a4009b421764d5e00d712-mv2-4fa702a6.png)
+![img](/images/media/blog-media/c3d501-9f75ddf7954a4009b421764d5e00d712-mv2-4fa702a6.png)
 
 You may also be required to undergo additional tests depending on your medical history.
 

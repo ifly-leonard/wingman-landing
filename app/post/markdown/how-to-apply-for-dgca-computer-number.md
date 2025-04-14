@@ -5,7 +5,7 @@ date: '2023-06-17'
 tags:
   - how to apply for dgca computer number
 category: guide
-cover: media/cover-pictures/c3d501-110b429ef6ac497c846ccc5d94243b5e-mv2-7e418c6c.png
+cover: /images/media/cover-pictures/c3d501-110b429ef6ac497c846ccc5d94243b5e-mv2-7e418c6c.png
 featured: true
 source: 'https://www.wingmanlog.in/post/how-to-apply-for-dgca-computer-number'
 ---
@@ -78,7 +78,7 @@ Be careful when entering all the information, as spelling mistakes are a common 
 
 Review the document size for each document to submit the application.
 
-![img](media/blog-media/c3d501-bfe95b29abc343dfa0be04fc5731f88d-mv2-13514441.png)
+![img](/images/media/blog-media/c3d501-bfe95b29abc343dfa0be04fc5731f88d-mv2-13514441.png)
 
 Within 10 days of submitting your online application, send the printed form and any necessary supporting documents to the DGCA through speed post only.
 

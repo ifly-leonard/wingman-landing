@@ -5,7 +5,7 @@ date: '2023-07-17'
 tags:
   - cadet pilot program
 category: career
-cover: media/cover-pictures/c3d501-17fcc57616054de3a9fbc834eb9b4f4c-mv2-4ec59da5.jpg
+cover: /images/media/cover-pictures/c3d501-17fcc57616054de3a9fbc834eb9b4f4c-mv2-4ec59da5.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/cadet-pilot-program'
 ---

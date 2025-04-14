@@ -5,7 +5,7 @@ date: '2023-08-24'
 tags:
   - how to prepare for the dgca cpl meteorology exam
 category: guide
-cover: media/cover-pictures/c3d501-890c07ea54504bd28264496b1be285bf-mv2-937a6f8c.png
+cover: /images/media/cover-pictures/c3d501-890c07ea54504bd28264496b1be285bf-mv2-937a6f8c.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/how-to-prepare-for-the-dgca-cpl-meteorology-exam

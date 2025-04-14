@@ -5,7 +5,7 @@ date: '2023-08-28'
 tags:
   - chief ground instructor registration process on egca
 category: guide
-cover: media/cover-pictures/c3d501-6d6e15b941d341d4bb0006d895046ac4-mv2-8e0a0dd5.png
+cover: /images/media/cover-pictures/c3d501-6d6e15b941d341d4bb0006d895046ac4-mv2-8e0a0dd5.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/chief-ground-instructor-registration-process-on-egca
@@ -41,45 +41,45 @@ Navigate to the official DGCA website ([www.dgca.gov.in](http://www.dgca.gov.in/
 
 Upon accessing the eGCA portal, locate and select the "Sign Up" option. This marks the beginning of your registration journey.
 
-![img](media/blog-media/c3d501-335f4ae3ec3c4c0c8a49f83aa2935c49-mv2-31b581f8.png)
+![img](/images/media/blog-media/c3d501-335f4ae3ec3c4c0c8a49f83aa2935c49-mv2-31b581f8.png)
 
 ### Step 3: Choose Chief Ground Instructor
 
 Within the registration options, identify and choose the "Chief Ground Instructor" category. Proceed by submitting your selection.
 
-![img](media/blog-media/c3d501-fae3f399f48d4b3385233c39581a392c-mv2-87229d31.png)
+![img](/images/media/blog-media/c3d501-fae3f399f48d4b3385233c39581a392c-mv2-87229d31.png)
 
 ### Step 4: Indicate No in Valid PMR Option and Provide Personal Details
 
 As a Chief Ground Instructor applicant without a PMR number, select "No" in response to the question regarding a valid PMR. Then, furnish your personal details as required.
 
-![img](media/blog-media/c3d501-7dac9911bc1b475f97824fd1f3730c96-mv2-b3bc284c.png)
+![img](/images/media/blog-media/c3d501-7dac9911bc1b475f97824fd1f3730c96-mv2-b3bc284c.png)
 
-![img](media/blog-media/c3d501-8a468b93aba44c729b15421abb3061bc-mv2-b77d0da9.png)
+![img](/images/media/blog-media/c3d501-8a468b93aba44c729b15421abb3061bc-mv2-b77d0da9.png)
 
 ### Step 5: Fill Correspondence and Permanent Address
 
 Provide accurate information for both your correspondence and permanent addresses.
 
-![img](media/blog-media/c3d501-4161dcf378ee45a19853618531ed1434-mv2-0a68d6e7.png)
+![img](/images/media/blog-media/c3d501-4161dcf378ee45a19853618531ed1434-mv2-0a68d6e7.png)
 
 ### Step 6: Upload Identification Documents
 
 Select your preferred form of identification, input the corresponding identification number, and upload a clear image of the identification document. Additionally, upload a professional photograph of yourself along with your signature.
 
-![img](media/blog-media/c3d501-913ffc3a47c44e7ab03e8bf4e85f575a-mv2-2f5586f4.png)
+![img](/images/media/blog-media/c3d501-913ffc3a47c44e7ab03e8bf4e85f575a-mv2-2f5586f4.png)
 
 ### Step 7: Address Verification and Password Creation
 
 For verification purposes, upload proof of both your permanent and correspondence addresses. Following this, create a secure password for your eGCA account and confirm the password.
 
-![img](media/blog-media/c3d501-cc4fdbc4dc65498f8b826e5707a6fa44-mv2-f6b0fc9d.png)
+![img](/images/media/blog-media/c3d501-cc4fdbc4dc65498f8b826e5707a6fa44-mv2-f6b0fc9d.png)
 
 ### Step 8: Validate Email and Mobile Number
 
 Enter your email address and mobile number, and validate both by inputting the One-Time Password (OTP) sent to your registered mobile number.
 
-![img](media/blog-media/c3d501-0b179a6c25464393958250a5491e469a-mv2-0e973626.png)
+![img](/images/media/blog-media/c3d501-0b179a6c25464393958250a5491e469a-mv2-0e973626.png)
 
 Completing these steps marks your successful registration as a Chief Ground Instructor without a PMR number on the eGCA platform.
 

@@ -5,7 +5,7 @@ date: '2023-09-09'
 tags:
   - different types of pilot uniforms
 category: career
-cover: media/cover-pictures/c3d501-ef9a4f8f465c4d73a2526ab340a8dd09-mv2-a1acfa94.jpg
+cover: /images/media/cover-pictures/c3d501-ef9a4f8f465c4d73a2526ab340a8dd09-mv2-a1acfa94.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/different-types-of-pilot-uniforms'
 ---
@@ -22,7 +22,7 @@ When it comes to pilot uniforms, it's not a one-size-fits-all scenario. Aviation
 
 **India**  
 
-![img](media/blog-media/c3d501-9249320f59784214aeaa8ffc241708b6-mv2-04da5334.jpg)
+![img](/images/media/blog-media/c3d501-9249320f59784214aeaa8ffc241708b6-mv2-04da5334.jpg)
 
 IndiGo, known for its punctuality, seamless service, and affordability, is introducing a retro-style pilot uniform designed by renowned fashion designer Rajesh Pratap Singh. This classic attire includes a navy blue bomber jacket, a white shirt, and comfortable trousers, inspired by World War II bomber jackets. It's made from wool-rich hopsack weave, with both summer and winter trouser options. The shirt offers breathability and low maintenance in long and short sleeves. The design combines functionality with timeless retro appeal, aligning with IndiGo's no-nonsense spirit. The bomber jacket's debut in India adds subtle style and comfort, considering in-flight requirements. Rajesh Pratap Singh praised IndiGo's high standards and on-time commitment. This classy yet cool uniform mirrors IndiGo's chic image, enhancing the overall customer experience.
 
@@ -32,37 +32,37 @@ IndiGo, known for its punctuality, seamless service, and affordability, is intro
 
 **Russia**  
 
-![img](media/blog-media/c3d501-a6c5b91484784045a0f88b6ac934fa58-mv2-f4477fcb.jpg)
+![img](/images/media/blog-media/c3d501-a6c5b91484784045a0f88b6ac934fa58-mv2-f4477fcb.jpg)
 
 Russian military pilots take a more traditional approach with dark green flight suits. They also sport a variety of patches and insignia representing their units and achievements, making each uniform a unique storybook.
 
 ## 3\. Seaplane Pilots
 
-![img](media/blog-media/c3d501-540059d9630b4744b06722f04ad0b7a8-mv2-d5b8bace.jpg)
+![img](/images/media/blog-media/c3d501-540059d9630b4744b06722f04ad0b7a8-mv2-d5b8bace.jpg)
 
 **Maldives:** In the beautiful Maldives, seaplane pilots wear practical uniforms suited for their unique environment. You'll often see them in short-sleeved shirts, shorts, and sandals – a comfortable and casual look that complements the island paradise they operate in.
 
 ## 4\. Bush Pilots
 
-![img](media/blog-media/c3d501-6206600793364f20803e26e0cbbaaeb8-mv2-03edd14b.png)
+![img](/images/media/blog-media/c3d501-6206600793364f20803e26e0cbbaaeb8-mv2-03edd14b.png)
 
 **Canada:** Bush pilots in Canada's remote wilderness have a uniform tailored to their rugged lifestyle. Think heavy-duty boots, warm parkas, and practical gear for harsh weather conditions. These pilots are all about function over fashion.
 
 ## 5\. Helicopter Pilots
 
-![img](media/blog-media/c3d501-6e78de64b942422f9118248fa0587a97-mv2-cf448fe6.jpg)
+![img](/images/media/blog-media/c3d501-6e78de64b942422f9118248fa0587a97-mv2-cf448fe6.jpg)
 
 **Japan:** Japanese helicopter pilots have a sleek and modern look. Their uniforms often feature stylish jumpsuits, complete with patches and name tags. It's a nod to Japan's culture of precision and attention to detail.
 
 ## 6\. Space Pilots (Astronauts)
 
-![img](media/blog-media/c3d501-0985d93bf73844009bb9d2c28d68ead2-mv2-3bf51ab3.jpg)
+![img](/images/media/blog-media/c3d501-0985d93bf73844009bb9d2c28d68ead2-mv2-3bf51ab3.jpg)
 
 **NASA:** Astronauts, often referred to as space pilots, have some of the most specialized uniforms. The iconic orange Advanced Crew Escape Suit (ACES) is worn during launch and re-entry, while the Extravehicular Mobility Unit (EMU) spacesuit is used for spacewalks.
 
 ## 7\. Vintage Aviators
 
-![img](media/blog-media/c3d501-c61f52892f71418e9fc1229d04654cf4-mv2-caa693dd.jpg)
+![img](/images/media/blog-media/c3d501-c61f52892f71418e9fc1229d04654cf4-mv2-caa693dd.jpg)
 
 **Aviation Museums:** Vintage pilots who take part in airshows and aviation museums often wear nostalgic uniforms that harken back to the golden age of aviation. Think leather flight jackets and cloth helmets reminiscent of the early 20th century.
 

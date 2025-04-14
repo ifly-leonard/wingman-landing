@@ -5,7 +5,7 @@ date: '2023-07-11'
 tags:
   - exams to be cleared in order to get cpl ppl atpl
 category: guide
-cover: media/cover-pictures/c3d501-548cf2b9faa7480a8eb4b2e12e969d5b-mv2-a4d7d8a7.png
+cover: /images/media/cover-pictures/c3d501-548cf2b9faa7480a8eb4b2e12e969d5b-mv2-a4d7d8a7.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/exams-to-be-cleared-in-order-to-get-cpl-ppl-atpl

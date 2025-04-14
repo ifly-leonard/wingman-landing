@@ -5,7 +5,7 @@ date: '2024-11-29'
 tags:
   - top 5 reliable air ambulance services in india
 category: guide
-cover: media/cover-pictures/65ee62-2b625a23804c447e9b6d1fea7e93b5f8-mv2-03308c8f.jpg
+cover: /images/media/cover-pictures/65ee62-2b625a23804c447e9b6d1fea7e93b5f8-mv2-03308c8f.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/top-5-reliable-air-ambulance-services-in-india'
 ---
@@ -14,7 +14,7 @@ source: 'https://www.wingmanlog.in/post/top-5-reliable-air-ambulance-services-in
 
 *Writer: Wingman Log | November 29, 2024 | 7 min read*
 
-![img](media/blog-media/65ee62-2b625a23804c447e9b6d1fea7e93b5f8-mv2-190c3c53.jpg)
+![img](/images/media/blog-media/65ee62-2b625a23804c447e9b6d1fea7e93b5f8-mv2-190c3c53.jpg)
 
 > In a world connected by the hum of engines and the whispers of winds, there existed sky-bound storks. Unlike the gentle bird carrying a bundle of life in fairy tales, these modern storks were roaring machines with wings—air ambulances. They didn’t cradle babies but ferried hope, care, and urgency across vast distances, turning hours into minutes and despair into relief.
 

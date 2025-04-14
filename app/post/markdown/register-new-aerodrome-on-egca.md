@@ -5,7 +5,7 @@ date: '2023-08-14'
 tags:
   - register new aerodrome on egca
 category: guide
-cover: media/cover-pictures/c3d501-c48e6f2d339c4da9bdd60f075ff5f3d9-mv2-fe6232d4.png
+cover: /images/media/cover-pictures/c3d501-c48e6f2d339c4da9bdd60f075ff5f3d9-mv2-fe6232d4.png
 featured: false
 source: 'https://www.wingmanlog.in/post/register-new-aerodrome-on-egca'
 ---
@@ -32,7 +32,7 @@ Here's a simplified breakdown of the process to register a new aerodrome:
 
 Start by signing up on the eGCA portal, designating your user type as "aerodrome."
 
-![img](media/blog-media/c3d501-7fc89caf964a42d8bb582f3f3819512c-mv2-5a414c43.jpg)
+![img](/images/media/blog-media/c3d501-7fc89caf964a42d8bb582f3f3819512c-mv2-5a414c43.jpg)
 
 ### Step 2: Choose Your User Type
 
@@ -58,27 +58,27 @@ Upon registration, select the appropriate user type from the following options:
     
 10.  A Society registered under the Societies Registration Act, 1860
 
-![img](media/blog-media/c3d501-a8f2a7036ae7480d9a137b424159b96a-mv2-f72560bf.jpg)
+![img](/images/media/blog-media/c3d501-a8f2a7036ae7480d9a137b424159b96a-mv2-f72560bf.jpg)
 
 ### Step 3: Document Upload and Details
 
 Upload the required registration certificate and provide accurate details as requested.
 
-![img](media/blog-media/c3d501-e35c7fce515f484ca4647ae380b2090c-mv2-ae79b7a3.jpg)
+![img](/images/media/blog-media/c3d501-e35c7fce515f484ca4647ae380b2090c-mv2-ae79b7a3.jpg)
 
-![img](media/blog-media/c3d501-0869b1c9c33f4f31ac278f2e8763d2a6-mv2-878d463d.jpg)
+![img](/images/media/blog-media/c3d501-0869b1c9c33f4f31ac278f2e8763d2a6-mv2-878d463d.jpg)
 
 ### Step 4: Validate Email and Mobile
 
 Secure the process by validating your email ID and mobile number through a One-Time Password (OTP).
 
-![img](media/blog-media/c3d501-f305721e788b44fe997dabcf9de31f68-mv2-6f4e2f11.jpg)
+![img](/images/media/blog-media/c3d501-f305721e788b44fe997dabcf9de31f68-mv2-6f4e2f11.jpg)
 
 ### Step 5: Application Submission
 
 With all information validated and provided, finalize the process by submitting your aerodrome registration application.
 
-![img](media/blog-media/c3d501-fb61ad1f68134682bcdb6868b071e9fa-mv2-79235818.jpg)
+![img](/images/media/blog-media/c3d501-fb61ad1f68134682bcdb6868b071e9fa-mv2-79235818.jpg)
 
 **Final Thoughts**
 

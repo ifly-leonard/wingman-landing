@@ -5,7 +5,7 @@ date: '2025-02-09'
 tags:
   - how digital tools are simplifying aviation recordkeeping
 category: guide
-cover: media/cover-pictures/ece1e2-e84218f0733b49c1ace962daa679e2c4-mv2-2993ea3e.webp
+cover: /images/media/cover-pictures/ece1e2-e84218f0733b49c1ace962daa679e2c4-mv2-2993ea3e.webp
 featured: false
 source: >-
   https://www.wingmanlog.in/post/how-digital-tools-are-simplifying-aviation-recordkeeping
@@ -31,7 +31,7 @@ Aviation recordkeeping refers to the systematic collection, storage, and managem
 
 With the introduction of digital tools, aviation professionals can now streamline their recordkeeping processes. These tools enhance accessibility, improve accuracy, and ultimately contribute to better safety and compliance in the aviation sector.
 
-![Eye-level view of a desktop with aviation records on a screen](media/blog-media/ece1e2-e84218f0733b49c1ace962daa679e2c4-mv2-2993ea3e.webp)
+![Eye-level view of a desktop with aviation records on a screen](/images/media/blog-media/ece1e2-e84218f0733b49c1ace962daa679e2c4-mv2-2993ea3e.webp)
 
 Digital tools enhancing aviation recordkeeping efficiency.
 
@@ -47,7 +47,7 @@ Digital tools, such as aviation management software, mobile applications, and cl
 
 4.  **Data Analysis**: Digital tools often include analytics features that allow users to gain insights from their records. For instance, pilots can analyze their flight hours and training progress, enabling better planning for future flight activities.
 
-![High angle view of an aviation manager reviewing digital documents](media/blog-media/ece1e2-7d72d1baaa7f4931b396c41db29bf8e0-mv2-15852233.webp)
+![High angle view of an aviation manager reviewing digital documents](/images/media/blog-media/ece1e2-7d72d1baaa7f4931b396c41db29bf8e0-mv2-15852233.webp)
 
 Aviation manager utilizing digital tools for efficient recordkeeping.
 
@@ -59,7 +59,7 @@ One of the popular options available today is [Wingman Log](https://www.wingmanl
 
 Using a dedicated pilot logbook app can greatly reduce the stress associated with manual record keeping processes. By automating much of the work, pilots can focus more on their flying rather than being bogged down by paperwork.
 
-![Close-up view of a smartphone displaying a flight logging application](media/blog-media/ece1e2-1a33bb9701f8421abe86565784ba545c-mv2-31328483.png)
+![Close-up view of a smartphone displaying a flight logging application](/images/media/blog-media/ece1e2-1a33bb9701f8421abe86565784ba545c-mv2-31328483.png)
 
 Smartphone showcasing the features of a pilot logbook application.
 
@@ -91,7 +91,7 @@ As technology advances, we can expect even more innovations in aviation recordke
 
 AI-driven tools can automate data entry and track compliance seamlessly. On the other hand, blockchain technology can ensure the integrity of records by providing a tamper-proof digital ledger. These advancements promise to make aviation recordkeeping not just easier but also more reliable and transparent.
 
-![Wide angle view of an aviation office filled with technology](media/blog-media/ece1e2-8c7aeed15b6c49838e304e3374e75a6f-mv2-1a3603ab.webp)
+![Wide angle view of an aviation office filled with technology](/images/media/blog-media/ece1e2-8c7aeed15b6c49838e304e3374e75a6f-mv2-1a3603ab.webp)
 
 Aviation office featuring modern technology for recordkeeping.
 

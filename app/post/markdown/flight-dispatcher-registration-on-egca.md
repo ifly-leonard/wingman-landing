@@ -5,7 +5,7 @@ date: '2023-08-11'
 tags:
   - flight dispatcher registration on egca
 category: guide
-cover: media/cover-pictures/c3d501-1f3356e6272d4dc5937c7be56ff6176e-mv2-2c6d8928.png
+cover: /images/media/cover-pictures/c3d501-1f3356e6272d4dc5937c7be56ff6176e-mv2-2c6d8928.png
 featured: false
 source: 'https://www.wingmanlog.in/post/flight-dispatcher-registration-on-egca'
 ---
@@ -58,27 +58,27 @@ For existing Flight Dispatchers looking to renew their registration, the followi
 
 **Step 1**: Sign up on eGCA portal -"select user type as flight dispatcher"
 
-![img](media/blog-media/c3d501-242a014f40634b3db4b4d21a31153afa-mv2-b2f75341.jpg)
+![img](/images/media/blog-media/c3d501-242a014f40634b3db4b4d21a31153afa-mv2-b2f75341.jpg)
 
 **Step 2**: Select as a new user and proceed to next step
 
-![img](media/blog-media/c3d501-825c459e50b346a186cbacca8580a045-mv2-8eef2fcb.jpg)
+![img](/images/media/blog-media/c3d501-825c459e50b346a186cbacca8580a045-mv2-8eef2fcb.jpg)
 
 **Step 3**: Fill in personal details such as name, gender, nationality, DOB and address. Make sure to fill in all the mandatory fields.
 
-![img](media/blog-media/c3d501-518b13f25d1c46b280fa63575a7b22a8-mv2-33e8b6e6.jpg)
+![img](/images/media/blog-media/c3d501-518b13f25d1c46b280fa63575a7b22a8-mv2-33e8b6e6.jpg)
 
-![img](media/blog-media/c3d501-10e78bfc4579427ebb4820ab37055508-mv2-1b62e0a7.jpg)
+![img](/images/media/blog-media/c3d501-10e78bfc4579427ebb4820ab37055508-mv2-1b62e0a7.jpg)
 
 **Step 4**: Upload ID proof and its details. A photograph and signature also needs to be uploaded along with 10th & 12th Marksheet.(Make sure files are in JPG/PDF format)
 
-![img](media/blog-media/c3d501-cd5167a7d13e4914ad01ef0eb35f313a-mv2-7f3d6a66.jpg)
+![img](/images/media/blog-media/c3d501-cd5167a7d13e4914ad01ef0eb35f313a-mv2-7f3d6a66.jpg)
 
-![img](media/blog-media/c3d501-6e9eb09c37bb4e9d9bdd77adbf0e329f-mv2-1eb5ae02.jpg)
+![img](/images/media/blog-media/c3d501-6e9eb09c37bb4e9d9bdd77adbf0e329f-mv2-1eb5ae02.jpg)
 
 **Step 5**: Fill in your email Id and mobile number a validation OTP would be sent on both for verification.
 
-![img](media/blog-media/c3d501-1f816644e29c42afa9857574516e44bc-mv2-79dd1b05.jpg)
+![img](/images/media/blog-media/c3d501-1f816644e29c42afa9857574516e44bc-mv2-79dd1b05.jpg)
 
 **Step 6**: Accept the declaration and click on submit application.
 
@@ -86,11 +86,11 @@ For existing Flight Dispatchers looking to renew their registration, the followi
 
 **Step 1**: Sign up on eGCA portal “select user type as flight dispatcher
 
-![img](media/blog-media/c3d501-f314d06dfa2d4b639e822768a87a87bf-mv2-5340208d.jpg)
+![img](/images/media/blog-media/c3d501-f314d06dfa2d4b639e822768a87a87bf-mv2-5340208d.jpg)
 
 **Step 2**: Select as a Existing user and fill your FD number and DOB press on validate.
 
-![img](media/blog-media/c3d501-3c9aa699a413468694edb531f1730236-mv2-18e83f53.jpg)
+![img](/images/media/blog-media/c3d501-3c9aa699a413468694edb531f1730236-mv2-18e83f53.jpg)
 
 *Note: If FD No. and Date of Birth is not validated by system, raise a support request.*
 

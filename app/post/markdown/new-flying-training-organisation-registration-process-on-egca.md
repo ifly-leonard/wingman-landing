@@ -5,7 +5,7 @@ date: '2023-08-09'
 tags:
   - new flying training organisation registration process on egca
 category: guide
-cover: media/cover-pictures/c3d501-f9c8277176ab402389aedbe209653d61-mv2-9a8fa623.png
+cover: /images/media/cover-pictures/c3d501-f9c8277176ab402389aedbe209653d61-mv2-9a8fa623.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/new-flying-training-organisation-registration-process-on-egca
@@ -47,27 +47,27 @@ The process for new FTO registration involves a series of steps to ensure accura
     
 *   **Access eGCA Platform:** Visit the eGCA portal, the digital interface connecting aviation enthusiasts and regulatory bodies.
 
-![img](media/blog-media/c3d501-466ae3cf8a5f40ccab5e48d435c2c138-mv2-8e17716b.png)
+![img](/images/media/blog-media/c3d501-466ae3cf8a5f40ccab5e48d435c2c138-mv2-8e17716b.png)
 
-![img](media/blog-media/c3d501-532dacd6a3fc40e088ac9b12c59165ec-mv2-724593a5.png)
+![img](/images/media/blog-media/c3d501-532dacd6a3fc40e088ac9b12c59165ec-mv2-724593a5.png)
 
-![img](media/blog-media/c3d501-9353899e54484d4eb027d48f07e1f1a3-mv2-81af060d.png)
+![img](/images/media/blog-media/c3d501-9353899e54484d4eb027d48f07e1f1a3-mv2-81af060d.png)
 
 *   **Submission of Information:** Input the proposed FTO name, date of incorporation, and details of the authorized person. Ensure accuracy and precision to avoid delays.
 
-![img](media/blog-media/c3d501-f77320e8921e45a0aee11fc935d6d608-mv2-70ff4527.png)
+![img](/images/media/blog-media/c3d501-f77320e8921e45a0aee11fc935d6d608-mv2-70ff4527.png)
 
-![img](media/blog-media/c3d501-2ead58b6d8b4428fb537520b62345feb-mv2-1d1338a2.png)
+![img](/images/media/blog-media/c3d501-2ead58b6d8b4428fb537520b62345feb-mv2-1d1338a2.png)
 
 *   **Review and Confirmation:** Double-check the entered information for any discrepancies. Once confirmed, submit the details.
     
 *   **Verification:** Navigate to the FTO registration section and begin the process by providing your unique email ID and mobile number. An authentication code will be sent to the provided email and mobile number for verification purposes.
 
-![img](media/blog-media/c3d501-49d56aea10cd4f92b5f7d5798cbfedfa-mv2-e202c120.png)
+![img](/images/media/blog-media/c3d501-49d56aea10cd4f92b5f7d5798cbfedfa-mv2-e202c120.png)
 
 *   **Document Submission:** As per the guidelines, upload the necessary documents supporting your FTO registration application. These documents may include legal certifications, incorporation details, and identification of the authorized person.
 
-![img](media/blog-media/c3d501-17aa43fe3e544724a8a22a092acd4226-mv2-1ac41a34.png)
+![img](/images/media/blog-media/c3d501-17aa43fe3e544724a8a22a092acd4226-mv2-1ac41a34.png)
 
 *   **Processing:** The DGCA will review your application and the submitted documents. This is a pivotal phase where your application's accuracy and compliance are assessed.
     

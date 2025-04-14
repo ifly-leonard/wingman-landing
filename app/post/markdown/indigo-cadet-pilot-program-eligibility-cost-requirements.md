@@ -5,7 +5,7 @@ date: '2024-03-04'
 tags:
   - indigo cadet pilot program eligibility cost requirements
 category: career
-cover: media/cover-pictures/c3d501-3d9946646591493e8d57de856766808c-mv2-80383a7e.png
+cover: /images/media/cover-pictures/c3d501-3d9946646591493e8d57de856766808c-mv2-80383a7e.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/indigo-cadet-pilot-program-eligibility-cost-requirements
@@ -21,7 +21,7 @@ Join us as we explore how this program plays a pivotal role in shaping the futur
 
 ## HISTORY OF INDIGO CADET PILOT PROGRAM
 
-![img](media/blog-media/c3d501-5399cb2e125648efa743ea676481a149-mv2-00b73440.png)
+![img](/images/media/blog-media/c3d501-5399cb2e125648efa743ea676481a149-mv2-00b73440.png)
 
 It all started in 2006 when a batch of 39 cadets were selected and sent by IndiGo for a structured program overseas. This project was a huge success and ever since IndiGo never looked back. 
 
@@ -73,7 +73,7 @@ The cost of pilot training programs can vary widely depending on factors such as
 
 ## WHICH SCHOOLS DOES INDIGO PARTNER WITH ?
 
-![img](media/blog-media/c3d501-ad39db9c6f364ae0a1ac0c23b8aa1b76-mv2-f392e991.jpg)
+![img](/images/media/blog-media/c3d501-ad39db9c6f364ae0a1ac0c23b8aa1b76-mv2-f392e991.jpg)
 
 1.  L3 HARRIS 
 
@@ -93,7 +93,7 @@ The cost of pilot training programs can vary widely depending on factors such as
 
 ## WHAT IS THE SELECTION PROCESS?
 
-![img](media/blog-media/c3d501-4931d663ca404cafb4812c09986f7b63-mv2-433aaf7a.jpg)
+![img](/images/media/blog-media/c3d501-4931d663ca404cafb4812c09986f7b63-mv2-433aaf7a.jpg)
 
 The selection process for the IndiGo Cadet Pilot Program typically involves several stages designed to assess the candidates' aptitude, skills, and suitability for the program. Here's a breakdown of the typical selection process:
 
@@ -119,7 +119,7 @@ It's important for candidates to thoroughly prepare for each stage of the select
 
 ## AFTER THE TRAINING
 
-![img](media/blog-media/c3d501-293310a028384966a566427d632517f9-mv2-8ac70abb.jpg)
+![img](/images/media/blog-media/c3d501-293310a028384966a566427d632517f9-mv2-8ac70abb.jpg)
 
 After completing the IndiGo Cadet Pilot Program, successful candidates typically transition into the role of a First Officer (co-pilot) with the airline. Here's what typically happens after the training program:
 

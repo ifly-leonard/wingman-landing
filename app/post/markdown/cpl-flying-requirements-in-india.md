@@ -5,7 +5,7 @@ date: '2023-12-29'
 tags:
   - cpl flying requirements in india
 category: guide
-cover: media/cover-pictures/c3d501-d3455a0a7a424c2692a4276a5a47fb0d-mv2-d568ae68.png
+cover: /images/media/cover-pictures/c3d501-d3455a0a7a424c2692a4276a5a47fb0d-mv2-d568ae68.png
 featured: false
 source: 'https://www.wingmanlog.in/post/cpl-flying-requirements-in-india'
 ---
@@ -26,7 +26,7 @@ To embark on the journey of becoming a commercial pilot in India, a strong acade
 
 The Directorate General of Civil Aviation (DGCA) sets forth the minimum requirements for obtaining a CPL. These include:
 
-![img](media/blog-media/c3d501-ea384055e6034d3cbc8f1c21079fa7b4-mv2-7894afc5.png)
+![img](/images/media/blog-media/c3d501-ea384055e6034d3cbc8f1c21079fa7b4-mv2-7894afc5.png)
 
 \- 100 hours of pilot in command (PIC)
 
@@ -50,7 +50,7 @@ Keep track of the CPL flying requirements just by downloading the Wingman app fo
 
 [https://onelink.to/wingman](https://onelink.to/wingman)  
 
-![img](media/blog-media/c3d501-f29da66c352c489c8e8da24b41c64669-mv2-891ede8b.png)
+![img](/images/media/blog-media/c3d501-f29da66c352c489c8e8da24b41c64669-mv2-891ede8b.png)
 
 ### ***3\. Medical Assessment***
 

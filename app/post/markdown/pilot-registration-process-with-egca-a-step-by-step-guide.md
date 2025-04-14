@@ -5,7 +5,7 @@ date: '2023-08-01'
 tags:
   - pilot registration process with egca a step by step guide
 category: guide
-cover: media/cover-pictures/c3d501-c1ffa456dd8a4a0e934dd4f78e340d5c-mv2-bb6bb9fe.png
+cover: /images/media/cover-pictures/c3d501-c1ffa456dd8a4a0e934dd4f78e340d5c-mv2-bb6bb9fe.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/pilot-registration-process-with-egca-a-step-by-step-guide
@@ -51,7 +51,7 @@ Before you embark on the exciting journey of registering as an aspiring pilot, m
         
     *   Photo Passbook of a running Bank Account (Scheduled Public Sector Banks, Scheduled Private Sector Indian Banks, and Regional Rural Banks only)
 
-![img](media/blog-media/c3d501-3639dcbd7c22461fb04ceb1352221084-mv2-95a8a06e.png)
+![img](/images/media/blog-media/c3d501-3639dcbd7c22461fb04ceb1352221084-mv2-95a8a06e.png)
 
 4\. *Address Proof:* You must possess at least one valid address proof from the following list:
 
@@ -77,7 +77,7 @@ Before you embark on the exciting journey of registering as an aspiring pilot, m
     
 *   Photo Passbook of running Bank Account (Scheduled Public Sector Banks, Scheduled Private Sector Indian Banks, and Regional Rural Banks only)
 
-![img](media/blog-media/c3d501-b26a149a9b7f45de9bfdbf67e1eb0ab4-mv2-1e9f05ce.png)
+![img](/images/media/blog-media/c3d501-b26a149a9b7f45de9bfdbf67e1eb0ab4-mv2-1e9f05ce.png)
 
 5\. *Educational Qualification:* You must have your 10th mark sheet or an equivalent document (in case 10th mark sheet is not applicable).
 
@@ -97,9 +97,9 @@ Aspiring Pilot Registration Process:
     
 *   *Unique Pilot Number*: Once your documents are verified, you will be assigned a unique pilot number/ID, which is essential for availing DGCA services.
 
-![img](media/blog-media/c3d501-e208978dc0d24e518e5787de1fec045d-mv2-e6eb101c.png)
+![img](/images/media/blog-media/c3d501-e208978dc0d24e518e5787de1fec045d-mv2-e6eb101c.png)
 
-![img](media/blog-media/c3d501-ef818847e0fc47adac6c8b75c06bbd71-mv2-9c93bd58.png)
+![img](/images/media/blog-media/c3d501-ef818847e0fc47adac6c8b75c06bbd71-mv2-9c93bd58.png)
 
 ## Existing Pilot Registration Pre-requisites
 
@@ -129,7 +129,7 @@ For existing pilots who wish to validate their PMR No. with eGCA, the following 
     
 *   *Unique Pilot Number*: Once your documents and PMR No. are validated, you will retain your existing pilot number/ID, enabling you to continue availing DGCA services.
 
-![img](media/blog-media/c3d501-cabaab00087a4d8ab06116fb81b38f40-mv2-79188082.png)
+![img](/images/media/blog-media/c3d501-cabaab00087a4d8ab06116fb81b38f40-mv2-79188082.png)
 
 You can refer the attached pdf for a detailed procedure of the registration.
 

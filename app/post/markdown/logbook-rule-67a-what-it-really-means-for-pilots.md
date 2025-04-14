@@ -5,7 +5,7 @@ date: '2024-10-25'
 tags:
   - logbook rule 67a what it really means for pilots
 category: career
-cover: media/cover-pictures/c3d501-e8c3724a64874b128cc3ff46718327ee-mv2-509a625e.png
+cover: /images/media/cover-pictures/c3d501-e8c3724a64874b128cc3ff46718327ee-mv2-509a625e.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/logbook-rule-67a-what-it-really-means-for-pilots

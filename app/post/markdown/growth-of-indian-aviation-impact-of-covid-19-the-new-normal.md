@@ -5,7 +5,7 @@ date: '2023-07-23'
 tags:
   - growth of indian aviation impact of covid 19 the new normal
 category: guide
-cover: media/cover-pictures/c3d501-a92bcda5f1544ed6bc5face5a705c656-mv2-32c374b6.jpg
+cover: /images/media/cover-pictures/c3d501-a92bcda5f1544ed6bc5face5a705c656-mv2-32c374b6.jpg
 featured: false
 source: >-
   https://www.wingmanlog.in/post/growth-of-indian-aviation-impact-of-covid-19-the-new-normal
@@ -19,7 +19,7 @@ The Indian aviation industry has witnessed an incredible journey over the years,
 
 ***Taking Flight: The Growth of Indian Aviation***
 
-![img](media/blog-media/c3d501-a92bcda5f1544ed6bc5face5a705c656-mv2-32c374b6.jpg)
+![img](/images/media/blog-media/c3d501-a92bcda5f1544ed6bc5face5a705c656-mv2-32c374b6.jpg)
 
 The roots of Indian aviation can be traced back to 1911 when the first commercial flight took off from Allahabad, but it was post-independence that the industry began to spread its wings. Over the years, various policy reforms, economic liberalization, and advancements in technology bolstered the aviation sector. Here are some noteworthy metrics that exemplify the growth of Indian aviation:
 
@@ -35,7 +35,7 @@ The roots of Indian aviation can be traced back to 1911 when the first commercia
 
 ***Impact of COVID-19 on Indian Aviation***
 
-![img](media/blog-media/c3d501-a570a5121d9b43b18effc17239d55e98-mv2-050ac8fc.jpg)
+![img](/images/media/blog-media/c3d501-a570a5121d9b43b18effc17239d55e98-mv2-050ac8fc.jpg)
 
 Just when the Indian aviation industry seemed invincible, the COVID-19 pandemic struck, bringing the world to a standstill. The impact on the aviation sector was profound, and India was no exception. Here's a closer look at the repercussions:
 
@@ -51,7 +51,7 @@ Just when the Indian aviation industry seemed invincible, the COVID-19 pandemic 
 
 ***Looking Ahead : Navigating the New Normal***
 
-![img](media/blog-media/c3d501-02cdcad74f0f4452ad07e430a8f87590-mv2-78704720.jpg)
+![img](/images/media/blog-media/c3d501-02cdcad74f0f4452ad07e430a8f87590-mv2-78704720.jpg)
 
 While the COVID-19 pandemic dealt a severe blow to Indian aviation, the industry has proven its resilience time and again. As vaccination efforts expanded and global travel sentiment improved, signs of recovery began to emerge. However, it became evident that the pandemic reshaped certain aspects of the industry permanently:
 

@@ -5,7 +5,7 @@ date: '2023-09-08'
 tags:
   - chimes aviation academy caa
 category: guide
-cover: media/cover-pictures/c3d501-e07871f7bad442248f6c0ce42984030d-mv2-b9526f8c.png
+cover: /images/media/cover-pictures/c3d501-e07871f7bad442248f6c0ce42984030d-mv2-b9526f8c.png
 featured: false
 source: 'https://www.wingmanlog.in/post/chimes-aviation-academy-caa'
 ---
@@ -26,7 +26,7 @@ Chimes Aviation Academy, part of the Chimes Group, started its journey in 2008. 
 
 ## Facilities
 
-![img](media/blog-media/c3d501-a21edb24b2e44422bf37d4ac5d366053-mv2-1a924955.jpg)
+![img](/images/media/blog-media/c3d501-a21edb24b2e44422bf37d4ac5d366053-mv2-1a924955.jpg)
 
 What makes Chimes Aviation Academy tick? It's their awesome facilities, of course! Tucked away at the Dhana Airfield in Madhya Pradesh, India, this place sprawls across 100 acres of prime aviation real estate. Here's what you'll find:
 

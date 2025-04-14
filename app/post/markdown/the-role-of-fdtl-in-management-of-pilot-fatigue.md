@@ -5,7 +5,7 @@ date: '2024-02-29'
 tags:
   - the role of fdtl in management of pilot fatigue
 category: career
-cover: media/cover-pictures/c3d501-ba68b534a8914ff7ada6b23c654c4ba8-mv2-5cac9c27.png
+cover: /images/media/cover-pictures/c3d501-ba68b534a8914ff7ada6b23c654c4ba8-mv2-5cac9c27.png
 featured: false
 source: 'https://www.wingmanlog.in/post/the-role-of-fdtl-in-management-of-pilot-fatigue'
 ---
@@ -46,14 +46,14 @@ It aims to restrict the number of hours a flight crew can do in a specified peri
 
 ## MAXIMUM CUMULATIVE FLIGHT TIME AND DUTY PERIOD LIMITATIONS:-
 
-![img](media/blog-media/c3d501-7083e3a5e4f146aab68c673fd4fe6f97-mv2-00d5b520.jpg)
+![img](/images/media/blog-media/c3d501-7083e3a5e4f146aab68c673fd4fe6f97-mv2-00d5b520.jpg)
 
 ## FLIGHT TIME, FLIGHT DUTY PERIOD AND DUTY PERIOD LIMITS: TWO PILOT OPERATION
 
-![img](media/blog-media/c3d501-fa75ac7414e144c0a8a558d29d03b4e1-mv2-a5632a3f.jpg)
+![img](/images/media/blog-media/c3d501-fa75ac7414e144c0a8a558d29d03b4e1-mv2-a5632a3f.jpg)
 
 ## FLIGHT TIME AND FLIGHT DUTY PERIOD LIMITS: AUGMENTED CREW
 
-![img](media/blog-media/c3d501-0c9a0d657d0f4ca49f2763424ec5901f-mv2-8e3983bf.jpg)
+![img](/images/media/blog-media/c3d501-0c9a0d657d0f4ca49f2763424ec5901f-mv2-8e3983bf.jpg)
 
 > Let’s check how much you know about the FDTL rules now

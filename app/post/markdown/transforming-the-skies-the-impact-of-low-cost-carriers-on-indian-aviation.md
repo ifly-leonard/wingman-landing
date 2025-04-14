@@ -5,7 +5,7 @@ date: '2023-07-25'
 tags:
   - transforming the skies the impact of low cost carriers on indian aviation
 category: guide
-cover: media/cover-pictures/c3d501-4030b666f0be4c2f9d4c6004813a1fe3-mv2-89a14f99.jpg
+cover: /images/media/cover-pictures/c3d501-4030b666f0be4c2f9d4c6004813a1fe3-mv2-89a14f99.jpg
 featured: false
 source: >-
   https://www.wingmanlog.in/post/transforming-the-skies-the-impact-of-low-cost-carriers-on-indian-aviation

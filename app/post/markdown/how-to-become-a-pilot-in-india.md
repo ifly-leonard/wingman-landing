@@ -5,7 +5,7 @@ date: '2022-11-10'
 tags:
   - how to become a pilot in india
 category: guide
-cover: media/cover-pictures/c3d501-06ff3837e42b4c6abaef8e936998eb77-mv2-f73b7203.jpg
+cover: /images/media/cover-pictures/c3d501-06ff3837e42b4c6abaef8e936998eb77-mv2-f73b7203.jpg
 featured: true
 source: 'https://www.wingmanlog.in/post/how-to-become-a-pilot-in-india'
 ---

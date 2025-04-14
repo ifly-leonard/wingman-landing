@@ -5,7 +5,7 @@ date: '2023-08-31'
 tags:
   - conversion of foreign cpl to an indian pilot license
 category: career
-cover: media/cover-pictures/c3d501-32fe31b4619c49888b7d4d18b9723c03-mv2-d7693422.png
+cover: /images/media/cover-pictures/c3d501-32fe31b4619c49888b7d4d18b9723c03-mv2-d7693422.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/conversion-of-foreign-cpl-to-an-indian-pilot-license

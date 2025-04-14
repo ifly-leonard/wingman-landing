@@ -5,7 +5,7 @@ date: '2023-07-27'
 tags:
   - the future of sustainable aviation paving the skyway to a greener future vr
 category: guide
-cover: media/cover-pictures/c3d501-2a1cbe5647c143a28a8b4b94248f7aaa-mv2-7ff84a61.jpg
+cover: /images/media/cover-pictures/c3d501-2a1cbe5647c143a28a8b4b94248f7aaa-mv2-7ff84a61.jpg
 featured: false
 source: >-
   https://www.wingmanlog.in/post/the-future-of-sustainable-aviation-paving-the-skyway-to-a-greener-future-vr
@@ -21,7 +21,7 @@ As the world continues to grapple with the pressing challenge of climate change,
 
 One of the most promising aspects of sustainable aviation lies in the development of alternative fuels. Traditional jet fuel is derived from fossil fuels and emits substantial CO2 and other harmful pollutants. However, researchers and aviation pioneers have been working tirelessly to find greener alternatives.
 
-![img](media/blog-media/c3d501-e9ed0e0b2844412682a7866f9477bf73-mv2-e5fc1f5c.jpg)
+![img](/images/media/blog-media/c3d501-e9ed0e0b2844412682a7866f9477bf73-mv2-e5fc1f5c.jpg)
 
 *a. Sustainable Aviation Fuels (SAF)*: SAF, also known as biofuels, are derived from renewable sources such as algae, plant waste, or even municipal solid waste. SAF can be blended with conventional jet fuel or used as a drop-in replacement, significantly reducing carbon emissions and pollutants.
 
@@ -31,7 +31,7 @@ One of the most promising aspects of sustainable aviation lies in the developmen
 
 Electric aviation represents an exciting frontier for sustainable air travel. Although electric aircraft face limitations regarding range and payload capacity at present, ongoing research and development aim to overcome these challenges.
 
-![img](media/blog-media/c3d501-9d7abdf4cdc34a3199fb6bbdc9cc5fe0-mv2-8640e6f8.jpg)
+![img](/images/media/blog-media/c3d501-9d7abdf4cdc34a3199fb6bbdc9cc5fe0-mv2-8640e6f8.jpg)
 
 *a. Electric Short-Haul Flights*: Electric planes have shown great promise for short-haul regional flights. Their lower energy consumption and zero emissions during flight could revolutionize travel on shorter routes and reduce the reliance on traditional fossil-fuel-powered aircraft.
 
@@ -41,7 +41,7 @@ Electric aviation represents an exciting frontier for sustainable air travel. Al
 
 Advancements in aerodynamics, lightweight materials, and aircraft design are also contributing to more sustainable aviation.
 
-![img](media/blog-media/c3d501-8b15209348e64842952b6cf94b17d161-mv2-5efb68be.jpg)
+![img](/images/media/blog-media/c3d501-8b15209348e64842952b6cf94b17d161-mv2-5efb68be.jpg)
 
 *a. Advanced Materials*: The use of lightweight and composite materials in aircraft construction leads to reduced fuel consumption and lower emissions.
 
@@ -51,7 +51,7 @@ Advancements in aerodynamics, lightweight materials, and aircraft design are als
 
 Sustainable aviation encompasses more than just greener aircraft. Efficient air traffic management and modernized infrastructure play vital roles in reducing emissions and enhancing sustainability.
 
-![img](media/blog-media/c3d501-d3fa9413dbb445abb573bbce2fe3d57a-mv2-c1b31040.jpg)
+![img](/images/media/blog-media/c3d501-d3fa9413dbb445abb573bbce2fe3d57a-mv2-c1b31040.jpg)
 
 *a. Next-Generation Air Traffic Management*: Implementing advanced air traffic management systems, such as the Single European Sky ATM Research (SESAR) or NextGen in the United States, can optimize flight paths, reduce congestion, and minimize fuel consumption.
 

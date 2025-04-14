@@ -5,7 +5,7 @@ date: '2023-08-18'
 tags:
   - how to endorse air traffic controller s elp on egca
 category: guide
-cover: media/cover-pictures/c3d501-5c7d4dfffb5843418bb29a5493c43777-mv2-76373a88.png
+cover: /images/media/cover-pictures/c3d501-5c7d4dfffb5843418bb29a5493c43777-mv2-76373a88.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/how-to-endorse-air-traffic-controller-s-elp-on-egca
@@ -35,7 +35,7 @@ Let's walk through the step-by-step process that an applicant needs to follow to
 
 The first step involves visiting the eGCA portal and clicking on the "eGCA Login" option. This action takes the applicant to the login page where they need to provide their eGCA ID, password, and complete a captcha verification.
 
-![img](media/blog-media/c3d501-9f9d615032fa4af5b613ef8b30f00f50-mv2-e87393f6.png)
+![img](/images/media/blog-media/c3d501-9f9d615032fa4af5b613ef8b30f00f50-mv2-e87393f6.png)
 
 **Step 2: Applicant Login**
 
@@ -45,7 +45,7 @@ Upon successful login, the applicant gains access to their eGCA dashboard. This 
 
 In the eGCA dashboard, the applicant selects the "Services" tab, which opens a dropdown menu of available services. Among these options, they need to click on "Application for Air Traffic Controllers (ATC) License and Rating."
 
-![img](media/blog-media/c3d501-f55332aa89214d678f3131005954c6f0-mv2-0143d696.png)
+![img](/images/media/blog-media/c3d501-f55332aa89214d678f3131005954c6f0-mv2-0143d696.png)
 
 **Step 4: Service Details Tab**
 
@@ -57,7 +57,7 @@ After selecting the "Endorsement of ELP" option, the applicant can proceed to fi
 
 **Step 6: Submission and Request ID Generation** Once the application form is completed, the applicant can review the information for accuracy and completeness. After ensuring that all details are accurate, they can submit the form. Upon submission, the eGCA system generates a unique request ID for the endorsement application.
 
-![img](media/blog-media/c3d501-72dc64426db44995bcc2e98a698da58b-mv2-8ded8e53.png)
+![img](/images/media/blog-media/c3d501-72dc64426db44995bcc2e98a698da58b-mv2-8ded8e53.png)
 
 The Endorsement of ELP on an Air Traffic Controllers (ATC) license is crucial in ensuring the competence and communication abilities of individuals responsible for safely guiding aircraft through the skies. By following the outlined steps on the eGCA portal, applicants can efficiently navigate the process of obtaining this endorsement. As the aviation industry continues to prioritize safety and efficiency, this endorsement serves as a testament to the high standards set for those entrusted with the vital role of air traffic control.
 

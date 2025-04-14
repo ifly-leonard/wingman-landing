@@ -5,7 +5,7 @@ date: '2023-07-24'
 tags:
   - how much do pilots earn in india
 category: career
-cover: media/cover-pictures/c3d501-08e20314e3974a199c8f717f6662320f-mv2-97222816.jpg
+cover: /images/media/cover-pictures/c3d501-08e20314e3974a199c8f717f6662320f-mv2-97222816.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/how-much-do-pilots-earn-in-india'
 ---
@@ -16,7 +16,7 @@ source: 'https://www.wingmanlog.in/post/how-much-do-pilots-earn-in-india'
 
 Becoming an airline pilot is a dream for many aviation enthusiasts in India. Apart from the thrill of flying, the allure of a fulfilling career and attractive compensation packages make this profession highly sought after. In this blog, we will delve into the airline pilot salaries offered by major airlines in India. From budget carriers to full-service airlines, each offers its own remuneration packages and benefits, making it essential for aspiring pilots to understand the nuances before choosing their career path.
 
-![img](media/blog-media/c3d501-4779d5daae464bbc9b37b6bf7c805720-mv2-2438d9d2.jpg)
+![img](/images/media/blog-media/c3d501-4779d5daae464bbc9b37b6bf7c805720-mv2-2438d9d2.jpg)
 
 **IndiGo Airlines**  
 

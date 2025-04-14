@@ -9,7 +9,7 @@ tags:
     how to apply and renew rtr a p in india issue renewal and conversion
     everything you need to kn
 category: guide
-cover: media/cover-pictures/c3d501-571509e066e0433d971ee469781aeb44-mv2-ffbd64f6.png
+cover: /images/media/cover-pictures/c3d501-571509e066e0433d971ee469781aeb44-mv2-ffbd64f6.png
 featured: true
 source: >-
   https://www.wingmanlog.in/post/how-to-apply-and-renew-rtr-a-p-in-india-issue-renewal-and-conversion-everything-you-need-to-kn

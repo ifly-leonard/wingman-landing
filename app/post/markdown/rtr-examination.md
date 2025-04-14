@@ -5,7 +5,7 @@ date: '2023-07-14'
 tags:
   - rtr examination
 category: guide
-cover: media/cover-pictures/c3d501-201be0b730ed4c73a69759b186ae4125-mv2-c249ebc7.jpg
+cover: /images/media/cover-pictures/c3d501-201be0b730ed4c73a69759b186ae4125-mv2-c249ebc7.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/rtr-examination'
 ---

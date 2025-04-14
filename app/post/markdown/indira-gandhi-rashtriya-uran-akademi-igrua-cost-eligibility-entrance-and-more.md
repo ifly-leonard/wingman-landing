@@ -7,7 +7,7 @@ tags:
     indira gandhi rashtriya uran akademi igrua cost eligibility entrance and
     more
 category: guide
-cover: media/cover-pictures/c3d501-4a467b6608fa4fbaab76006810e5d535-mv2-909f59eb.jpg
+cover: /images/media/cover-pictures/c3d501-4a467b6608fa4fbaab76006810e5d535-mv2-909f59eb.jpg
 featured: false
 source: >-
   https://www.wingmanlog.in/post/indira-gandhi-rashtriya-uran-akademi-igrua-cost-eligibility-entrance-and-more
@@ -29,7 +29,7 @@ IGRUA offers a range of aviation courses catering to both aspiring pilots and av
 
 Additionally, IGRUA offers specialized courses in areas like Flight Instructor Training, Multi-Engine Endorsement, and Type Rating for different aircraft. These courses enable students to diversify their skills and excel in various aviation-related fields.
 
-![img](media/blog-media/c3d501-a22a94f86c1b4943baaf3baf74fd12c5-mv2-f895d8b0.jpg)
+![img](/images/media/blog-media/c3d501-a22a94f86c1b4943baaf3baf74fd12c5-mv2-f895d8b0.jpg)
 
 ## Fees Structure
 

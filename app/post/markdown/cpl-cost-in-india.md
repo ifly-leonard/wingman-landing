@@ -5,7 +5,7 @@ date: '2023-07-08'
 tags:
   - cpl cost in india
 category: guide
-cover: media/cover-pictures/c3d501-4a30e4f018f5439884b43921a0ce36c2-mv2-f2e4e252.jpg
+cover: /images/media/cover-pictures/c3d501-4a30e4f018f5439884b43921a0ce36c2-mv2-f2e4e252.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/cpl-cost-in-india'
 ---
@@ -16,7 +16,7 @@ source: 'https://www.wingmanlog.in/post/cpl-cost-in-india'
 
 Embarking on the journey to become a commercial pilot in India is an exciting and rewarding endeavor. However, it is crucial for aspiring pilots to have a clear understanding of the financial aspects involved, particularly the cost associated with obtaining a Commercial Pilot License (CPL) in India. In this blog, we will delve into the various components that contribute to the overall cost and provide you with a comprehensive overview of the expenses associated with pursuing a CPL in India.
 
-![Cost of obtaining a CPL in India](media/blog-media/c3d501-4a30e4f018f5439884b43921a0ce36c2-mv2-f2e4e252.jpg)
+![Cost of obtaining a CPL in India](/images/media/blog-media/c3d501-4a30e4f018f5439884b43921a0ce36c2-mv2-f2e4e252.jpg)
 
 Cost of obtaining a CPL in India
 

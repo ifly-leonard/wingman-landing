@@ -5,7 +5,7 @@ date: '2024-02-27'
 tags:
   - all you need to know about the air india cadet pilot program
 category: career
-cover: media/cover-pictures/c3d501-0c31d78ae2ca4b84aa2371113585c926-mv2-7ed6409e.png
+cover: /images/media/cover-pictures/c3d501-0c31d78ae2ca4b84aa2371113585c926-mv2-7ed6409e.png
 featured: false
 source: >-
   https://www.wingmanlog.in/post/all-you-need-to-know-about-the-air-india-cadet-pilot-program
@@ -19,7 +19,7 @@ Air India announced a much awaited cadet pilot program for the benefit of many a
 
 This article is your one stop guide to all the details about the Air India cadet pilot program
 
-![img](media/blog-media/c3d501-015ba9d345614e9d864c102738fd829c-mv2-80f25546.jpg)
+![img](/images/media/blog-media/c3d501-015ba9d345614e9d864c102738fd829c-mv2-80f25546.jpg)
 
 ## Key Takeaways: Air India Cadet Pilot Program [https://www.instagram.com/p/C32hXsRrdvZ/?utm\_source=ig\_web\_copy\_link&igsh=MzRlODBiNWFlZA==](https://www.instagram.com/p/C32hXsRrdvZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 
@@ -43,7 +43,7 @@ This article is your one stop guide to all the details about the Air India cadet
 
 ## **What does the Air India Cadet Pilot Program offer?**
 
-![img](media/blog-media/c3d501-4daaa1e4a15f4b5e803932f9f0d90aac-mv2-16f6a090.jpg)
+![img](/images/media/blog-media/c3d501-4daaa1e4a15f4b5e803932f9f0d90aac-mv2-16f6a090.jpg)
 
 The courses offered through this program prioritize top-tier training, aimed at molding you into an Air India pilot right from the start.
 
@@ -109,11 +109,11 @@ Candidates will do their CPL flying training at the Air India school partners fa
 
 1\. AeroGuard Flight Training Center, has locations in Phoenix (AZ), Chandler (AZ), and Austin (TX). Air India cadets will be based at their Phoenix location in Arizona.
 
-![img](media/blog-media/c3d501-3deeab1bde5541cfb9f2461dd65319aa-mv2-972e9e0f.png)
+![img](/images/media/blog-media/c3d501-3deeab1bde5541cfb9f2461dd65319aa-mv2-972e9e0f.png)
 
 2\. L3Harris Group, which has training locations in the United States and the United Kingdom. Air India cadets will be based at their Sanford location in Florida in the United States. 
 
-![img](media/blog-media/c3d501-3a90dacd793e463f9ca84f3ea5f8d940-mv2-497d5243.jpg)
+![img](/images/media/blog-media/c3d501-3a90dacd793e463f9ca84f3ea5f8d940-mv2-497d5243.jpg)
 
 ## **After the Training**
 

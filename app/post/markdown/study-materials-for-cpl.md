@@ -5,7 +5,7 @@ date: '2023-07-20'
 tags:
   - study materials for cpl
 category: guide
-cover: media/cover-pictures/c3d501-3cac78c0e35d417e82ec9138afa60e17-mv2-7d7f8b42.jpg
+cover: /images/media/cover-pictures/c3d501-3cac78c0e35d417e82ec9138afa60e17-mv2-7d7f8b42.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/study-materials-for-cpl'
 ---

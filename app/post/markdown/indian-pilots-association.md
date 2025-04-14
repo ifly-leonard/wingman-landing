@@ -5,7 +5,7 @@ date: '2023-07-14'
 tags:
   - indian pilots association
 category: career
-cover: media/cover-pictures/c3d501-a9305b0332ca4456b3eaf4188bfd8893-mv2-09bd0d88.jpg
+cover: /images/media/cover-pictures/c3d501-a9305b0332ca4456b3eaf4188bfd8893-mv2-09bd0d88.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/indian-pilots-association'
 ---

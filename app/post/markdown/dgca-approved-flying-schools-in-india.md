@@ -5,7 +5,7 @@ date: '2023-07-29'
 tags:
   - dgca approved flying schools in india
 category: guide
-cover: media/cover-pictures/c3d501-c65b12e202e148acae032e35727c2389-mv2-58bfe244.jpg
+cover: /images/media/cover-pictures/c3d501-c65b12e202e148acae032e35727c2389-mv2-58bfe244.jpg
 featured: false
 source: 'https://www.wingmanlog.in/post/dgca-approved-flying-schools-in-india'
 ---
