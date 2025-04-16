@@ -18,7 +18,7 @@ export default function BlogPostNotFound() {
               Pan-pan, pan-pan, pan-pan
             </h1>
             
-            <p className="text-xl mb-8">The page that you're looking for, looks like it's vanished. Maybe the link has changed? Try using the "search" function.</p>
+            <p className="text-xl mb-8">The page that you&apos;re looking for, looks like it&apos;s vanished. Maybe the link has changed? Try using the &quot;search&quot; function.</p>
             
             <Link href="/post" className="bg-red-600 hover:bg-red-700 text-center text-white font-medium py-2 px-4 rounded-md transition-colors">
               View other blogs

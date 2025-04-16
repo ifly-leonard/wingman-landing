@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
 import Link from "next/link";
+import Image from "next/image";
 
 const airlines = [
     {
@@ -604,17 +605,11 @@ const firstRow = airlines.slice(0, airlines.length / 20);
 const secondRow = airlines.slice(airlines.length / 20);
 
 const ReviewCard = ({
-    icao,
     iata,
     name,
-    roster_system,
-    logo,
 }: {
-    icao: string;
     iata: string;
     name: string;
-    roster_system: string;
-    logo: string;    
 }) => {
   return (
     <figure
@@ -627,8 +622,12 @@ const ReviewCard = ({
       )}
     >
       <div className="">        
-        {/* <img width="32" height="32" alt="" src={logo} /> */}
-        <img alt={`${name}`} src={`https://content.airhex.com/content/logos/airlines_${iata}_701_200_r.png`} />
+        <Image 
+          width={200}
+          height={100}
+          alt={`${name}`}
+          src={`https://content.airhex.com/content/logos/airlines_${iata}_701_200_r.png`}
+        />
         <p className="text-xs font-medium text-center mt-2 text-gray-400">{name}</p>
       </div>      
     </figure>
@@ -661,7 +660,7 @@ export default function WingmanProductAirlines() {
                 AirRoster works with <span className="p-1 bg-blue-500 text-white rounded-md">20+ roster providers</span> covering <span className="p-1 bg-blue-500 text-white rounded-md">100+ airlines</span> in the 🌏                        
                 <br />
                 <span className="text-lg text-gray-700 font-normal tracking-normal">
-                    Can't find your roster integration? <Link href="/support" className="text-blue-500 underline underline-offset-2 decoration-2">Write to us</Link>, and we'll integrate it for you. 
+                    Can&apos;t find your roster integration? <Link href="/support" className="text-blue-500 underline underline-offset-2 decoration-2">Write to us</Link>, and we&apos;ll integrate it for you. 
                 </span>
             </p>
         </div>

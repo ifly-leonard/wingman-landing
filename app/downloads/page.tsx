@@ -1,10 +1,9 @@
 "use client"
 
-import { useState } from "react"
 import Link from "next/link"
 import SectionHeader from "@/components/ui/section-header"
 import { RainbowButton } from "@/components/ui/rainbow-button"
-import { downloads, DownloadItem } from "@/data/downloads"
+import { downloads } from "@/data/downloads"
 
 export default function DownloadsPage() {
   // Format download count with commas
@@ -72,7 +71,7 @@ export default function DownloadsPage() {
       <section className="p-5 my-12 bg-gradient-to-r from-blue-500 to-blue-600 flex flex-col md:flex-row justify-between items-center rounded-2xl md:p-10 w-full max-w-3xl mx-auto">
         <div className="text-white text-left mb-4 md:mb-0">
           <h2 className="text-2xl font-bold">Looking for something else?</h2>
-          <p>If you can't find what you need, our support team is here to help.</p>
+          <p>If you can&apos;t find what you need, our support team is here to help.</p>
         </div>
         
         <Link href="https://support.wingmanlog.in/portal/en/newticket" target="_blank" className="inline-block">

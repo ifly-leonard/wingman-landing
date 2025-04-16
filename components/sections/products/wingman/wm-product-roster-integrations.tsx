@@ -46,7 +46,7 @@ export function WingmanProductRosterIntegrations() {
             <div className="flex gap-40 ">
             <div className="text-left mt-20">
                 <h2 className="text-lg text-gray-800">
-                    "Does it work with my airline's roster system? It's pretty out-dated."
+                    &quot;Does it work with my airline&apos;s roster system? It&apos;s pretty out-dated.&quot;
                 </h2>
                 <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold lowercase tracking-tighter leading-tight text-blue-500">
                     yes.

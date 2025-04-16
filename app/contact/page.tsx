@@ -35,8 +35,8 @@ export default function contactPage() {
 
                 <div>
                     <div className="text-center max-w-lg mx-auto">                        
-                        <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">We'd love to say <span className="text-blue-500">Hiii</span> 👋</h1>
-                        <p className="mt-3 text-gray-500 dark:text-gray-400">Our business hours are Monday to Saturday, 1000 to 1900, IST (GMT +0530). If you're a customer looking for app support, we recommend <Link className="underline underline-offset-4" href="/support">opening a ticket</Link> for faster resolution.</p>
+                        <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">We&apos;d love to say <span className="text-blue-500">Hiii</span> 👋</h1>
+                        <p className="mt-3 text-gray-500 dark:text-gray-400">Our business hours are Monday to Saturday, 1000 to 1900, IST (GMT +0530). If you&apos;re a customer looking for app support, we recommend <Link className="underline underline-offset-4" href="/support">opening a ticket</Link> for faster resolution.</p>
                     </div>                    
                 </div>
 

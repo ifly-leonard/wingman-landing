@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 const painPoints = [
   {
@@ -85,9 +86,11 @@ export default function WingmanProductPainpointReveal() {
                             >                                    
 
                                 <div className="min-w-[200px] max-w-[250px] flex flex-col items-center">                                                                        
-                                    <img 
+                                    <Image 
                                         src={`/images/emojis/${painPoint.emoji}`} 
-                                        alt="emoji"                                        
+                                        alt="Emoji expressing frustration"                                        
+                                        width={60}
+                                        height={60}
                                         className="absolute object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-[370px] w-[60px] h-auto" 
                                     />
 
@@ -96,10 +99,12 @@ export default function WingmanProductPainpointReveal() {
                                         whileHover={{ scale: 1 }}
                                         initial={{ scale: 0.95 }}
                                     >                                        
-                                        <img 
+                                        <Image 
                                             className={`group-hover:scale-110 transition durtion-300 ${painPoint.rotateAngle} group-hover:rotate-[0deg]`}
                                             src={painPoint.imagePath} 
                                             alt={painPoint.painPointHeader}
+                                            width={250}
+                                            height={250}
                                             style={{ height: painPoint.height, width: painPoint.width }}
                                         />                                        
                                     </motion.div>
@@ -130,9 +135,11 @@ export default function WingmanProductPainpointReveal() {
                         </p>
                     
                         <div className="flex justify-center items-center mt-5 mb-3">
-                            <img 
+                            <Image 
                                 src="https://www.kitplanes.com/uploads/2019/05/EAA_logo_300-1.png" 
                                 alt="EAA Logo" 
+                                width={112}
+                                height={50}
                                 className="w-28 h-auto"
                             />
                         </div>

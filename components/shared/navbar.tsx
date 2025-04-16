@@ -113,7 +113,7 @@ export default function Navbar() {
                             <NavigationMenuContent>
                                 <div className="grid gap-2 grid-cols-2 p-4 lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                                     
-                                    <div className="w-1/3">
+                                    <div className="w-2/3">
                                         <ul className="flex flex-col gap-2">
                                             <ListItem href="/products-for/airline-pilots" title="Airline Pilots"></ListItem>                                            
                                             <ListItem href="/products-for/cabin-crew" title="Cabin Crew"></ListItem>                                            

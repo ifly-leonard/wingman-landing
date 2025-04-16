@@ -5,6 +5,15 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import SectionHeader from '@/components/ui/section-header';
 
+interface Testimonial {
+  id: string;
+  name: string;
+  role: string;
+  image: string;
+  text: string;
+  rating: number;
+}
+
 const testimonialsData = [
   {
     id: 1,
@@ -361,7 +370,7 @@ export default function AirrosterProductTestimonials() {
   );
 }
 
-function TestimonialCard({ testimonial }: { testimonial: any }) {
+function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   return (
     <div className="bg-white p-6 hover:shadow-md transition cursor-pointer rounded-xl flex flex-col space-y-4">
       <div className="flex items-center space-x-4">

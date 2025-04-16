@@ -1,7 +1,6 @@
 "use client" 
 
 import { useEffect, useState } from "react";
-import SectionHeader from "@/components/ui/section-header";
 
 export default function SupportFAQ() {
   
@@ -75,7 +74,7 @@ export default function SupportFAQ() {
   
     useEffect(() => {
       setAccordionOpen(active)
-    }, [])
+    }, [active])
   
     return (
       <div className="py-2">

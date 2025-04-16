@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import Iphone15Pro from "@/components/ui/iphone-15-pro";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function WingmanAppSectionHomePage() {
     return (
@@ -30,10 +30,12 @@ export default function WingmanAppSectionHomePage() {
                           restDelta: 0.001
                         }}
                     >
-                        <img
+                        <Image
                             className="object-cover object-center rounded w-96"
-                            alt="hero"
-                            src="images/app-mockups/wingman/my-flights.png"
+                            alt="Wingman app flight screen"
+                            src="/images/app-mockups/wingman/my-flights.png"
+                            width={400}
+                            height={600}
                             data-aos="zoom-out-up"
                             data-aos-delay="300"
                             data-aos-duration="800"
@@ -72,13 +74,13 @@ export default function WingmanAppSectionHomePage() {
                       }}
                     >
                       <div className="p-3 rounded-3xl mb-2 shadow-sm">
-                          <img src="images/app-logos/wingman-logo-svg.svg" alt="" className="w-24" />
+                          <Image src="/images/app-logos/wingman-logo-svg.svg" alt="Wingman logo" width={96} height={96} className="w-24" />
                       </div>
                     </motion.div>
 
                     
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-                        World's #1 pilot logbook app
+                        World&apos;s #1 pilot logbook app
                     </h1>
                     <div className="mb-8 leading-relaxed">
                         You fly multi-million dollar, state-of-the-art modern airplanes, yet the logging experience is still

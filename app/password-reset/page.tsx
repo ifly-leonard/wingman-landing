@@ -1,13 +1,9 @@
 "use client"
-import { RainbowButton } from "@/components/ui/rainbow-button";
-import Link from "next/link";
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
 
 const pageTitle = "Password Reset";
 
 export default function PolicyPage() {
-    const router = useRouter();
     
     useEffect(() => {
         window.open("https://www.wingmanlog.com/password_reset/", "_blank");

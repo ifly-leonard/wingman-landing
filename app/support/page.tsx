@@ -1,8 +1,5 @@
 "use client"
-import SectionHeader from "@/components/ui/section-header";
 import Link from "next/link"
-import SupportFAQ from "@/components/sections/support/support-faq"
-import Globe from "@/components/ui/globe";
 import { useState, useEffect, useMemo } from "react";
 import { TypeAnimation } from 'react-type-animation';
 import { RainbowButton } from "@/components/ui/rainbow-button";
@@ -24,7 +21,6 @@ export default function SupportPage() {
     const [indiaTime, setIndiaTime] = useState("");
     const [isOnline, setIsOnline] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
-    const [isTypingComplete, setIsTypingComplete] = useState(false);
 
     // Generate typing animation sequence from questions
     const typingSequence = useMemo(() => {
@@ -91,10 +87,6 @@ export default function SupportPage() {
         // Open chat support or redirect to contact form
         // window.location.href = "/contact";
         window.open("https://support.wingmanlog.in/portal/en/newticket", '_blank');
-    };
-
-    const handleTypingComplete = () => {
-        setIsTypingComplete(true);
     };
 
     return (
@@ -203,7 +195,7 @@ export default function SupportPage() {
 
 
                 <p className="text-md mt-5">
-                    It's {indiaTime} in India 🇮🇳, our support team is currently
+                    It&apos;s {indiaTime} in India 🇮🇳, our support team is currently
                     <span className={`px-3 py-1 border-2 rounded-3xl ml-1 ${isOnline ? 'border-green-500 text-green-600 bg-green-500/20' : 'border-gray-500 text-gray-600 bg-gray-500/20'}`}>
                         {isOnline ? 'online 🤗' : 'offline 😴'}
                     </span>

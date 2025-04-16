@@ -18,7 +18,7 @@ interface BlogPostPageProps {
 
 // Generate metadata for the page
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug } = params;
   const sanitizedSlug = slug.replace(/[^a-zA-Z0-9-_]/g, '');
 
   // Get blog post metadata
@@ -36,8 +36,9 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     description = data.description || description;
     author = data.author;
     date = data.date;
-  } catch (error) {
+  } catch (fileError) {
     // File not found, use default metadata
+    console.warn('Metadata file not found:', fileError);
   }
 
   return {
@@ -53,8 +54,8 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   };
 }
 
-export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  const { slug } = await params;
+export default function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = params;
 
   // Sanitize the slug to prevent directory traversal attacks
   const sanitizedSlug = slug.replace(/[^a-zA-Z0-9-_]/g, '');
@@ -64,67 +65,87 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   // Check if the file exists and parse its content
   let blogPostContent = '';
-  let frontmatter: any = {};
+  
+  interface BlogFrontmatter {
+    title: string;
+    description?: string;
+    date?: string;
+    author?: string;
+    cover?: string;
+    tags?: string[];
+    [key: string]: string | string[] | undefined;
+  }
+  
+  let frontmatter: BlogFrontmatter = {
+    title: ''
+  };
   try {
     const content = fs.readFileSync(markdownPath, 'utf8');
     const { data, content: markdownContent } = matter(content);
     blogPostContent = markdownContent;
     frontmatter = data;
-  } catch (error) {
+  } catch (fileError) {
     // If the file doesn't exist, return a 404 page
+    console.error('Blog post file not found:', fileError);
     notFound();
   }
 
   // Custom components for ReactMarkdown
+  // Custom components for ReactMarkdown
+  interface ComponentProps {
+    [key: string]: unknown;
+    children?: React.ReactNode;
+  }
+  
   const components = {
     // Custom h1 component
-    h1: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    h1: (props: ComponentProps) => (
       <h1 className="m-4 text-4xl font-bold mb-4 text-blue-600" {...props} />
     ),
     // Custom h2 component
-    h2: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    h2: (props: ComponentProps) => (
       <h2 className="mt-3 text-2xl font-semibold mb-3 text-blue-600 dark:text-gray-200" {...props} />
     ),
     // Custom h3 component with special styling
-    h3: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    h3: (props: ComponentProps) => (
       <h3 className="mt-2 text-lg font-semibold mb-2 text-blue-500 dark:text-blue-400 border-b border-purple-200 dark:border-blue-800 pb-1" {...props} />
     ),
     // Custom blockquote component
-    blockquote: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    blockquote: (props: ComponentProps) => (
       <blockquote className="border-l-4 border-blue-500 pl-4 italic my-4 text-gray-700 dark:text-gray-300" {...props} />
     ),
     // Custom code component
-    code: ({ node, inline, ...props }: { node?: any; inline?: boolean;[key: string]: any }) => (
+    code: ({ inline, ...props }: { inline?: boolean } & ComponentProps) => (
       inline ?
         <code className="bg-gray-100 dark:bg-gray-800 px-1 py-0.5 rounded text-sm" {...props} /> :
         <code className="block bg-gray-100 dark:bg-gray-800 p-3 rounded-md overflow-x-auto" {...props} />
     ),
     // Custom link component
-    a: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    a: (props: ComponentProps) => (
       <a className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline" {...props} />
     ),
     // Custom image component
-    img: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    img: (props: ComponentProps) => (
       <span className="flex justify-center mt-4">
         <BlogImage {...props} />
       </span>
     ),
     // Custom table components
-    table: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    table: (props: ComponentProps) => (
       <table className="min-w-full border-collapse border border-gray-300 dark:border-gray-700 my-4" {...props} />
     ),
-    th: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    th: (props: ComponentProps) => (
       <th className="border border-gray-300 dark:border-gray-700 px-4 py-2 bg-gray-100 dark:bg-gray-800" {...props} />
     ),
-    td: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    td: (props: ComponentProps) => (
       <td className="border border-gray-300 dark:border-gray-700 px-4 py-2" {...props} />
     ),
 
-    hr: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    hr: (props: ComponentProps) => (
       <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded-sm md:my-10 dark:bg-gray-700" {...props} />
     ),
 
-    em: ({ node, ...props }: { node?: any;[key: string]: any }) => (
+    em: (props: ComponentProps) => (
       <em className="underline underline-offset-2 underline-blue-500" {...props} />
     ),
   };

@@ -5,17 +5,11 @@ import WingmanProductHero from "@/components/sections/products/wingman/wm-produc
 import WingmanProductStats from "@/components/sections/products/wingman/wm-product-stats"
 import WingmanProductPainpointReveal from "@/components/sections/products/wingman/wm-product-pain-points"
 import WingmanProductSolutionReveal from "@/components/sections/products/wingman/wm-product-solution-point"
-import { AnimatedBeamMultipleOutputDemo } from "@/components/sections/products/wingman/wm-product-explainer"
-
 import { WingmanProductRosterIntegrations } from "@/components/sections/products/wingman/wm-product-roster-integrations"
 import WingmanProductAirlines from "@/components/sections/products/wingman/wm-product-airlines"
-import WingmanFrustrationSlider from "@/components/sections/products/wingman/wm-frustration-slider"
 import WingmanEffortCalculator from "@/components/sections/products/wingman/wm-effort-calculator"
 
 import { TextReveal } from "@/components/ui/text-reveal"
-const pageName = "Wingman Logbook App";
-
-
 
 export default function WingmanLogbookApp() {
     return (

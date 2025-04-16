@@ -1,4 +1,3 @@
-import SectionHeader from "@/components/ui/section-header";
 import Link from "next/link";
 export default function TermsAndConditionsPage() {
     return (
@@ -60,8 +59,8 @@ export default function TermsAndConditionsPage() {
                 <h1 className="text-3xl font-bold">Terms and Conditions</h1>
 
                 <p>
-                    Thank you for choosing to use the products and services ("Services") provided by Wingman Avtech Private Limited
-                    ("Wingman," "we," "us," or "our"). These Terms and Conditions govern the use of all Wingman products and services,
+                    Thank you for choosing to use the products and services (&quot;Services&quot;) provided by Wingman Avtech Private Limited
+                    (&quot;Wingman,&quot; &quot;us,&quot; or &quot;our&quot;). These Terms and Conditions govern the use of all Wingman products and services,
                     including but not limited to:
                 </p>
                 <ul className="list-disc ml-6 space-y-1">
@@ -126,7 +125,7 @@ export default function TermsAndConditionsPage() {
                 <h2 className="text-2xl font-bold">Membership and Subscription Plans</h2>
                 <h3 className="text-xl font-semibold">Membership</h3>
                 <p>
-                    Your membership will continue until the 'Subscription End Date' and will automatically renew unless canceled.
+                    Your membership will continue until the &apos;Subscription End Date&apos; and will automatically renew unless canceled.
                     Membership requires an internet connection, a supported device, and a valid payment method.
                 </p>
                 <p>
@@ -148,7 +147,7 @@ export default function TermsAndConditionsPage() {
                     Membership fees will be charged on a recurring basis to your chosen Payment Method. If a payment fails, access may
                     be suspended until a valid Payment Method is provided. Local taxes and transaction fees may apply.
                 </p>
-                <p>Payment details can be managed via the "Account" page.</p>
+                <p>Payment details can be managed via the &quot;Account&quot; page.</p>
 
                 <h3 className="text-xl font-semibold">Cancellation</h3>
                 <p>
@@ -209,7 +208,7 @@ export default function TermsAndConditionsPage() {
 
                 <h2 className="text-2xl font-bold">Warranties and Disclaimers</h2>
                 <p>
-                    Our Services are provided "as is" and to the extent permitted by law:
+                    Our Services are provided &quot;as is&quot; and to the extent permitted by law:
                     <br />
                     We do not make specific guarantees about the reliability, availability, or functionality of the Services. We exclude
                     all warranties, including implied warranties of merchantability, fitness for a particular purpose, and

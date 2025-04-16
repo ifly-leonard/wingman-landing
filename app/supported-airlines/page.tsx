@@ -7,8 +7,6 @@ import Link from "next/link"
 import SectionHeader from "@/components/ui/section-header"
 import { TypeAnimation } from "react-type-animation"
 import { RainbowButton } from "@/components/ui/rainbow-button"
-import { Button } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
 
 // Get unique roster systems for filtering
 const rosterSystems = [...new Set(airlines.map(airline => airline.roster_system))].sort()
@@ -180,9 +178,11 @@ export default function SupportedAirlinesPage() {
                                 className="border rounded-lg p-4 flex flex-col items-center hover:shadow-lg hover:border-blue-500 hover:scale-105 cursor-pointer transition-shadow"
                             >
                                 <div className="h-16 flex items-center justify-center mb-3">
-                                    <img
+                                    <Image
                                         src={`https://content.airhex.com/content/logos/airlines_${airline.iata}_701_200_r.png`}
                                         alt={airline.name}
+                                        width={200}
+                                        height={70}
                                         className="max-h-16 max-w-full object-contain"
                                     />
                                 </div>
@@ -202,13 +202,13 @@ export default function SupportedAirlinesPage() {
             {/* CTA section styled like product-cta component */}
             <section className="p-5 my-12 bg-gradient-to-r from-blue-500 to-blue-600 flex flex-col md:flex-row justify-between items-center rounded-2xl md:p-10 w-full max-w-5xl mx-auto">
                 <div className="text-white text-left mb-4 md:mb-0">
-                    <h2 className="text-2xl font-bold">Can't find your airline?</h2>
-                    <p>We're always adding new airlines to our roster. Let us know what you need!</p>
+                    <h2 className="text-2xl font-bold">Can&apos;t find your airline?</h2>
+                    <p>We&apos;re always adding new airlines to our roster. Let us know what you need!</p>
                 </div>
                 
                 <Link href="https://support.wingmanlog.in/portal/en/newticket" target="_blank" className="inline-block mt-4">
                     <RainbowButton>
-                        Open a support ticket, we'll make it happen
+                        Open a support ticket, we&apos;ll make it happen
                     </RainbowButton>
                 </Link>
             </section>
@@ -217,11 +217,11 @@ export default function SupportedAirlinesPage() {
             {!filteredAirlines.length && (
                 <div className="text-center py-12">
                     <p className="text-xl text-gray-500">
-                        Looks like we don't support this airline yet.
+                        Looks like we don&apos;t support this airline yet.
                     </p>
                     <Link href="https://support.wingmanlog.in/portal/en/newticket" target="_blank" className="inline-block mt-4">
                         <RainbowButton>
-                            Open a support ticket, we'll make it happen
+                            Open a support ticket, we&apos;ll make it happen
                         </RainbowButton>
                     </Link>
                 </div>

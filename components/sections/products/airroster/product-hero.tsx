@@ -21,7 +21,13 @@ export default function AirrosterProductHero() {
                     }}
                 >
                     <div className="p-3 rounded-3xl mb-2 shadow-lg">
-                        <img src="../../../images/app-logos/airroster-logo-svg.svg" alt="" className="w-24" />
+                        <Image 
+                            src="../../../images/app-logos/airroster-logo-svg.svg" 
+                            alt="AirRoster Logo" 
+                            width={96}
+                            height={96}
+                            className="w-24" 
+                        />
                     </div>                    
                 </motion.div>                                                     
             </div>

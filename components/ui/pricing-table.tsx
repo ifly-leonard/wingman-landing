@@ -40,7 +40,6 @@ export function PricingTable({
   onPlanSelect,
   defaultPlan = "pro",
   defaultInterval = "monthly",
-  className,
   containerClassName,
   buttonClassName,
   ...props

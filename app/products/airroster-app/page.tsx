@@ -14,8 +14,6 @@ import { AirrosterProductOneliner } from "@/components/sections/products/airrost
 import AirrosterProductPricingTable from "@/components/sections/products/airroster/product-pricing"
 import AirrosterProductHero from "@/components/sections/products/airroster/product-hero"
 
-const pageName = "AirRoster App";
-
 export default function AirRosterApp() {
 
     const scrollContainerRef = useRef<HTMLDivElement>(null);

@@ -1,8 +1,6 @@
 // app/products/layout.tsx
 "use client"
-import { ShareSocial } from 'react-share-social' 
 import { ProgressBar } from "@nadfri/react-scroll-progress-bar";
-import DisqusComments from '@/components/sections/blog/disqus';
 
 export default function BlogLayout({
   children,

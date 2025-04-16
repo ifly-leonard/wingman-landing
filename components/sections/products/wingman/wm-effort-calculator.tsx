@@ -1,8 +1,6 @@
-
 import React, { useState, useEffect } from "react";
-import { Calculator, Clock, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Switch } from "@/components/ui/switch";
-// import Button from "@/components/ui-custom/Button";
 import WingmanFrustrationSlider from "@/components/sections/products/wingman/wm-frustration-slider"
 import { Slider } from "@/components/ui/slider";
 
@@ -99,7 +97,7 @@ const WingmanEffortCalculator: React.FC<WingmanEffortCalculatorProps> = ({ class
               </div>
               
               <div className="text-center p-4 rounded-lg bg-blue-50">
-                <p className="text-sm text-gray-600">That's Approximately</p>
+                <p className="text-sm text-gray-600">That&apos;s Approximately</p>
                 <p className="text-3xl font-bold text-wingman-blue">
                   {showWingmanTime 
                     ? `${(parseFloat(timeSaved.wingman) / 24).toFixed(1)} days` 
@@ -111,10 +109,10 @@ const WingmanEffortCalculator: React.FC<WingmanEffortCalculatorProps> = ({ class
             
             {showWingmanTime && (
               <div className="text-center mt-6 p-4 rounded-lg bg-green-50">
-                <p className="text-sm text-gray-600">Time You'll Save With Wingman</p>
+                <p className="text-sm text-gray-600">Time You&apos;ll Save With Wingman</p>
                 <p className="text-3xl font-bold text-green-600">{timeSaved.saved} hours per year</p>
                 <p className="text-sm text-gray-600 mt-1">
-                  That's {(parseFloat(timeSaved.saved) / hoursPerMonth).toFixed(1)} months worth of flying time!
+                  That&apos;s {(parseFloat(timeSaved.saved) / hoursPerMonth).toFixed(1)} months worth of flying time!
                 </p>
               </div>
             )}

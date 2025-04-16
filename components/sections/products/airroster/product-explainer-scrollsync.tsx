@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion"
 
 const mockupImages = [
     "/images/app-mockups/airroster/1.png",

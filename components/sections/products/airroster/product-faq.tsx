@@ -71,7 +71,7 @@ export default function AnimatedAccordionPage() {
   
     useEffect(() => {
       setAccordionOpen(active)
-    }, [])
+    }, [active])
   
     return (
       <div className="py-2">

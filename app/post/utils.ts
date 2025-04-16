@@ -37,7 +37,7 @@ export function getBlogPostBySlug(slug: string): BlogPostMetadata | null {
     const content = fs.readFileSync(markdownPath, 'utf8');
     
     return extractMetadataFromMarkdown(content, slug);
-  } catch (error) {
+  } catch {
     return null;
   }
 }

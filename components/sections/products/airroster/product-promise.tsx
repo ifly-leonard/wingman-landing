@@ -46,7 +46,7 @@ export default function AirrosterProuductPromise() {
         </svg>
       </div>
       <div className="text-5xl leading-tight font-bold text-slate-900">
-        <span>We'll help you boost your revenues</span>
+        <span>We&apos;ll help you boost your revenues</span>
         {testimonials.map((testimonial, index) => (
           <Testimonial key={testimonial.id} testimonial={testimonial} zIndex={50 - index * 10} />
         ))}

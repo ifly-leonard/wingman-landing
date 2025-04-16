@@ -1,5 +1,6 @@
 import confetti from 'canvas-confetti';
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function WingmanProductSolutionReveal() {
     return (
@@ -38,15 +39,17 @@ export default function WingmanProductSolutionReveal() {
                             }, 500);
                         }}
                     >
-                        <img
+                        <Image
                             onClick={() =>  confetti({
                                 particleCount: 500,
                                 spread: 100,
                                 origin: { y: 0.7 }
                             })}
                             className="object-cover object-center rounded w-96 translate transition hover:scale-105 durtion-250 cursor-pointer"
-                            alt="hero"
-                            src="/images/app-mockups/wingman/my-flights.png"                            
+                            alt="Wingman app interface showing flight details"
+                            src="/images/app-mockups/wingman/my-flights.png"
+                            width={400}
+                            height={600}
                         />
                     </motion.div>
                 </div>                                      
