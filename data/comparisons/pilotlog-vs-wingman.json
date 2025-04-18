@@ -1,0 +1,76 @@
+{
+  "competitor": {
+    "name": "PilotLog",
+    "logo": "/images/app-logos/generic-competitor.svg",
+    "description": "A traditional logbook application",
+    "price": 99.00
+  },
+  "ourProduct": {
+    "name": "Wingman Logbook",
+    "logo": "/images/app-logos/wingman-logo-svg.svg",
+    "description": "An end-to-end digital pilot logbook for pilots who value time",
+    "price": 49.99
+  },
+  "features": [
+    {
+      "category": "Core Features",
+      "items": [
+        { "name": "Digital Flight Logging", "competitor": true, "ourProduct": true },
+        { "name": "Automatic Time Calculations", "competitor": true, "ourProduct": true },
+        { "name": "Offline Access", "competitor": true, "ourProduct": true },
+        { "name": "Multi-device Sync", "competitor": false, "ourProduct": true },
+        { "name": "Backup & Restore", "competitor": true, "ourProduct": true }
+      ]
+    },
+    {
+      "category": "Advanced Features",
+      "items": [
+        { "name": "Automatic Roster Import", "competitor": false, "ourProduct": true },
+        { "name": "AI Flight Detection", "competitor": false, "ourProduct": true },
+        { "name": "eGCA Integration", "competitor": false, "ourProduct": true },
+        { "name": "Airline Data Integration", "competitor": false, "ourProduct": true },
+        { "name": "Smart Signature Collection", "competitor": false, "ourProduct": true }
+      ]
+    },
+    {
+      "category": "User Experience",
+      "items": [
+        { "name": "Modern UI Design", "competitor": false, "ourProduct": true },
+        { "name": "Intuitive Interface", "competitor": false, "ourProduct": true },
+        { "name": "Customizable Views", "competitor": true, "ourProduct": true },
+        { "name": "Dark Mode", "competitor": false, "ourProduct": true },
+        { "name": "Quick Entry Templates", "competitor": true, "ourProduct": true }
+      ]
+    },
+    {
+      "category": "Support & Updates",
+      "items": [
+        { "name": "24/7 Customer Support", "competitor": false, "ourProduct": true },
+        { "name": "Regular Updates", "competitor": false, "ourProduct": true },
+        { "name": "Active Development", "competitor": false, "ourProduct": true },
+        { "name": "User-requested Features", "competitor": false, "ourProduct": true },
+        { "name": "Free Training Resources", "competitor": false, "ourProduct": true }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Capt. James Wilson",
+      "role": "B747 Captain",
+      "quote": "After years of using PilotLog, switching to Wingman Logbook was like going from a flip phone to a smartphone. The automatic imports alone save me hours every month.",
+      "avatar": "/images/app-logos/generic-competitor.svg"
+    },
+    {
+      "name": "FO Maria Garcia",
+      "role": "A330 First Officer",
+      "quote": "The interface is so much cleaner than PilotLog, and the customer support team is incredibly responsive. I've recommended it to my entire fleet.",
+      "avatar": "/images/app-logos/generic-competitor.svg"
+    },
+    {
+      "name": "Capt. Robert Chen",
+      "role": "E190 Captain",
+      "quote": "I was hesitant to switch logbook apps after using PilotLog for years, but Wingman made the transition painless with their import tool. I wish I'd switched sooner.",
+      "avatar": "/images/app-logos/generic-competitor.svg"
+    }
+  ]
+} 
