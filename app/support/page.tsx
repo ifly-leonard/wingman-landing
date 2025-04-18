@@ -21,6 +21,7 @@ export default function SupportPage() {
     const [indiaTime, setIndiaTime] = useState("");
     const [isOnline, setIsOnline] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
+    const [waitTime, setWaitTime] = useState("");
 
     // Generate typing animation sequence from questions
     const typingSequence = useMemo(() => {
@@ -52,26 +53,70 @@ export default function SupportPage() {
             };
             setIndiaTime(now.toLocaleTimeString('en-US', options));
 
-            // Check if support is online (Monday-Saturday, 10:00-19:00)
-            const dayOfWeek = now.getDay(); // 0 is Sunday, 1 is Monday, etc.
-            const indiaHours = now.toLocaleString('en-US', { 
-                timeZone: 'Asia/Kolkata', 
-                hour: '2-digit' as const, 
-                hour12: false 
-            });
-            const indiaHour = parseInt(indiaHours, 10);
+            // Create a date object for India time
+            const indiaDate = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
+            const dayOfWeek = indiaDate.getDay(); // 0 is Sunday, 1 is Monday, etc.
+            const indiaHour = indiaDate.getHours();
+            const indiaMinutes = indiaDate.getMinutes();
             
+            // Check if support is online (Monday-Saturday, 10:00-19:00)
             setIsOnline(
                 dayOfWeek >= 1 && dayOfWeek <= 6 && // Monday to Saturday
                 indiaHour >= 10 && indiaHour < 19 // 10:00 to 19:00
             );
+
+            // setIsOnline(true);
+
+            // Calculate time until next support session
+            if (!isOnline) {
+                const nextSupportTime = new Date(indiaDate);
+                
+                // Case 1: After hours on weekday (Mon-Fri)
+                if (dayOfWeek >= 1 && dayOfWeek <= 5 && (indiaHour >= 19 || indiaHour < 10)) {
+                    if (indiaHour >= 19) {
+                        // After 7pm, next day at 10am
+                        nextSupportTime.setDate(nextSupportTime.getDate() + 1);
+                    }
+                    nextSupportTime.setHours(10, 0, 0, 0);
+                }
+                // Case 2: After hours on Saturday
+                else if (dayOfWeek === 6 && (indiaHour >= 19 || indiaHour < 10)) {
+                    if (indiaHour >= 19) {
+                        // After 7pm Saturday, skip to Monday at 10am
+                        nextSupportTime.setDate(nextSupportTime.getDate() + 2);
+                    }
+                    nextSupportTime.setHours(10, 0, 0, 0);
+                }
+                // Case 3: Sunday (any time)
+                else if (dayOfWeek === 0) {
+                    // Skip to Monday at 10am
+                    nextSupportTime.setDate(nextSupportTime.getDate() + 1);
+                    nextSupportTime.setHours(10, 0, 0, 0);
+                }
+                // Case 4: Before hours on a support day (Mon-Sat)
+                else if (indiaHour < 10) {
+                    nextSupportTime.setHours(10, 0, 0, 0);
+                }
+                
+                // Calculate difference in hours and minutes
+                const diffMs = nextSupportTime.getTime() - indiaDate.getTime();
+                const diffHrs = Math.floor(diffMs / (1000 * 60 * 60));
+                const diffMins = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+                
+                if (diffHrs > 0) {
+                    setWaitTime(`${diffHrs} hour${diffHrs !== 1 ? 's' : ''}`);
+                } else {
+                    setWaitTime(`${diffMins} minute${diffMins !== 1 ? 's' : ''}`);
+                }
+            }
         };
 
         updateTime();
         const interval = setInterval(updateTime, 60000); // Update every minute
         
         return () => clearInterval(interval);
-    }, []);
+ 
+    }, [isOnline]);
 
     const handleSearchKnowledgeBase = () => {
         if (searchQuery.trim()) {
@@ -88,7 +133,7 @@ export default function SupportPage() {
         // window.location.href = "/contact";
         window.open("https://support.wingmanlog.in/portal/en/newticket", '_blank');
     };
-
+    
     return (
         <>
             {/* <SectionHeader header="POLICY" subheader="Privacy" /> */}
@@ -190,8 +235,8 @@ export default function SupportPage() {
                     </RainbowButton>                    
                 </div>
 
-                {isOnline && <span className="text-gray-500">Average response time: 12 minutes ⌛</span>}
-                {!isOnline && <span className="text-gray-500">Earliest response in 12 hours ⌛</span>}
+                {isOnline && <span className="text-gray-500">Average response time: 18 minutes ⌛</span>}
+                {!isOnline && <span className="text-gray-500">Earliest response in {waitTime} ⌛</span>}
 
 
                 <p className="text-md mt-5">

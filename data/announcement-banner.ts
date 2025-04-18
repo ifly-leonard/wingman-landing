@@ -15,5 +15,5 @@ export const announcementBanner: AnnouncementBanner = {
   "message": "Our landing page received a fresh update with a new look and feel",
   "buttonText": "Learn more",
   "buttonHref": "https://app.airroster.com?ref=landing_page",
-  "bgColor": "bg-blue-600"
+  "bgColor": "bg-blue-500"
 };

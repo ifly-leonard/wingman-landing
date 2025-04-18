@@ -1,0 +1,1 @@
+To compare with competitors. This is for SEO purposes. 

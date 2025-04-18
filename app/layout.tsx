@@ -5,11 +5,13 @@ import "./globals.css";
 import HeaderBanner from "@/components/shared/header-banner";
 import Navbar from "@/components/shared/navbar";
 import Footer from "@/components/shared/footer"
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",

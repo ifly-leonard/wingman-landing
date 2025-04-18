@@ -1,13 +1,13 @@
 import { announcementBanner } from "@/data/announcement-banner";
 
 export default function HeaderBanner() {
-    const { enabled,    title, message, buttonText, buttonHref, bgColor } = announcementBanner;
+    const { enabled, title, message, buttonText, buttonHref, bgColor = 'bg-blue-500' } = announcementBanner;
     
     if (!enabled) return null;
     
     return (
-        <div className="w-full px-4 sm:px-6 lg:px-8 mx-auto sticky mt-3" data-aos="fade-in" data-aos-delay="1500">
-            <div className={`${bgColor} bg-[url('https://preline.co/assets/svg/examples/abstract-1.svg')] bg-no-repeat bg-cover bg-center p-4 rounded-lg text-center`}>
+        <div className={`w-full px-4 sm:px-6 lg:px-8 mx-auto sticky ${bgColor}`} data-aos="fade-in" data-aos-delay="1500">
+            <div className={`bg-[url('https://preline.co/assets/svg/examples/abstract-1.svg')] bg-no-repeat bg-cover bg-center p-4 rounded-lg text-center`}>
                 <p className="me-2 inline-block text-white">
                     <strong>{title}</strong> {message}
                 </p>
