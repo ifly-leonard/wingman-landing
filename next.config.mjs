@@ -6,6 +6,12 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const nextConfig = {
+  reactStrictMode: true,
+  experimental: {
+    optimizeFonts: true,
+    optimizeCss: true,
+  },
+  swcMinify: true,
   images: {
     domains: ['ui-avatars.com', 'content.airhex.com'],
   },

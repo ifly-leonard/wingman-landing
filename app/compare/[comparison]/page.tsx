@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation';
 import SectionHeader from "@/components/ui/section-header";
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import React from 'react';
 
 // Type definitions for the comparison data
 interface Feature {
@@ -48,17 +49,26 @@ const extractPrice = (description: string): number | null => {
 };
 
 // Dynamic route for product comparisons
-export default function ComparisonPage({ params }: { params: { comparison: string } }) {
+export default function ComparisonPage({ params }: { params: Promise<{ comparison: string }> }) {
+  // Unwrap params using React.use()
+  const resolvedParams = React.use(params);
+  const comparisonSlug = resolvedParams.comparison;
+  
   const [comparisonData, setComparisonData] = useState<ComparisonData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [priceSavings, setPriceSavings] = useState<{ amount: number; percentage: number } | null>(null);
+  
+  // Extract potential product names from the comparison slug
+  const productNames = comparisonSlug.split('-vs-');
+  const product1 = productNames[0]?.replace(/-/g, ' ');
+  const product2 = productNames[1]?.replace(/-/g, ' ');
 
   useEffect(() => {
     async function loadComparisonData() {
       try {
         // Try to load the JSON file based on the URL parameter
-        const data = await import(`@/data/comparisons/${params.comparison}.json`).then(m => m.default);
+        const data = await import(`@/data/comparisons/${comparisonSlug}.json`).then(m => m.default);
         setComparisonData(data);
         
         // Calculate price savings if prices are available
@@ -67,27 +77,26 @@ export default function ComparisonPage({ params }: { params: { comparison: strin
         
         if (competitorPrice && ourPrice) {
           const savingsAmount = competitorPrice - ourPrice;
-          const savingsPercentage = (savingsAmount / competitorPrice) * 100;
-          setPriceSavings({
-            amount: savingsAmount,
-            percentage: savingsPercentage
-          });
+          // Only set price savings if our product is cheaper (positive savings)
+          if (savingsAmount > 0) {
+            const savingsPercentage = (savingsAmount / competitorPrice) * 100;
+            setPriceSavings({
+              amount: savingsAmount,
+              percentage: savingsPercentage
+            });
+          }
         }
       } catch (err) {
         console.error('Failed to load comparison data:', err);
-        setError('Could not find comparison data');
+        // Redirect to the not-found page
+        notFound();
       } finally {
         setIsLoading(false);
       }
     }
 
     loadComparisonData();
-  }, [params.comparison]);
-
-  // Show 404 if data not found
-  if (!isLoading && !comparisonData) {
-    notFound();
-  }
+  }, [comparisonSlug]);
 
   // Loading state
   if (isLoading) {
@@ -103,7 +112,7 @@ export default function ComparisonPage({ params }: { params: { comparison: strin
     );
   }
 
-  // Error state
+  // Error state should never be reached since we're using notFound() directly
   if (error) {
     return (
       <div className="flex flex-col max-w-7xl mx-auto px-4 py-12">
@@ -118,7 +127,10 @@ export default function ComparisonPage({ params }: { params: { comparison: strin
     );
   }
 
-  if (!comparisonData) return null; // Shouldn't happen but TypeScript needs this
+  // Show not-found page if data is null for any reason
+  if (!comparisonData) {
+    notFound();
+  }
 
   return (
     <div className="flex flex-col max-w-7xl mx-auto px-4 py-12">
@@ -273,9 +285,7 @@ export default function ComparisonPage({ params }: { params: { comparison: strin
       </section>
 
         {/* Price Comparison Section */}
-        {priceSavings && (
-            
-
+        {priceSavings && (          
             <section className="mb-16">
               <SectionHeader 
                 header="and the icing on the cake is" 
@@ -284,7 +294,7 @@ export default function ComparisonPage({ params }: { params: { comparison: strin
               
               <div className="mt-8 text-center">
                     <p className="font-medium text-lg text-gray-700 mb-4">
-                      With {comparisonData?.competitor.name}, you pay {priceSavings.percentage.toFixed(0)}% more (${comparisonData?.competitor.price?.toFixed(2)}) for fewer features. 
+                      With {comparisonData?.competitor.name}, you pay <span className="underline decoration-2 underline-offset-4 font-bold text-red-500">{priceSavings.percentage.toFixed(0)}% more</span> (${comparisonData?.competitor.price?.toFixed(2)}) for <span className="font-bold underline-offset-4 text-red-500 underline">fewer features</span>. 
                       Sounds like a bad deal, doesn't it?
                     </p>                   
                   </div>

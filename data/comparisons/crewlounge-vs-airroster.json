@@ -1,0 +1,76 @@
+{
+  "competitor": {
+    "name": "CrewLounge",
+    "logo": "/images/app-logos/generic-competitor.svg",
+    "description": "$149 USD / year.",
+    "price": 15.34
+  },
+  "ourProduct": {
+    "name": "AirRoster",
+    "logo": "/images/app-logos/wingman-logo-svg.svg",
+    "description": "$99.99 USD / year.",
+    "price": 99.99
+  },
+  "features": [
+    {
+      "category": "Core Features",
+      "items": [
+        { "name": "Roster Management", "competitor": true, "ourProduct": true },
+        { "name": "Schedule Synchronization", "competitor": true, "ourProduct": true },
+        { "name": "Flight Time Tracking", "competitor": true, "ourProduct": true },
+        { "name": "Duty Time Calculations", "competitor": true, "ourProduct": true },
+        { "name": "Calendar Integration", "competitor": true, "ourProduct": true }
+      ]
+    },
+    {
+      "category": "Advanced Features",
+      "items": [
+        { "name": "AI-Powered Roster Analysis", "competitor": false, "ourProduct": true },
+        { "name": "Fatigue Risk Management", "competitor": false, "ourProduct": true },
+        { "name": "Automatic Flight Updates", "competitor": false, "ourProduct": true },
+        { "name": "Multi-airline Support", "competitor": true, "ourProduct": true },
+        { "name": "Smart Notifications", "competitor": false, "ourProduct": true }
+      ]
+    },
+    {
+      "category": "User Experience",
+      "items": [
+        { "name": "Modern Interface", "competitor": false, "ourProduct": true },
+        { "name": "Offline Mode", "competitor": true, "ourProduct": true },
+        { "name": "Customizable Views", "competitor": false, "ourProduct": true },
+        { "name": "Dark Mode", "competitor": false, "ourProduct": true },
+        { "name": "Cross-platform Sync", "competitor": true, "ourProduct": true }
+      ]
+    },
+    {
+      "category": "Support & Integration",
+      "items": [
+        { "name": "24/7 Customer Support", "competitor": false, "ourProduct": true },
+        { "name": "Regular Updates", "competitor": true, "ourProduct": true },
+        { "name": "API for Third-party Apps", "competitor": false, "ourProduct": true },
+        { "name": "Logbook Integration", "competitor": false, "ourProduct": true },
+        { "name": "Training Resources", "competitor": true, "ourProduct": true }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Capt. Robert Chen",
+      "role": "B787 Captain",
+      "quote": "AirRoster has simplified my life tremendously. The automatic updates and smart notifications ensure I'm always on top of my schedule changes.",
+      "avatar": "/images/app-logos/generic-competitor.svg"
+    },
+    {
+      "name": "FO Emily Parker",
+      "role": "A330 First Officer",
+      "quote": "The fatigue analysis feature is invaluable. It's helped me better manage my rest periods and maintain peak performance during flights.",
+      "avatar": "/images/app-logos/generic-competitor.svg"
+    },
+    {
+      "name": "Capt. David Thompson",
+      "role": "B747 Captain",
+      "quote": "After years of using CrewLounge, switching to AirRoster was a revelation. Better features, smoother experience, and excellent support.",
+      "avatar": "/images/app-logos/generic-competitor.svg"
+    }
+  ]
+} 

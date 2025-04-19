@@ -125,9 +125,9 @@ export default function Navbar() {
                                     </div>
                                     
                                     <div className="w-3/3">
-                                            <a
+                                            <Link
                                                 className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-blue-400 to-blue-500 text-white p-6 no-underline outline-none focus:shadow-md transform hover:scale-105 duration-300 ease-in-out"
-                                                href="/"
+                                                href="/products"
                                             >
                                                 <div className="mb-2 mt-4 text-lg font-bold">
                                                     View all products
@@ -135,7 +135,7 @@ export default function Navbar() {
                                                 <p className="text-sm leading-tight">
                                                     Wingman is a suite of apps that help aviation professionals save time and money.
                                                 </p>
-                                            </a>                                 
+                                            </Link>                                 
                                     </div>
                                 </div>                            
                             </NavigationMenuContent>
