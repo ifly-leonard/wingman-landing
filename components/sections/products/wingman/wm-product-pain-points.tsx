@@ -49,7 +49,7 @@ export default function WingmanProductPainpointReveal() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.5 }}
-            className="flex flex-col items-center justify-center"
+            className="flex flex-col items-center justify-center w-full max-w-full min-h-screen"
         >
 
             <div className="text-center space-y-4 pb-20">

@@ -9,6 +9,7 @@ import { WingmanProductRosterIntegrations } from "@/components/sections/products
 import WingmanProductAirlines from "@/components/sections/products/wingman/wm-product-airlines"
 import WingmanEffortCalculator from "@/components/sections/products/wingman/wm-effort-calculator"
 import { WingmanProductEAASurvey } from "@/components/sections/products/wingman/wm-product-eaa-survey"
+import WingmanProductFeatures from "@/components/sections/products/wingman/wm-product-features"
 import Script from "next/script"
 
 import { TextReveal } from "@/components/ui/text-reveal"
@@ -69,9 +70,9 @@ export default function WingmanLogbookApp() {
 
             
             <section>
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center max-w-3xl mx-auto mt-10 text-xl text-gray-500">
                     <div className="text-center mt-2">
-                        Wingman is an end-to-end digital pilot logbook for pilots who value time. 
+                        Ever wondered why thousands of pilots are switching to digital logbooks? Discover how Wingman is revolutionizing flight logging for time-conscious aviators.
                     </div>
                 </div>
             </section>
@@ -99,9 +100,13 @@ export default function WingmanLogbookApp() {
                 <WingmanProductSolutionReveal />
             </section>   
             
+            
+            <section id="features" className="flex max-w-6xl items-center justify-center">
+                <WingmanProductFeatures />
+            </section>
 
             <section id="task-and-time-saver" className="flex max-w-6xl items-center justify-center">
-                <BentoDemo />
+                {/* <BentoDemo /> */}
             </section>      
             
             
