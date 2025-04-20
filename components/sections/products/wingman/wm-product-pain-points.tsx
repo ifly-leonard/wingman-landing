@@ -56,7 +56,7 @@ export default function WingmanProductPainpointReveal() {
                 <h2 className="text-sm text-blue-500 font-mono font-semibold tracking-wider uppercase">
                     When you do your logbook
                 </h2>
-                <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold lowercase tracking-tighter leading-tight text-gray-900">
+                <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold lowercase tracking-tighter leading-tight text-white">
                     <div>
                         does this feel familiar?
                     </div>
@@ -78,7 +78,7 @@ export default function WingmanProductPainpointReveal() {
                 ) => (
                     <motion.div
                         // className="rounded-lg bg-gradient-to-b from-red-500/90 to-red-500"
-                        className="group rounded-lg bg-gradient-to-b from-white to-gray-50 hover:shadow-xl hover:shadow-red-300 border-2 hover:border-red-500"
+                        className="group rounded-lg bg-gradient-to-b from-black to-zinc-900 hover:to-red-700/40 hover:shadow-xl hover:shadow-red-500 border-2 border-zinc-800 hover:border-red-500 cursor-pointer"
                         key={i}
                         initial={{ opacity: 0, y: 40, rotate: '-5deg' }}
                         whileInView={{ opacity: 1, y: 0, rotate: '0deg' }}
@@ -109,7 +109,7 @@ export default function WingmanProductPainpointReveal() {
                                 />
                             </motion.div>
                             <motion.p
-                                className="text-gray-300 group-hover:text-red-500 text-center font-bold p-5 font-caveat text-2xl"
+                                className="text-red-500 group-hover:text-white text-center font-bold p-5 font-caveat text-2xl"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ delay: i * 0.2 }}
@@ -117,7 +117,7 @@ export default function WingmanProductPainpointReveal() {
                                 {painPoint.painPointHeader}
                             </motion.p>
                             <motion.p
-                                className="text-center px-6 py-8 text-dark text-sm"
+                                className="text-center px-6 py-8 text-white text-sm"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ delay: i * 0.2 }}

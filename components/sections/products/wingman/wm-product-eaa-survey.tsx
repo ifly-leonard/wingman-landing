@@ -4,7 +4,7 @@ export function WingmanProductEAASurvey() {
     const logoBoxStyle = "inline-flex items-center mx-2 shadow bg-gray-50 p-4 rounded-3xl border border-gray-200 hover:rotate-0 cursor-pointer align-middle";
     
     return (
-        <div className="bg-white rounded-lg px-2 py-2 w-full flex justify-center mt-10">    
+        <div className="rounded-lg px-2 py-2 w-full flex justify-center mt-10">    
             <div className="text-2xl mt-10 text-gray-500 max-w-4xl text-center">
                 <p className="flex flex-wrap items-center justify-center">
                     Well, you are not alone. In a survey done by 

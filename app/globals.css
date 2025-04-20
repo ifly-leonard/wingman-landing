@@ -4,7 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/**
+ * BACKGROUND COLOR TRANSITION SETUP
+ * 
+ * This is where we define how smoothly background colors change when scrolling.
+ * 
+ * The transition properties below tell the browser to:
+ * - Make background color changes gradual, not instant
+ * - Take 700 milliseconds (0.7 seconds) to complete the transition
+ * - Use "ease-in-out" timing which starts slow, speeds up, then slows down again
+ * 
+ * This creates a smooth, pleasant transition when scrolling between sections
+ * with different background colors instead of abrupt changes.
+ */
 body {
   font-family: Arial, Helvetica, sans-serif;
   transition-property: background-color;

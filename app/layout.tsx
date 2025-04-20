@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { BackgroundProvider } from "./contexts/BackgroundContext";
 
 import HeaderBanner from "@/components/shared/header-banner";
 import Navbar from "@/components/shared/navbar";
@@ -33,24 +34,23 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}
       >
+        <BackgroundProvider>
+          {/* HEADER BANNER */}
+          <HeaderBanner /> {/* Control it using the data file */}
+          {/* END HEADER BANNER */}
 
-        {/* HEADER BANNER */}
-        <HeaderBanner /> {/* Control it using the data file */}
-        {/* END HEADER BANNER */}
+          {/* NAVBAR */}
+          <Navbar />
+          {/* END NAVBAR */}
+          
+          {/* PAGE CONTENTS */}
+          {children}
+          {/* END PAGE CONTENTS */}
 
-
-        {/* NAVBAR */}
-        <Navbar />
-        {/* END NAVBAR */}
-        
-
-        {/* PAGE CONTENTS */}
-        {children}
-        {/* END PAGE CONTENTS */}
-
-        {/* FOOTER */}
-        <Footer />
-        {/* END FOOTER */}
+          {/* FOOTER */}
+          <Footer />
+          {/* END FOOTER */}
+        </BackgroundProvider>
       </body>
     </html>
   );
