@@ -8,7 +8,7 @@ export default function WingmanProductSolutionReveal() {
             <div className="mt-10">                
                 <div className="text-center space-y-4 pb-20">
                         <h2 className="text-sm text-blue-500 font-mono font-semibold tracking-wider uppercase">
-                        What if we told you, you never have to go through this
+                        What if we told you, you don&apos;t have to go through this
                         </h2>
                         <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold lowercase tracking-tighter leading-tight text-gray-900">
                             <div>

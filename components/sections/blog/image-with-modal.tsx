@@ -5,7 +5,7 @@ import { Dialog, DialogContent, DialogTrigger, DialogTitle } from "@/components/
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import Image from "next/image";
 
-export default function BlogImage({ src }: { src?: string }) {
+export default function BlogImage({ src, alt }: { src?: string, alt?: string }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -17,7 +17,7 @@ export default function BlogImage({ src }: { src?: string }) {
               <Image
                 className="rounded-md"
                 src={src}
-                alt="Image Alt Text"
+                alt={alt || "Blog image"}
                 width={800}
                 height={600}
                 style={{ objectFit: "cover" }}
@@ -32,7 +32,7 @@ export default function BlogImage({ src }: { src?: string }) {
               <Image
                 className="w-full h-auto rounded-md"
                 src={src}
-                alt="Expanded Image"
+                alt={alt || "Expanded image"}
                 width={1200}
                 height={900}
               />

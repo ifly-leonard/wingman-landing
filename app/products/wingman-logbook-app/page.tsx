@@ -9,12 +9,47 @@ import { WingmanProductRosterIntegrations } from "@/components/sections/products
 import WingmanProductAirlines from "@/components/sections/products/wingman/wm-product-airlines"
 import WingmanEffortCalculator from "@/components/sections/products/wingman/wm-effort-calculator"
 import { WingmanProductEAASurvey } from "@/components/sections/products/wingman/wm-product-eaa-survey"
+import Script from "next/script"
 
 import { TextReveal } from "@/components/ui/text-reveal"
+import BentoDemo from "@/components/sections/home/bento"
 
 export default function WingmanLogbookApp() {
     return (
         <div>
+            <Script id="schema-wingman-app" type="application/ld+json">
+                {`
+                {
+                    "@context": "https://schema.org",
+                    "@type": "MobileApplication",
+                    "name": "Wingman Pilot Logbook",
+                    "operatingSystem": "iOS, Android, Web",
+                    "applicationCategory": "BusinessApplication",
+                    "description": "Logbook for pilots worldwide. Sync rosters from 80+ airlines. iOS, Android & Web supported. Export summaries in PDF and Excel. Trusted by 10,000+ pilots globally.",
+                    "url": "https://www.wingmanlog.in/",
+                    "downloadUrl": "https://onelink.to/wingman",
+                    "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": "4.8",
+                        "ratingCount": "600"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "50",
+                        "priceCurrency": "USD"
+                    },
+                    "applicationStore": [
+                        "https://play.google.com/store/apps/details?id=com.logbook.wingman",
+                        "https://apps.apple.com/in/app/wingman-pilot-logbook/id1415293165"
+                    ],
+                    "creator": {
+                        "@type": "Organization",
+                        "name": "Wingman",
+                        "url": "https://www.wingmanlog.in/"
+                    }
+                }
+                `}
+            </Script>
             <WingmanProductHero />
             <WingmanProductStats />
                 {/*
@@ -66,12 +101,17 @@ export default function WingmanLogbookApp() {
             
 
             <section id="task-and-time-saver" className="flex max-w-6xl items-center justify-center">
-                {/* <WingmanFrustrationSlider /> */}
+                <BentoDemo />
             </section>      
             
-            <WingmanProductRosterIntegrations />
+            
+            <section id="roster-integrations" className="flex max-w-6xl items-center justify-center">
+                <WingmanProductRosterIntegrations />
+            </section>
 
-            <WingmanProductAirlines />          
+            <section id="airline-partners" className="flex max-w-6xl items-center justify-center">
+                <WingmanProductAirlines />
+            </section>
 
 
         </div>

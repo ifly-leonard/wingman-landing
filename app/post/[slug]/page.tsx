@@ -8,12 +8,92 @@ import { Metadata } from 'next';
 import DisqusComments from "@/components/sections/blog/disqus";
 import Link from "next/link";
 import FallbackImage from "@/components/ui/fallback-image";
+import { ComponentPropsWithoutRef } from "react";
 
 // Define the props for the page component
 interface BlogPostPageProps {
   params: {
     slug: string;
   };
+}
+
+interface BlogFrontmatter {
+  title: string;
+  description?: string;
+  date?: string;
+  author?: string;
+  cover?: string;
+  tags?: string[];
+  category?: string;
+  [key: string]: string | string[] | undefined;
+}
+
+// Function to get all blog posts
+function getAllBlogPosts() {
+  const postsDirectory = path.join(process.cwd(), 'app/post/markdown');
+  const filenames = fs.readdirSync(postsDirectory);
+  
+  return filenames
+    .filter(filename => !filename.startsWith('_') && filename !== 'template.mdx') // Filter out template files
+    .map(filename => {
+      const fileContent = fs.readFileSync(path.join(postsDirectory, filename), 'utf8');
+      const { data } = matter(fileContent);
+      const slug = filename.replace(/\.md$/, '');
+      
+      return {
+        slug,
+        ...data as BlogFrontmatter
+      };
+    });
+}
+
+// Function to get related posts
+function getRelatedPosts(currentSlug: string, tags: string[] = [], category?: string, limit = 2) {
+  const allPosts = getAllBlogPosts();
+  const currentPost = allPosts.find(post => post.slug === currentSlug);
+  
+  if (!currentPost) return [];
+  
+  // Score posts based on matching tags and category
+  const scoredPosts = allPosts
+    .filter(post => post.slug !== currentSlug) // Exclude current post
+    .map(post => {
+      let score = 0;
+      
+      // Score based on matching tags
+      const postTags = post.tags || [];
+      postTags.forEach(tag => {
+        if (tags.includes(tag)) {
+          score += 1;
+        }
+      });
+      
+      // Score based on matching category
+      if (category && post.category === category) {
+        score += 2; // Weight category matches higher
+      }
+      
+      return { ...post, score };
+    })
+    .filter(post => post.score > 0) // Only include posts with at least one match
+    .sort((a, b) => b.score - a.score) // Sort by score (highest first)
+    .slice(0, limit); // Limit to specified number
+  
+  // If not enough related posts, add recent posts
+  if (scoredPosts.length < limit) {
+    const recentPosts = allPosts
+      .filter(post => post.slug !== currentSlug && !scoredPosts.some(rp => rp.slug === post.slug))
+      .sort((a, b) => {
+        const dateA = a.date ? new Date(a.date).getTime() : 0;
+        const dateB = b.date ? new Date(b.date).getTime() : 0;
+        return dateB - dateA;
+      })
+      .slice(0, limit - scoredPosts.length);
+    
+    return [...scoredPosts, ...recentPosts];
+  }
+  
+  return scoredPosts;
 }
 
 // Generate metadata for the page
@@ -66,16 +146,6 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
   // Check if the file exists and parse its content
   let blogPostContent = '';
   
-  interface BlogFrontmatter {
-    title: string;
-    description?: string;
-    date?: string;
-    author?: string;
-    cover?: string;
-    tags?: string[];
-    [key: string]: string | string[] | undefined;
-  }
-  
   let frontmatter: BlogFrontmatter = {
     title: ''
   };
@@ -83,70 +153,68 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
     const content = fs.readFileSync(markdownPath, 'utf8');
     const { data, content: markdownContent } = matter(content);
     blogPostContent = markdownContent;
-    frontmatter = data;
+    frontmatter = data as BlogFrontmatter;
   } catch (fileError) {
     // If the file doesn't exist, return a 404 page
     console.error('Blog post file not found:', fileError);
     notFound();
   }
 
-  // Custom components for ReactMarkdown
-  // Custom components for ReactMarkdown
-  interface ComponentProps {
-    [key: string]: unknown;
+  // Get related posts
+  const relatedPosts = getRelatedPosts(
+    sanitizedSlug, 
+    frontmatter.tags || [], 
+    frontmatter.category
+  );
+
+  // Define types for custom components
+  type CustomComponentProps = {
+    [key: string]: any;
+    node?: any;
     children?: React.ReactNode;
-  }
-  
-  const components = {
-    // Custom h1 component
-    h1: (props: ComponentProps) => (
-      <h1 className="m-4 text-4xl font-bold mb-4 text-blue-600" {...props} />
+  };
+
+  // Custom components for ReactMarkdown
+  const components: Record<string, React.ComponentType<any>> = {
+    h1: ({ children, ...props }: CustomComponentProps) => (
+      <h1 className="text-4xl text-left font-bold mb-4 text-blue-600" {...props}>{children}</h1>
     ),
-    // Custom h2 component
-    h2: (props: ComponentProps) => (
-      <h2 className="mt-3 text-2xl font-semibold mb-3 text-blue-600 dark:text-gray-200" {...props} />
+    h2: ({ children, ...props }: CustomComponentProps) => (
+      <h2 className="mt-3 text-2xl font-semibold mb-3 text-blue-600 dark:text-gray-200" {...props}>{children}</h2>
     ),
-    // Custom h3 component with special styling
-    h3: (props: ComponentProps) => (
-      <h3 className="mt-2 text-lg font-semibold mb-2 text-blue-500 dark:text-blue-400 border-b border-purple-200 dark:border-blue-800 pb-1" {...props} />
+    h3: ({ children, ...props }: CustomComponentProps) => (
+      <h3 className="mt-2 text-lg font-semibold mb-2 text-blue-500 dark:text-blue-400 border-b border-purple-200 dark:border-blue-800 pb-1" {...props}>{children}</h3>
     ),
-    // Custom blockquote component
-    blockquote: (props: ComponentProps) => (
-      <blockquote className="border-l-4 border-blue-500 pl-4 italic my-4 text-gray-700 dark:text-gray-300" {...props} />
+    blockquote: ({ children, ...props }: CustomComponentProps) => (
+      <blockquote className="border-l-4 border-blue-500 pl-4 italic my-4 text-gray-700 dark:text-gray-300" {...props}>{children}</blockquote>
     ),
-    // Custom code component
-    code: ({ inline, ...props }: { inline?: boolean } & ComponentProps) => (
+    code: ({ inline, children, ...props }: CustomComponentProps & { inline?: boolean }) => (
       inline ?
-        <code className="bg-gray-100 dark:bg-gray-800 px-1 py-0.5 rounded text-sm" {...props} /> :
-        <code className="block bg-gray-100 dark:bg-gray-800 p-3 rounded-md overflow-x-auto" {...props} />
+        <code className="bg-gray-100 dark:bg-gray-800 px-1 py-0.5 rounded text-sm" {...props}>{children}</code> :
+        <code className="block bg-gray-100 dark:bg-gray-800 p-3 rounded-md overflow-x-auto" {...props}>{children}</code>
     ),
-    // Custom link component
-    a: (props: ComponentProps) => (
-      <a className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline" {...props} />
+    a: ({ children, ...props }: CustomComponentProps) => (
+      <a className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline" {...props}>{children}</a>
     ),
-    // Custom image component
-    img: (props: ComponentProps) => (
+    img: ({ src, alt, ...props }: { src?: string, alt?: string } & CustomComponentProps) => (
       <span className="flex justify-center mt-4">
-        <BlogImage {...props} />
+        <BlogImage src={src} alt={alt} {...props} />
       </span>
     ),
-    // Custom table components
-    table: (props: ComponentProps) => (
-      <table className="min-w-full border-collapse border border-gray-300 dark:border-gray-700 my-4" {...props} />
+    table: ({ children, ...props }: CustomComponentProps) => (
+      <table className="min-w-full border-collapse border border-gray-300 dark:border-gray-700 my-4" {...props}>{children}</table>
     ),
-    th: (props: ComponentProps) => (
-      <th className="border border-gray-300 dark:border-gray-700 px-4 py-2 bg-gray-100 dark:bg-gray-800" {...props} />
+    th: ({ children, ...props }: CustomComponentProps) => (
+      <th className="border border-gray-300 dark:border-gray-700 px-4 py-2 bg-gray-100 dark:bg-gray-800" {...props}>{children}</th>
     ),
-    td: (props: ComponentProps) => (
-      <td className="border border-gray-300 dark:border-gray-700 px-4 py-2" {...props} />
+    td: ({ children, ...props }: CustomComponentProps) => (
+      <td className="border border-gray-300 dark:border-gray-700 px-4 py-2" {...props}>{children}</td>
     ),
-
-    hr: (props: ComponentProps) => (
+    hr: ({ ...props }: CustomComponentProps) => (
       <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded-sm md:my-10 dark:bg-gray-700" {...props} />
     ),
-
-    em: (props: ComponentProps) => (
-      <em className="underline underline-offset-2 underline-blue-500" {...props} />
+    em: ({ children, ...props }: CustomComponentProps) => (
+      <em className="underline underline-offset-2 underline-blue-500" {...props}>{children}</em>
     ),
   };
 
@@ -235,7 +303,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           <ReactMarkdown components={components}>{blogPostContent}</ReactMarkdown>
 
           {/* This is the comments component */}
-          <div className="mt-5 p-5 rounded-lg shadow">
+          <div className="mt-5 p-5 rounded-lg">
             <DisqusComments
               post={{
                 id: sanitizedSlug,
@@ -251,29 +319,36 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 Related articles
               </p>
             </div>
-            <div className="flex justify-between gap-3">
-              <div className="group border-2 border-gray-300 hover:border-blue-500 transition duration-300 cursor-pointer p-3 rounded-md w-full text-gray-500">
-                <h2 className="text-md font-bold">The Flight to ATPL: Conquering Paperwork and Soaring High</h2>
-                <div className="flex mt-4 space-x-3 text-sm">
-                  <div className="bg-zinc-700 px-3 py-1 text-white hover:bg-zinc-900 cursor-pointer transition duration-500 rounded-md">
-                    #tag1
-                  </div>
-                  <div className="bg-zinc-700 px-3 py-1 text-white hover:bg-zinc-900 cursor-pointer transition duration-500 rounded-md">
-                    #tag2
-                  </div>
+            <div className="flex flex-col md:flex-row justify-between gap-3">
+              {relatedPosts.length > 0 ? (
+                relatedPosts.map((post) => (
+                  <Link 
+                    key={post.slug} 
+                    href={`/post/${post.slug}`}
+                    className="w-full"
+                  >
+                    <div className="group border-2 border-gray-300 hover:border-blue-500 transition duration-300 cursor-pointer p-3 rounded-md w-full text-gray-500 h-full">
+                      <h2 className="text-md font-bold">{post.title}</h2>
+                      {post.tags && post.tags.length > 0 && (
+                        <div className="flex flex-wrap mt-4 gap-2">
+                          {post.tags.map((tag) => (
+                            <div 
+                              key={tag}
+                              className="bg-zinc-700 px-3 py-1 text-white hover:bg-zinc-900 cursor-pointer transition duration-500 rounded-md text-xs"
+                            >
+                              #{tag}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </Link>
+                ))
+              ) : (
+                <div className="text-center w-full py-3 text-gray-500">
+                  No related articles found
                 </div>
-              </div>
-              <div className="group border-2 border-gray-300 hover:border-gray-500 transition duration-300 cursor-pointer p-3 rounded-md w-full text-gray-500">
-                <h2 className="text-md font-bold">The Flight to ATPL: Conquering Paperwork and Soaring High</h2>
-                <div className="flex mt-4 space-x-3 text-sm">
-                  <div className="bg-zinc-700 px-3 py-1 text-white hover:bg-zinc-900 cursor-pointer transition duration-500 rounded-md">
-                    #tag1
-                  </div>
-                  <div className="bg-zinc-700 px-3 py-1 text-white hover:bg-zinc-900 cursor-pointer transition duration-500 rounded-md">
-                    #tag2
-                  </div>
-                </div>
-              </div>
+              )}
             </div>
           </div>
 

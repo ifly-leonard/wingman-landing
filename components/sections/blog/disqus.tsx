@@ -20,17 +20,23 @@ const DiscussionEmbed = dynamic(() => import("disqus-react").then((mod) => mod.D
 const DisqusComments = ({ post }: { post: DisqusPost }) => {
   const [isClient, setIsClient] = useState(false); // State to track if the component is running on the client side
   const [error, setError] = useState<string | null>(null); // State to track any errors that occur
+  const [baseUrl, setBaseUrl] = useState("");
 
-  // Effect to set isClient to true once the component mounts
+  // Effect to set isClient to true once the component mounts and determine base URL
   useEffect(() => {
     setIsClient(true);
+    
+    // Determine if we're in production or development
+    const isProd = window.location.hostname !== "localhost";
+    setBaseUrl(isProd ? "https://wingmanlog.in" : "http://localhost:3000");
   }, []);
 
   // Define the Disqus shortname and configuration
   const disqusShortname = "wingman-lp"; // The Disqus shortname for the site
+  
   const disqusConfig = {
-    url: 'http://localhost:3000/blog',
-    identifier: post.id,
+    url: `${baseUrl}/post/${post.url}`,
+    identifier: `post-${post.id}`,
     title: post.title,
   };
 
