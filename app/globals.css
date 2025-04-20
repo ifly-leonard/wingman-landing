@@ -7,6 +7,9 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  transition-property: background-color;
+  transition-duration: 700ms;
+  transition-timing-function: ease-in-out;
 }
 
 

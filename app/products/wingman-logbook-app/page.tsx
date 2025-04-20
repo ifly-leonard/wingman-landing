@@ -1,6 +1,7 @@
 // app/products/wingman-logbook-app/page.tsx
 "use client"
 
+import { useRef, useEffect } from "react"
 import WingmanProductHero from "@/components/sections/products/wingman/wm-product-hero"
 import WingmanProductStats from "@/components/sections/products/wingman/wm-product-stats"
 import WingmanProductPainpointReveal from "@/components/sections/products/wingman/wm-product-pain-points"
@@ -11,11 +12,38 @@ import WingmanEffortCalculator from "@/components/sections/products/wingman/wm-e
 import { WingmanProductEAASurvey } from "@/components/sections/products/wingman/wm-product-eaa-survey"
 import WingmanProductFeatures from "@/components/sections/products/wingman/wm-product-features"
 import Script from "next/script"
+import { useScrollBackground } from "@/app/hooks/useScrollBackground"
 
 import { TextReveal } from "@/components/ui/text-reveal"
 import BentoDemo from "@/components/sections/home/bento"
 
 export default function WingmanLogbookApp() {
+    const painPointSectionRef = useRef<HTMLElement>(null);
+    const backgroundColor = useScrollBackground({
+        targetRef: painPointSectionRef,
+        activeColor: "bg-red-100",
+        defaultColor: "",
+        threshold: 0.4,
+    });
+
+    useEffect(() => {
+        // Use requestAnimationFrame for better performance with DOM updates
+        const updateBackground = () => {
+            if (backgroundColor) {
+                document.body.classList.add(backgroundColor);
+            } else {
+                document.body.classList.remove("bg-red-100");
+            }
+        };
+        
+        window.requestAnimationFrame(updateBackground);
+        
+        return () => {
+            // Clean up by removing the class when component unmounts
+            document.body.classList.remove("bg-red-100");
+        };
+    }, [backgroundColor]);
+
     return (
         <div>
             <Script id="schema-wingman-app" type="application/ld+json">
@@ -83,7 +111,7 @@ export default function WingmanLogbookApp() {
                 </div>
             </section>
 
-            <section id="pain-point-reveal" className="flex max-w-6xl items-center justify-center">                
+            <section id="pain-point-reveal" className="flex max-w-6xl items-center justify-center" ref={painPointSectionRef}>                
                 <WingmanProductPainpointReveal />                
             </section>
 
