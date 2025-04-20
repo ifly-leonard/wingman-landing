@@ -16,11 +16,10 @@ export default function Home() {
       <HomePageHeroSection />    
       <ScrollBasedText />      
       <WingmanAppSectionHomePage />
-      <BentoDemo />
+      {/* <BentoDemo /> */}
       <AirRosterHomePage />     
-      <GlobeDemo />
-      <MarqueeDemo />
-      
+      {/* <GlobeDemo /> */}
+      <MarqueeDemo />      
     </div>
   );
 }

@@ -8,6 +8,7 @@ import WingmanProductSolutionReveal from "@/components/sections/products/wingman
 import { WingmanProductRosterIntegrations } from "@/components/sections/products/wingman/wm-product-roster-integrations"
 import WingmanProductAirlines from "@/components/sections/products/wingman/wm-product-airlines"
 import WingmanEffortCalculator from "@/components/sections/products/wingman/wm-effort-calculator"
+import { WingmanProductEAASurvey } from "@/components/sections/products/wingman/wm-product-eaa-survey"
 
 import { TextReveal } from "@/components/ui/text-reveal"
 
@@ -47,12 +48,16 @@ export default function WingmanLogbookApp() {
             </section>
 
             <section id="pain-point-reveal" className="flex max-w-6xl items-center justify-center">                
-                <WingmanProductPainpointReveal />
+                <WingmanProductPainpointReveal />                
             </section>
 
-            <section id="product-explanation" className="flex max-w-6xl items-center justify-center">
+            <section id="eaa-survey" className="flex  items-center justify-center">
+                <WingmanProductEAASurvey />
+            </section>
+
+            {/* <section id="product-explanation" className="flex max-w-6xl items-center justify-center">
                 <WingmanEffortCalculator />           
-            </section>                     
+            </section>                      */}
 
             
             <section id="solution-reveal" className="flex max-w-6xl items-center justify-center">               
