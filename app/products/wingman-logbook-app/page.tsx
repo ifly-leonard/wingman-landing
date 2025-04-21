@@ -11,6 +11,8 @@ import WingmanProductAirlines from "@/components/sections/products/wingman/wm-pr
 import WingmanEffortCalculator from "@/components/sections/products/wingman/wm-effort-calculator"
 import { WingmanProductEAASurvey } from "@/components/sections/products/wingman/wm-product-eaa-survey"
 import WingmanProductFeatures from "@/components/sections/products/wingman/wm-product-features"
+import WingmanProductUSPCards from "@/components/sections/products/wingman/wm-product-usp-cards"
+import HeroScrollDemo from "@/components/container-scroll-animation-demo"
 import Script from "next/script"
 
 import { useScrollBackground } from "@/app/hooks/useScrollBackground"
@@ -151,17 +153,7 @@ export default function WingmanLogbookApp() {
             {/* BACKGROUND CHANGE SECTION 2: Green background when visible */}
             <section id="solution-reveal" className="flex max-w-6xl items-center justify-center">               
                 <WingmanProductSolutionReveal />
-            </section>   
-            
-            
-            <section id="features" className="flex max-w-6xl items-center justify-center">
-                <WingmanProductFeatures />
-            </section>
-
-            <section id="task-and-time-saver" className="flex max-w-6xl items-center justify-center">
-                {/* <BentoDemo /> */}
-            </section>      
-            
+            </section>                            
             
             <section id="roster-integrations" className="flex max-w-6xl items-center justify-center">
                 <WingmanProductRosterIntegrations />
