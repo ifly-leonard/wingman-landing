@@ -8,18 +8,14 @@ import WingmanProductPainpointReveal from "@/components/sections/products/wingma
 import WingmanProductSolutionReveal from "@/components/sections/products/wingman/wm-product-solution-point"
 import { WingmanProductRosterIntegrations } from "@/components/sections/products/wingman/wm-product-roster-integrations"
 import WingmanProductAirlines from "@/components/sections/products/wingman/wm-product-airlines"
-import WingmanEffortCalculator from "@/components/sections/products/wingman/wm-effort-calculator"
 import { WingmanProductEAASurvey } from "@/components/sections/products/wingman/wm-product-eaa-survey"
-import WingmanProductFeatures from "@/components/sections/products/wingman/wm-product-features"
-import WingmanProductUSPCards from "@/components/sections/products/wingman/wm-product-usp-cards"
-import HeroScrollDemo from "@/components/container-scroll-animation-demo"
+import WingmanStackedFeatures from "@/components/sections/products/wingman/wm-stacked-features"
 import Script from "next/script"
-
 import { useScrollBackground } from "@/app/hooks/useScrollBackground"
 import { useBackgroundContext } from "@/app/contexts/BackgroundContext"
-
 import { TextReveal } from "@/components/ui/text-reveal"
-import BentoDemo from "@/components/sections/home/bento"
+
+import { WingmanProductStackedFeaturesV2 } from "@/components/sections/products/wingman/wm-product-stacked-features-v2"
 
 /**
  * WingmanLogbookApp Page
@@ -70,7 +66,7 @@ export default function WingmanLogbookApp() {
     }, [currentBackgroundColor]);
 
     return (
-        <div>
+        <div className="flex flex-col">
             <Script id="schema-wingman-app" type="application/ld+json">
                 {`
                 {
@@ -153,17 +149,27 @@ export default function WingmanLogbookApp() {
             {/* BACKGROUND CHANGE SECTION 2: Green background when visible */}
             <section id="solution-reveal" className="flex max-w-6xl items-center justify-center">               
                 <WingmanProductSolutionReveal />
-            </section>                            
+            </section>                    
+
+            {/* Features section - fixed height to prevent overlap
+            <div id="features" className="w-full relative" style={{ height: '2000px' }}>
+                <WingmanStackedFeatures />
+            </div>         */}
+
+            <section id="featuresv2" className="w-full max-w-6xl items-center justify-center">
+                <WingmanProductStackedFeaturesV2 />
+            </section>
             
-            <section id="roster-integrations" className="flex max-w-6xl items-center justify-center">
+            {/* Add clear margin to prevent any overlap */}
+            <div className="mt-20"></div>
+            
+            <section id="roster-integrations" className="flex max-w-6xl items-center justify-center mt-20">
                 <WingmanProductRosterIntegrations />
             </section>
 
             <section id="airline-partners" className="flex max-w-6xl items-center justify-center">
                 <WingmanProductAirlines />
             </section>
-
-
         </div>
     );
 }
