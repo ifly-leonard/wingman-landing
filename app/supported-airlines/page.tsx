@@ -74,12 +74,9 @@ export default function SupportedAirlinesPage() {
 
     return (
         <div className="container mx-auto py-8 px-4">
-            <SectionHeader header="SYSTEM INTEGRATION" subheader="Supported airlines list" />
-
             <p className="text-center text-gray-500 mb-8 -mt-5">
                 {airlines.length} airlines, {Array.from(new Set(airlines.map(a => a.roster_system))).length} roster systems, across the 🌏
             </p>
-
             <div className="max-w-xl mx-auto mt-12 mb-8">
                 <div className="relative">
                     <input

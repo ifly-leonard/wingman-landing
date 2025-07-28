@@ -81,9 +81,7 @@ export default function EmbedAirlineListPage() {
 
     return (
         <div style={{ backgroundColor: '#16181D', minHeight: '100vh', color: 'white' }}>
-            <div className="container mx-auto py-8 px-4">
-                <EmbedSectionHeader header="SYSTEM INTEGRATION" subheader="Supported airlines list" />
-
+            <div className="container mx-auto py-8 px-4">                
                 <p className="text-center text-gray-300 mb-8 -mt-5">
                     {airlines.length} airlines, {Array.from(new Set(airlines.map(a => a.roster_system))).length} roster systems, across the 🌏
                 </p>
@@ -177,7 +175,7 @@ export default function EmbedAirlineListPage() {
                             {airlinesInGroup.map((airline) => (
                                 <div
                                     key={airline.icao}
-                                    className="border border-gray-600 bg-gray-800 rounded-lg p-4 flex flex-col items-center hover:shadow-lg hover:border-blue-500 hover:scale-105 cursor-pointer transition-shadow"
+                                    className="border border-gray-600 bg-white rounded-lg p-4 flex flex-col items-center hover:shadow-lg hover:border-blue-500 hover:scale-105 cursor-pointer transition duration-200 hover:shadow-blue-500"
                                 >
                                     <div className="h-16 flex items-center justify-center mb-3">
                                         <Image
