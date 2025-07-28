@@ -1,5 +1,4 @@
 import React, { useEffect } from "react"
-import styles from "./wm-stacked-cards.module.css"
 import Image from "next/image"
 
 // Define feature data interface
@@ -67,6 +66,30 @@ const features: Feature[] = [
     alt: "Currency Tracking"
   }
 ];
+
+// Inline CSS styles
+const stackCardsStyles = {
+  root: {
+    '--stack-cards-gap': '0.75rem',
+    '--stack-cards-item-ratio': '2/1',
+    position: 'relative',
+  },
+  item: {
+    position: 'sticky',
+    top: '1.25rem',
+    height: '0',
+    paddingBottom: 'calc(100%/(var(--stack-cards-item-ratio)))',
+    transformOrigin: 'center top',
+  },
+  itemContent: {
+    position: 'absolute',
+    top: '0',
+    left: '0',
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
+  }
+};
 
 // Function to get random blob SVG path with different shape for each card
 const getRandomBlobPath = (index: number) => {
@@ -174,6 +197,32 @@ export function WingmanProductStackedFeaturesV2() {
         };
     }, []);
     
+    // Add media query style for larger screen sizes
+    useEffect(() => {
+        // Add responsive CSS with media query
+        if (typeof document !== 'undefined') {
+            const style = document.createElement('style');
+            style.innerHTML = `
+                @media (min-width: 64rem) {
+                    .js-stack-cards {
+                        --stack-cards-gap: 1.125rem;
+                    }
+                }
+                
+                @media (min-width: 1024px) {
+                    .js-stack-cards__item {
+                        top: 2rem;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+            
+            return () => {
+                document.head.removeChild(style);
+            };
+        }
+    }, []);
+    
     return (
         <div className="py-16 md:py-24">
             <div className="max-w-4xl mx-auto px-4 mb-12 text-center">
@@ -182,13 +231,30 @@ export function WingmanProductStackedFeaturesV2() {
             </div>
             
             <div className="max-w-6xl mx-auto px-4">
-                <ul className={`${styles['stack-cards']} js-stack-cards`}>
+                <ul 
+                    className="js-stack-cards"
+                    style={{
+                        '--stack-cards-gap': '0.75rem',
+                        '--stack-cards-item-ratio': '2/1',
+                    } as React.CSSProperties}
+                >
                     {features.map((feature, index) => (
                         <li 
                             key={index}
-                            className={`${styles['stack-cards__item']} bg-white rounded-lg overflow-hidden js-stack-cards__item`}
+                            className="js-stack-cards__item bg-white rounded-lg overflow-hidden"
+                            style={{
+                                position: 'sticky',
+                                top: '1.25rem',
+                                transformOrigin: 'center top',
+                            }}
                         >
-                            <div className="p-6">
+                            <div className="p-6" style={{
+                                position: 'absolute',
+                                top: 0,
+                                left: 0,
+                                width: '100%',
+                                height: '100%'
+                            }}>
                                 <div className="flex flex-col md:flex-row items-top text-left gap-6">
                                     <div className="md:w-1/2 px-12 mt-12">
                                         <div className="bg-blue-500/50 text-white px-3 py-1 rounded-lg mb-3 w-1/2 mx-left">

@@ -2,10 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { BackgroundProvider } from "./contexts/BackgroundContext";
-
-import HeaderBanner from "@/components/shared/header-banner";
-import Navbar from "@/components/shared/navbar";
-import Footer from "@/components/shared/footer"
+import ConditionalLayoutComponents from "./ConditionalLayoutComponents";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,21 +32,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}
       >
         <BackgroundProvider>
-          {/* HEADER BANNER */}
-          <HeaderBanner /> {/* Control it using the data file */}
-          {/* END HEADER BANNER */}
-
-          {/* NAVBAR */}
-          <Navbar />
-          {/* END NAVBAR */}
-          
-          {/* PAGE CONTENTS */}
-          {children}
-          {/* END PAGE CONTENTS */}
-
-          {/* FOOTER */}
-          <Footer />
-          {/* END FOOTER */}
+          <ConditionalLayoutComponents>
+            {children}
+          </ConditionalLayoutComponents>
         </BackgroundProvider>
       </body>
     </html>
